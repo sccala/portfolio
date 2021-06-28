@@ -1,25 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap');
-
-body {
-  margin: 0;
-  font-family: 'Montserrat',sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 36px;
-letter-spacing: -0.015em;
-}
-
-/*Header*?
-.container{
+/* .container{
   padding: 2%;
-}
+} */
 
 /* Header */
 
-a {
+/* a {
   color: #000000;
   text-decoration: none;
 }
@@ -43,7 +28,7 @@ a:focus {
   height: 38px;
   left: 53px;
   top: 16px;
-  font-family: 'Montserrat',sans-serif;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -58,7 +43,7 @@ a:focus {
   width: 800px;
   height: 18px;
   top: 26px;
-  font-family: 'Montserrat',sans-serif;
+  font-family: Montserrat;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -67,4 +52,4 @@ a:focus {
 
 .navmenu :active {
   color: #18a0fb;
-}
+} */
