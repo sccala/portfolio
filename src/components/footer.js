@@ -10,17 +10,15 @@ class Footer extends Component {
             <div className="col-md text-center pb-3">
               <a className="btn btn-social-icon btn-github" href="#">
                 <i class="fa fa-github"></i>
-              </a>{' '}
-              <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/">
-                <i className="fa fa-twitter" />
-              </a>{' '}
-              <a className="btn btn-social-icon btn-google" href="http://youtube.com/">
-                <i className="fa fa-youtube" />
               </a>
+              <a className="btn btn-social-icon btn-twitter" href="#">
+                <i className="fa fa-twitter" />
+              </a>
+              
             </div>
             <div className="col-md text-center">
-              <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co">
-                <i className="fa fa-envelope-o" /> sccala18@gmail.co
+              <a role="button" className="btn btn-link" href="mailto:sccala18@gmail.com">
+                <i className="fa fa-envelope-o" /> sccala18@gmail.com
               </a>
             </div>
           </div>

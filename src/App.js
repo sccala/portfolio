@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Main from './components/main'
 import { BrowserRouter } from 'react-router-dom'
+
 import './App.css'
 
 class App extends Component {

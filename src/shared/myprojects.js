@@ -1,4 +1,4 @@
-export const myProjects = [
+export const MYPROJECTS = [
   {
     id: 0,
     name: 'React Lake Campground',
