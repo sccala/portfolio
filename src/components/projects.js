@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap'
 import { myProjects } from '../shared/myprojects'
 
-function RenderCard({ item }) {
+function RenderCard(myProjects) {
   return (
     <Card>
-      <CardImg src={item.image} alt={item.name} />
+      <CardImg src={myProjects.image} alt={myProjects.name} />
       <CardBody>
-        <CardTitle>{item.name}</CardTitle>
-        <CardText>{item.description}</CardText>
+        <CardTitle>{myProjects.name}</CardTitle>
+        <CardText>{myProjects.description}</CardText>
       </CardBody>
     </Card>
   )
@@ -30,15 +30,11 @@ class Projects extends Component {
             <div className="col-md m-1">
               <RenderCard item={this.state.myProjects} />
             </div>
-            <div className="row">
-              <div className="col-md m-1">
-                <RenderCard item={this.state.myProjects} />{' '}
-              </div>
-              <div className="row">
-                <div className="col-md m-1">
-                  <RenderCard item={this.state.myProjects[3]} />{' '}
-                </div>
-              </div>
+            <div className="col-md m-1">
+              <RenderCard item={this.state.myProjects} />{' '}
+            </div>
+            <div className="col-md m-1">
+              <RenderCard item={this.state.myProjects} />{' '}
             </div>
           </div>
         </div>
