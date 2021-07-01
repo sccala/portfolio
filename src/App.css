@@ -35,6 +35,21 @@ h3 {
   
 }
 
+/*Pages*/
+.page-hero{
+  padding:0;
+  height: 10vh;
+  background-color: lightgrey;
+}
+.page-herotitle{
+  text-align: center;
+  font-size:1.3rem;
+  line-height: 10vh;
+}
+
+.projects-images {
+    height: 30vh;
+}
 /* Footer */
 
 .site-footer {

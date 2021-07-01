@@ -1,19 +1,24 @@
 import React, { Component } from 'react'
-import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap'
+import { Card, CardImg, CardText, CardBody, CardTitle, Row, Col, Carousel } from 'reactstrap'
 import { MYPROJECTS } from '../shared/myprojects'
-
-// const myProjects = MYPROJECTS.filter((a) => a.featured)[0]
-// const projectTitle = MYPROJECTS.name
-// const projectImage = MYPROJECTS.image
-// const projectCaption = MYPROJECTS.description
+import '../App.css'
 
 function RenderCard(props) {
   return (
     <Card>
+      <Carousel>
+        <Carousel.Item key={props.id}>
+          <img className="projects-images d-block w-50"
+            src={props.image}
+            alt={props.author} />
+        </Carousel.Item>
+      </Carousel>
       <CardImg src={props.image} alt={props.title} />
       <CardBody>
         <CardTitle>{props.name}</CardTitle>
+        <CardText>{props.focus}</CardText>
         <CardText>{props.description}</CardText>
+        <CardText>{props.caption}</CardText>
       </CardBody>
     </Card>
   )
@@ -23,32 +28,31 @@ class Projects extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      image: MYPROJECTS.image,
-      name: MYPROJECTS.name,
-      title: MYPROJECTS.title,
-      caption: MYPROJECTS.description,
+      image: MYPROJECTS[0].image,
+      name: MYPROJECTS[0].name,
+      title: MYPROJECTS[0].title,
+      caption: MYPROJECTS[0].description,
+      focus: MYPROJECTS[0].focus,
     }
   }
   render() {
     return (
       <>
-        <div className="container">
-          <div className="row">
-            <div className="col-md m-1">
-              <RenderCard image={this.state.image} name={this.state.name} caption={this.state.description} />
-            </div>
-            <div className="col-md m-1">
-              <RenderCard image={this.state.image} name={this.state.name} caption={this.state.description} />
-            </div>
-            <div className="col-md m-1">
-              <RenderCard image={this.state.image} name={this.state.name} caption={this.state.description} />
-            </div>
-          </div>
+        <Row className="page-hero">
+          <Col className="page-herotitle">Projects</Col>
+        </Row>
+        <div className="container py-4">
+          <Row>
+            {MYPROJECTS.map((project) => (
+              <Col xs="12" md="6" lg="4">
+                <RenderCard image={project.image} name={project.name} caption={project.description} focus={project.focus} />
+              </Col>
+            ))}
+          </Row>
         </div>
       </>
     )
   }
 }
-
 
 export default Projects
