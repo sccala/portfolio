@@ -5,15 +5,10 @@ import '../App.css'
 
 function RenderCard(props) {
   return (
-    <Card>
-      <Carousel>
-        <Carousel.Item key={props.id}>
-          <img className="projects-images d-block w-50"
-            src={props.image}
-            alt={props.author} />
-        </Carousel.Item>
-      </Carousel>
-      <CardImg src={props.image} alt={props.title} />
+    <Card className='cardstyle'>
+      <CardImg height="102%" src={props.image} alt={props.title} rounded>
+        {/* <a href="#" /> */}
+      </CardImg>
       <CardBody>
         <CardTitle>{props.name}</CardTitle>
         <CardText>{props.focus}</CardText>
@@ -49,6 +44,7 @@ class Projects extends Component {
               </Col>
             ))}
           </Row>
+          
         </div>
       </>
     )

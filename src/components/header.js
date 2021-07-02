@@ -20,40 +20,42 @@ class Header extends Component {
   render() {
     return (
       <>
-        <Navbar sticky="top" expand="md" >
-          <NavbarBrand className="navbar-expand-md mr-auto" alt="Sunsoo Chung portfolio">
-            Sunsoo Chung
-          </NavbarBrand>
-          <NavbarToggler className={styles.navbarToggle} onClick={this.toggleNav} />
-          <Collapse isOpen={this.state.isNavOpen} navbar>
-            <Nav className="navbar-expand-md ml-auto" navbar>
-              <NavItem>
-                <NavLink className={styles.navmenu} to="/home">
-                  Home
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className={styles.navmenu} to="/skills">
-                  Skills
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className={styles.navmenu} to="/projects">
-                  Projects
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className={styles.navmenu} to="/resume">
-                  Resume
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className={styles.navmenu} to="/contact">
-                  Contact
-                </NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
+        <Navbar sticky="top" expand="sm">
+          <div className="container">
+            <NavbarBrand className="navtitle" alt="Sunsoo Chung">
+              SUNSOO CHUNG
+            </NavbarBrand>
+            <NavbarToggler onClick={this.toggleNav} />
+            <Collapse isOpen={this.state.isNavOpen} navbar>
+              <Nav className="navbar-expand-md justify-content-end navmenu" navbar>
+                <NavItem className="pxy-2">
+                  <NavLink className={styles.navmenu} to="/home">
+                    Home
+                  </NavLink>
+                </NavItem>
+                <NavItem className="px-2">
+                  <NavLink className={styles.navmenu} to="/skills">
+                    Skills
+                  </NavLink>
+                </NavItem>
+                <NavItem className="px-2">
+                  <NavLink className={styles.navmenu} to="/projects">
+                    Projects
+                  </NavLink>
+                </NavItem>
+                <NavItem className="px-2">
+                  <NavLink className={styles.navmenu} to="/resume">
+                    Resume
+                  </NavLink>
+                </NavItem>
+                <NavItem className="px-2">
+                  <NavLink className={styles.navmenu} to="/contact">
+                    Contact
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </div>
         </Navbar>
       </>
     )
