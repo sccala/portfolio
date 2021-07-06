@@ -8,6 +8,10 @@ body {
   line-height: 20px;
   letter-spacing: -0.015em;
 }
+.container{
+  margin-right: 3%;
+  margin-left: 3%;
+}
 
 h1,
 h2,

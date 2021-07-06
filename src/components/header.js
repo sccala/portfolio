@@ -11,7 +11,6 @@ class Header extends Component {
     this.state = {
       isNavOpen: false,
     }
-    
   }
 
   toggleNav() {
@@ -30,7 +29,7 @@ class Header extends Component {
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
-              <Nav className="navbar-expand-md justify-content-end" navbar>
+              <Nav className="navbar-expand-md justify-content-end ml-auto" navbar>
                 <NavItem className="pxy-2">
                   <NavLink className="nav-link" to="/home">
                     Home
