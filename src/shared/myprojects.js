@@ -5,6 +5,7 @@ export const MYPROJECTS = [
     image: '/assets/images/nucampsite.jpg',
     elevation: 1233,
     featured: false,
+    type: 'bootcamp',
     focus: 'bootstrap, javascript, jsx, React and Redux',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor ultricies dolor, id volutpat arcu. I',
   },
@@ -14,6 +15,7 @@ export const MYPROJECTS = [
     image: '/assets/images/sakesite1.jpg',
     elevation: 877,
     featured: true,
+    type: 'bootcamp',
     focus: 'bootstrap, javascript, jsx, React and Redux',
     description:
       'ipsum primis in faucibus. Vivamus maximus augue ut risus dictum, in tristique tellus convallis. Curabitur tristique ligula quam, vitae viverra nisl suscipit ut. Interdum et malesuada fames ac ',
@@ -24,6 +26,7 @@ export const MYPROJECTS = [
     image: '/assets/images/nucampsite-RN.jpg',
     elevation: 2901,
     featured: true,
+    type: 'bootcamp',
     focus: 'bootstrap, javascript, jsx, React Native',
     description:
       'nas eget nulla ut sem convallis lacinia nec et metus. Nullam bibendum maximus dictum. Suspendisse potenti. Duis nec finibus lorem. Phasellus tincidunt lorem est, vel egestas sapien convallis sed. .',
@@ -34,6 +37,7 @@ export const MYPROJECTS = [
     image: '/assets/images/todolist4.jpg',
     elevation: 42,
     featured: true,
+    type: 'personal',
     focus: 'bootstrap, javascript, jsx, React Native',
     description:
       'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
@@ -44,6 +48,61 @@ export const MYPROJECTS = [
     image: '/assets/images/todolist4.jpg',
     elevation: 42,
     featured: true,
+    type: 'bootcamp',
+    focus: 'Node, Express, MongoDB',
+    description:
+      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+  },
+  {
+    id: 5,
+    name: 'Covid Tracker',
+    image: '/assets/images/covidtracker3.jpg',
+    elevation: 42,
+    featured: false,
+    type: 'tutorials',
+    focus: 'Node, Express, MongoDB',
+    description:
+      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+  },
+  {
+    id: 6,
+    name: 'Nucamp Server ',
+    image: '/assets/images/todolist4.jpg',
+    elevation: 42,
+    featured: true,
+    type: 'tutorials',
+    focus: 'Node, Express, MongoDB',
+    description:
+      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+  },
+  {
+    id: 7,
+    name: 'Over 50 Codepen Challengs',
+    image: '/assets/images/codepenlogo.jpg',
+    elevation: 42,
+    featured: true,
+    type: 'codepen',
+    focus: 'html, css, bootstrap, javascript, react',
+    link: 'https://codepen.io/Chi1104',
+  },
+  {
+    id: 8,
+    name: 'Personal projects',
+    image: '/assets/images/todolist4.jpg',
+    elevation: 42,
+    featured: true,
+    type: 'personal',
+    focus: 'Node, Express, MongoDB',
+    description:
+      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+  },
+  {
+    id: 9,
+    name: 'Personal projects2',
+    image: '/assets/images/todolist4.jpg',
+    elevation: 42,
+    featured: true,
+    type: 'personal',
     focus: 'Node, Express, MongoDB',
     description:
       'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',

@@ -9,21 +9,31 @@ body {
   letter-spacing: -0.015em;
 }
 
-
-h1,
-h2,
-h3 {
+h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 .navmenu {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
-  color: black;
+  color: rgb(27, 27, 27);
   justify-content: flex-end;
 }
 
@@ -31,7 +41,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
-  color: black;
+  color: rgb(97, 97, 97);
 }
 
 .navbar .navbar-collapse {
@@ -40,21 +50,23 @@ h3 {
 
 /*Pages*/
 .page-hero {
-  padding: 0;
   height: 20vh;
-  background-image: linear-gradient(to top, #cfd9df 0%, #f7f7f7 100%);;
-  
+  background-image: linear-gradient(to top, #e3e7e9 0%, #f7f7f7 90%);
 }
 .page-herotitle {
   text-align: center;
-  
   font-size: 1.3rem;
-  line-height: 10vh;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  color: grey;
 }
 
-.projects-images {
+/* .projects-images {
   height: 30vh;
+} */
+.projects-header {
+  text-align: left;
+  padding: 4% 0% 3% 1%;
 }
 /*Card*/
 .cardstyle:hover {
@@ -70,67 +82,3 @@ h3 {
   height: 100vm;
   background: lightgray;
 }
-/* .navbar {
-  padding: 1%;
-  width: 100%;
-  height: 5%;
-  position: relative;
-} */
-
-/* .navtitle {
-  width: 189px;
-  height: 38px;
-  left: 53px;
-  top: 16px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: -0.015em;
-  color: #000000;
-  display: flex;
-} */
-
-/* .navmenu {
-  display: flex;
-  width: 800px;
-  height: 18px;
-  top: 26px;
-  font-family: Montserrat;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: -0.015em;
-} */
-
-/* .navmenu :active {
-  color: #18a0fb;
-} */
-
-/* .App {
-  text-align: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
- */

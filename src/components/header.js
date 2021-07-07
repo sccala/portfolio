@@ -24,13 +24,13 @@ class Header extends Component {
       <>
         <script src="http://localhost:3000"></script>
         <div className="container-fluid">
-          <Navbar color="faded" light sticky="top" expand="md">
-            <NavbarBrand href="/" className="mr-auto">
+          <Navbar  light sticky="top" expand="md">
+            <NavbarBrand href="/" className="navtitle mr-auto">
               SUNSOO CHUNG
             </NavbarBrand>
-            <NavbarToggler onClick={this.toggleNav}  />
+            <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
-              <Nav className="navbar-expand-md ml-auto" navbar>
+              <Nav className="navmenu navbar-expand-md ml-auto" navbar>
                 <NavItem>
                   <NavLink className="nav-link" to="/home">
                     Home
