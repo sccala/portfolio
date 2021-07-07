@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, CardImg, CardText, CardBody, CardTitle, Row, Col, Carousel } from 'reactstrap'
+import { Card, CardImg, CardText, CardBody, CardTitle, Row, Col, Container } from 'reactstrap'
 import { MYPROJECTS } from '../shared/myprojects'
 import '../App.css'
 
@@ -33,10 +33,11 @@ class Projects extends Component {
   render() {
     return (
       <>
-        <Row className="page-hero">
-          <Col className="page-herotitle">Projects</Col>
-        </Row>
-        <div className="container py-4">
+        <Container fluid>
+          <Row className="page-hero d-none d-lg-block">
+            <Col className="page-herotitle align-self-center">Projects</Col>
+          </Row>
+
           <Row>
             {MYPROJECTS.map((project) => (
               <Col xs="12" md="6" lg="4">
@@ -44,8 +45,7 @@ class Projects extends Component {
               </Col>
             ))}
           </Row>
-          
-        </div>
+        </Container>
       </>
     )
   }

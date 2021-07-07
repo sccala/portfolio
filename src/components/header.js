@@ -18,47 +18,48 @@ class Header extends Component {
       isNavOpen: !this.state.isNavOpen,
     })
   }
-  
+
   render() {
     return (
       <>
-        <Navbar sticky="top" expand="md">
-          <div className="container">
-            <NavbarBrand className="mr-auto" alt="Sunsoo Chung">
+        <script src="http://localhost:3000"></script>
+        <div className="container-fluid">
+          <Navbar color="faded" light sticky="top" expand="md">
+            <NavbarBrand href="/" className="mr-auto">
               SUNSOO CHUNG
             </NavbarBrand>
-            <NavbarToggler onClick={this.toggleNav} />
+            <NavbarToggler onClick={this.toggleNav}  />
             <Collapse isOpen={this.state.isNavOpen} navbar>
-              <Nav className="navbar-expand-md justify-content-end ml-auto" navbar>
-                <NavItem className="pxy-2">
+              <Nav className="navbar-expand-md ml-auto" navbar>
+                <NavItem>
                   <NavLink className="nav-link" to="/home">
                     Home
                   </NavLink>
                 </NavItem>
-                <NavItem className="px-2">
+                <NavItem>
                   <NavLink className="nav-link" to="/skills">
                     Skills
                   </NavLink>
                 </NavItem>
-                <NavItem className="px-2">
+                <NavItem>
                   <NavLink className="nav-link" to="/projects">
                     Projects
                   </NavLink>
                 </NavItem>
-                <NavItem className="px-2">
+                <NavItem>
                   <NavLink className="nav-link" to="/resume">
                     Resume
                   </NavLink>
                 </NavItem>
-                <NavItem className="px-2">
+                <NavItem>
                   <NavLink className="nav-link" to="/contact">
                     Contact
                   </NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
-          </div>
-        </Navbar>
+          </Navbar>
+        </div>
       </>
     )
   }

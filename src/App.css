@@ -8,10 +8,7 @@ body {
   line-height: 20px;
   letter-spacing: -0.015em;
 }
-.container{
-  margin-right: 3%;
-  margin-left: 3%;
-}
+
 
 h1,
 h2,
@@ -27,6 +24,7 @@ h3 {
   font-weight: 600;
   font-size: 1.1rem;
   color: black;
+  justify-content: flex-end;
 }
 
 .navtitle {
@@ -36,14 +34,20 @@ h3 {
   color: black;
 }
 
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 /*Pages*/
 .page-hero {
   padding: 0;
-  height: 10vh;
-  background-color: lightgrey;
+  height: 20vh;
+  background-image: linear-gradient(to top, #cfd9df 0%, #f7f7f7 100%);;
+  
 }
 .page-herotitle {
   text-align: center;
+  
   font-size: 1.3rem;
   line-height: 10vh;
   font-weight: 300;
