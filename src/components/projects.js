@@ -5,17 +5,19 @@ import '../App.css'
 
 function RenderCard(props) {
   return (
-    <Card className="cardstyle">
-      <CardImg height="102%" src={props.image} alt={props.title} rounded>
-        
-      </CardImg>
-      <CardBody>
-        <CardTitle className='cardtitle'>{props.name}</CardTitle>
-        <CardText>{props.focus}</CardText>
-        <CardText>{props.description}</CardText>
-        <CardText>{props.caption}</CardText>
-      </CardBody>
-    </Card>
+    <>
+      <a href={props.link} target="_blank" rel="noreferrer" className="projects-link">
+        <Card className="cardstyle">
+          <CardImg  src={props.image} alt={props.title} rounded></CardImg>
+          <CardBody>
+            <CardTitle className="cardtitle">{props.name}</CardTitle>
+
+            <CardText className="cardtext">{props.caption}</CardText>
+            <CardText className="cardtext-focus">{props.focus}</CardText>
+          </CardBody>
+        </Card>
+      </a>
+    </>
   )
 }
 
@@ -36,7 +38,7 @@ class Projects extends Component {
   render() {
     return (
       <>
-        <Container fluid pb-4>
+        <Container fluid style={{ paddingBottom: '10%' }}>
           <Row className="page-hero d-none d-lg-block">
             <Col className="align-self-center page-herotitle">Projects</Col>
           </Row>
@@ -55,6 +57,7 @@ class Projects extends Component {
                   focus={project.focus}
                   type={project.type}
                   featured={project.featured}
+                  link={project.link}
                 />
               </Col>
             ))}
@@ -74,6 +77,7 @@ class Projects extends Component {
                   focus={project.focus}
                   type={project.type}
                   featured={project.featured}
+                  link={project.link}
                 />
               </Col>
             ))}
@@ -93,6 +97,7 @@ class Projects extends Component {
                   focus={project.focus}
                   type={project.type}
                   featured={project.featured}
+                  link={project.link}
                 />
               </Col>
             ))}
@@ -112,6 +117,7 @@ class Projects extends Component {
                   focus={project.focus}
                   type={project.type}
                   featured={project.featured}
+                  link={project.link}
                 />
               </Col>
             ))}
