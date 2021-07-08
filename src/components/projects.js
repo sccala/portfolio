@@ -8,12 +8,13 @@ function RenderCard(props) {
     <>
       <a href={props.link} target="_blank" rel="noreferrer" className="projects-link">
         <Card className="cardstyle">
-          <CardImg  src={props.image} alt={props.title} rounded></CardImg>
+          <CardImg style={{ borderTopRightRadius: '20px', borderTopLeftRadius: '20px' }} src={props.image} alt={props.title}></CardImg>
           <CardBody>
             <CardTitle className="cardtitle">{props.name}</CardTitle>
-
-            <CardText className="cardtext">{props.caption}</CardText>
-            <CardText className="cardtext-focus">{props.focus}</CardText>
+            <CardText className="cardtext"> {props.caption}</CardText>
+            <CardText className="cardtext-focus">
+              Focus: <strong>{props.focus}</strong>
+            </CardText>
           </CardBody>
         </Card>
       </a>
@@ -39,8 +40,10 @@ class Projects extends Component {
     return (
       <>
         <Container fluid style={{ paddingBottom: '10%' }}>
-          <Row className="page-hero d-none d-lg-block">
-            <Col className="align-self-center page-herotitle">Projects</Col>
+          <Row className="align-items-center page-hero d-none d-lg-block ">
+            <Col>
+              <h3 className="page-herotitle align-items-center">Projects</h3>
+            </Col>
           </Row>
           <Row>
             <Col>

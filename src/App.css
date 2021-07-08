@@ -1,10 +1,10 @@
 /* Header */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 20px;
   letter-spacing: -0.015em;
 }
@@ -34,7 +34,7 @@ h3 {
 
 .navmenu {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.1rem;
   color: rgb(27, 27, 27);
   justify-content: flex-end;
@@ -45,7 +45,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
-  color: rgb(97, 97, 97);
+  color: rgb(122, 122, 122);
   letter-spacing: -0.015em;
 }
 
@@ -77,11 +77,14 @@ h3 {
   letter-spacing: -0.015em;
 }
 /*Card*/
+.cardstyle{
+   border-radius: 20px;
+}
 .cardstyle:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Card look */
   transition: 0.3s;
   background-color: white;
-  border-radius: 4px; /* Round corners */
+
   border-right: 5px solid rgba(211, 211, 211, 0.02);
 }
 .projects-link,
@@ -98,23 +101,24 @@ h3 {
 }
 .cardtext {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  line-height: 1.3rem;
-  font-size: 1.1rem;
-  letter-spacing: -0.015em;
-  color: rgb(97, 97, 97);
+  font-weight: 400;
+  line-height: 2.1em;
+  font-size: 1rem;
+  color: #575757;
+  text-rendering: optimizeLegibility;
 }
 .cardtext-focus {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1rem;
   font-style: italic;
   line-height: 1.3rem;
-  letter-spacing: -0.015em;
   color: rgb(177, 0, 153);
 }
 /* Footer */
 
 .site-footer {
-  height: 100vm;
-  background: lightgray;
+  height: 100px;
+  background: rgb(252, 252, 252);
+  text-align: center;
 }
