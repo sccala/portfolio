@@ -19,8 +19,8 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.3rem;
   color: black;
   letter-spacing: -0.015em;
 }
@@ -28,7 +28,7 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   letter-spacing: -0.015em;
 }
 
@@ -61,7 +61,7 @@ h3 {
 }
 .page-herotitle {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   letter-spacing: -0.015em;
@@ -78,6 +78,7 @@ h3 {
 }
 /*Card*/
 .cardstyle{
+  
    border-radius: 20px;
 }
 .cardstyle:hover {
@@ -114,6 +115,13 @@ h3 {
   font-style: italic;
   line-height: 1.3rem;
   color: rgb(177, 0, 153);
+}
+/*Button*/
+.dlbutton{
+  font-size: 0.9rem;
+  background-color:rgb(177, 0, 153) ;
+  border: none;
+  border-radius: 10px;
 }
 /* Footer */
 

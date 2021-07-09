@@ -52,7 +52,7 @@ class Projects extends Component {
           </Row>
           <Row>
             {MYPROJECTS.filter((project) => project.type === 'bootcamp').map((project) => (
-              <Col xs="12" md="6" lg="4">
+              <Col xs="12" md="4" style={{ paddingTop: '1%' }}>
                 <RenderCard
                   image={project.image}
                   name={project.name}
@@ -72,7 +72,7 @@ class Projects extends Component {
           </Row>
           <Row>
             {MYPROJECTS.filter((project) => project.type === 'personal').map((project) => (
-              <Col xs="12" md="6" lg="4">
+              <Col xs="12" md="4">
                 <RenderCard
                   image={project.image}
                   name={project.name}
@@ -92,7 +92,7 @@ class Projects extends Component {
           </Row>
           <Row>
             {MYPROJECTS.filter((project) => project.type === 'tutorials').map((project) => (
-              <Col xs="12" md="6" lg="4">
+              <Col xs="12" md="4">
                 <RenderCard
                   image={project.image}
                   name={project.name}
@@ -112,7 +112,7 @@ class Projects extends Component {
           </Row>
           <Row>
             {MYPROJECTS.filter((project) => project.type === 'codepen').map((project) => (
-              <Col xs="12" md="6" lg="4">
+              <Col xs="12" md="4">
                 <RenderCard
                   image={project.image}
                   name={project.name}

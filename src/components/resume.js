@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import {Col,Row, Container} from 'reactstrap';
+import { Col, Row, Container, Button } from 'reactstrap'
+import Resumepdf from '../public/assets/images/sunsoo_chung_resume.pdf'
 
 class Resume extends Component {
   render() {
@@ -10,22 +11,27 @@ class Resume extends Component {
             <Col className="page-herotitle">Resume</Col>
           </Row>
           <Row>
-            <Col>
-              <h2 className="projects-header">Experience</h2>
-            </Col>
+            <Button target="_blank" download={Resumepdf} className="dlbutton">
+              <a href="/assets/images/nucampsite.jpg" download>
+                Click to download
+              </a>
+            </Button>
+          </Row>
+          <Row>
+            <Col>Experience</Col>
+            <Col>Bachelor of Design</Col>
+            <Col>University of Shiga Prefrecture, Shiga, Japan 2007-2011</Col>
+          </Row>
+          <hr />
+          <Row>
+            <Col>Education</Col>
+            <Col>Bachelor of Design</Col>
+            <Col>University of Shiga Prefrecture, Shiga, Japan 2007-2011</Col>
           </Row>
           <hr />
           <Row>
             <Col>
-              <Col className="projects-header">Education</Col>
-              <Col>Bachelor od Design</Col>
-              <Col>University of Shiga Prefrecture, Shiga, Japan 2007-2011</Col>
-            </Col>
-          </Row>
-          <hr />
-          <Row>
-            <Col>
-              <Col className="projects-header">Launguage</Col>
+              <Col>Launguage</Col>
               <Col>English</Col>
               <Col>Professional working proficiency</Col>
               <Col>Japanese</Col>
