@@ -77,9 +77,8 @@ h3 {
   letter-spacing: -0.015em;
 }
 /*Card*/
-.cardstyle{
-  
-   border-radius: 20px;
+.cardstyle {
+  border-radius: 20px;
 }
 .cardstyle:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Card look */
@@ -117,12 +116,66 @@ h3 {
   color: rgb(177, 0, 153);
 }
 /*Button*/
-.dlbutton{
+.dlbutton {
   font-size: 0.9rem;
-  background-color:rgb(177, 0, 153) ;
+  background-color: rgb(177, 0, 153);
   border: none;
   border-radius: 10px;
+  margin: 0 auto;
+ 
 }
+.dlbutton:hover {
+  background-color: rgb(129, 3, 112);
+}
+
+/*resume page*/
+.resumecategory{
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 2.1em;
+  font-size: 0.7rem;
+  color: #a0a0a0;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.1em;
+}
+.resumedate{
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 2.1em;
+  font-size: 0.8rem;
+  color: #a0a0a0;;
+  text-rendering: optimizeLegibility;
+}
+.resumecompany{
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 2.1em;
+  font-size: 1rem;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+
+}
+.resumetitle{
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 2.1em;
+  font-size: 1rem;
+  color: rgb(177, 0, 153);
+  text-rendering: optimizeLegibility;
+
+}
+.resumebody{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 2.1em;
+  font-size: 0.9rem;
+  color: #575757;
+  text-rendering: optimizeLegibility;
+
+}
+
+
+
 /* Footer */
 
 .site-footer {
