@@ -22,44 +22,50 @@ class Header extends Component {
   render() {
     return (
       <>
-        <script src="http://localhost:3000"></script>
-        <div className="container-fluid">
-          <Navbar  light sticky="top" expand="md">
-            <NavbarBrand href="/" className="navtitle mr-auto">
-              SUNSOO CHUNG
-            </NavbarBrand>
-            <NavbarToggler onClick={this.toggleNav} />
-            <Collapse isOpen={this.state.isNavOpen} navbar>
-              <Nav className="navmenu navbar-expand-md ml-auto" navbar>
-                <NavItem>
-                  <NavLink className="nav-link" to="/home">
-                    Home
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="nav-link" to="/skills">
-                    Skills
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="nav-link" to="/projects">
-                    Projects
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="nav-link" to="/resume">
-                    Resume
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="nav-link" to="/contact">
-                    Contact
-                  </NavLink>
-                </NavItem>
-              </Nav>
-            </Collapse>
-          </Navbar>
-        </div>
+        <Navbar
+          light
+          sticky="top"
+          expand="md"
+          style={{
+            backgroundColor: 'rgb(255,255,255.0.4)',
+            backdropFilter: 'blur(1.5rem)',
+            
+          }}
+        >
+          <NavbarBrand href="/" className="navtitle mr-auto">
+            SUNSOO CHUNG
+          </NavbarBrand>
+          <NavbarToggler onClick={this.toggleNav} />
+          <Collapse isOpen={this.state.isNavOpen} navbar>
+            <Nav className="navmenu navbar-expand-md ml-auto" navbar>
+              <NavItem>
+                <NavLink className="nav-link" to="/home">
+                  Home
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="nav-link" to="/skills">
+                  Skills
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="nav-link" to="/projects">
+                  Projects
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="nav-link" to="/resume">
+                  Resume
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="nav-link" to="/contact">
+                  Contact
+                </NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
       </>
     )
   }

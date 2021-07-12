@@ -61,7 +61,7 @@ export const MYPROJECTS = [
     type: 'tutorials',
     focus: 'Node, Express, MongoDB',
     description:
-      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+      'Covid tracker allows you to check how many people tested positive, recovered or died which data are scraped by API. It can be sorted by country.',
     link: 'https://github.com/chiyomi1104/covidtracker',
   },
 
@@ -71,27 +71,28 @@ export const MYPROJECTS = [
     image: '/assets/images/codepenlogo.jpg',
     featured: true,
     type: 'codepen',
+    description:
+      'Most of challenges are from the coding bootcamp. ',
     focus: 'html, css, bootstrap, javascript, react',
     link: 'https://codepen.io/Chi1104',
   },
   {
     id: 7,
-    name: 'Personal projects',
+    name: 'Portfolio site',
     image: '/assets/images/todolist4.jpg',
     featured: true,
     type: 'personal',
-    focus: 'Node, Express, MongoDB',
-    description:
-      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+    focus: 'javascript, bootstrap, react',
+    description: 'This website is which showcase my skills and projects.  ',
   },
   {
     id: 8,
-    name: 'Personal projects2',
+    name: 'Movie exchanging social media',
     image: '/assets/images/todolist4.jpg',
     featured: true,
     type: 'personal',
-    focus: 'Node, Express, MongoDB',
+    focus: 'javascript, react, bootstrap',
     description:
-      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+      'Work in the progress',
   },
 ]

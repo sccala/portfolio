@@ -14,6 +14,7 @@ class Skills extends Component {
           <Row>
             <Col>
               <h2 className="projects-header">Coding Bootcamp</h2>
+              
             </Col>
           </Row>
           <Row>
