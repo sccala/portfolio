@@ -141,10 +141,8 @@ class Resume extends Component {
             <Col sm="12" className="resumecompany">
               Programming Languages
             </Col>
-            <Col>
-               HTML, JSX, CSS, Bootstrap, Javascript, React, Redux, Node, Express, MongoDB
-            </Col>
-            <Col sm="12" className="resumecompany">
+            <Col>HTML, JSX, CSS, Bootstrap, Javascript, React, Redux, Node, Express, MongoDB</Col>
+            <Col sm="12" className="resumecompany" style={{ paddingTop: '2%' }}>
               Other
             </Col>
             <Col>- Adobe Illustrator, Photoshop, InDesign</Col>
