@@ -109,6 +109,26 @@ class Projects extends Component {
           </Row>
           <Row>
             <Col>
+              <h2 className="projects-header">CMS Sites</h2>
+            </Col>
+          </Row>
+          <Row>
+            {MYPROJECTS.filter((project) => project.type === 'CMS').map((project) => (
+              <Col xs="12" md="6" lg="4">
+                <RenderCard
+                  image={project.image}
+                  name={project.name}
+                  caption={project.description}
+                  focus={project.focus}
+                  type={project.type}
+                  featured={project.featured}
+                  link={project.link}
+                />
+              </Col>
+            ))}
+          </Row>
+          <Row>
+            <Col>
               <h2 className="projects-header">Codepen Challenges</h2>
             </Col>
           </Row>

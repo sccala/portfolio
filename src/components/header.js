@@ -27,7 +27,7 @@ class Header extends Component {
           sticky="top"
           expand="md"
           style={{
-            backgroundColor: 'rgb(255,255,255.0.4)',
+            backgroundColor: 'rgb(255,255,255.0.7)',
             backdropFilter: 'blur(1.5rem)',
             
           }}
