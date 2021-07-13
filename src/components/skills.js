@@ -11,11 +11,11 @@ class Skills extends Component {
           <h2 className="projects-header">Coding Bootcamp</h2>
           <Row>
             <Col>
-              <img className="col-md-3" src="assets/images/Fullstack_grad.jpg" alt="fullstack grad" rounded />
-              <img className="col-xs-6 col-md-3" src="assets/images/bootstrap_cert.jpg" alt="Bootstap cert" rounded />
-              <img className="col-xs-6 col-md-3" src="assets/images/react_cert.jpg" alt="React cert" rounded />
-              <img className="col-xs-6 col-md-3" src="assets/images/reactnative_cert.jpg" alt="React cert" rounded />
-              <img className="col-xs-6 col-md-3" src="assets/images/Backend_cert.jpg" alt="Backend cert" rounded />
+              <img className="col-xs-6 col-md-2" src="assets/images/Fullstack_grad.jpg" alt="fullstack grad" rounded />
+              <img className="col-xs-6 col-md-2" src="assets/images/bootstrap_cert.jpg" alt="Bootstap cert" rounded />
+              <img className="col-xs-6 col-md-2" src="assets/images/react_cert.jpg" alt="React cert" rounded />
+              <img className="col-xs-6 col-md-2" src="assets/images/reactnative_cert.jpg" alt="React cert" rounded />
+              <img className="col-xs-6 col-md-2" src="assets/images/Backend_cert.jpg" alt="Backend cert" rounded />
             </Col>
           </Row>
           <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
@@ -43,7 +43,6 @@ class Skills extends Component {
               <img className="col-sm-4" src="assets/images/adobe_logos.png" alt="adobe logos" />
             </Col>
           </Row>
-          
         </Container>
       </>
     )
