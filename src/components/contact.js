@@ -1,25 +1,38 @@
 import React from 'react'
-import { Row, Col } from 'reactstrap'
+import { Container, Row, Col, ListGroup } from 'react-bootstrap'
 
 function Contact(props) {
   return (
-    <>
-      
-      <div className="container">
-        <div className="row row-content align-items-center">
-          <div className="col-sm-4">
-            <ul>
-              <li>Email</li>
-              <li>Phone</li>
-              <li>Likedin</li>
-              <li>Github</li>
-              <li>Twitter</li>
-              <li>Dev.to</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </>
+    <Container>
+      <Row style={{ paddingTop: '5%', paddingBottom: '5%' }}>
+        <Col className="contact" xs={12} md={8} lg={6} className="m-auto">
+          <ListGroup className="text-left">
+            <ListGroup.Item className="contactbody">
+              <a href="mailto: dah06a@acu.edu"> sccala18@gmail.com</a>
+            </ListGroup.Item>
+
+            <ListGroup.Item className="contactbody">
+              <a href="https://www.linkedin.com/in/david-henry-653454203" target="_blank" rel="noreferrer">
+                {' '}
+                LinkedIn.com
+              </a>
+            </ListGroup.Item>
+            <ListGroup.Item className="contactbody">
+              <a href="https://github.com/dah06a" target="_blank" rel="noreferrer">
+                {' '}
+                Github.com
+              </a>
+            </ListGroup.Item>
+            <ListGroup.Item className="contactbody">
+              <a href="https://www.facebook.com/david.henry.7399786" target="_blank" rel="noreferrer">
+                {' '}
+                Facebook.com
+              </a>
+            </ListGroup.Item>
+          </ListGroup>
+        </Col>
+      </Row>
+    </Container>
   )
 }
 
