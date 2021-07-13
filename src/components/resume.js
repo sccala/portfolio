@@ -5,11 +5,6 @@ class Resume extends Component {
   render() {
     return (
       <>
-        <Container fluid>
-          <Row className="page-hero d-none d-lg-block">
-            <Col className="page-herotitle">Resume</Col>
-          </Row>
-        </Container>
         <Container className="resumebody" style={{ paddingTop: '5%', paddingBottom: '5%' }}>
           <Row>
             <Col className="resumecategory" lg="12">

@@ -39,14 +39,7 @@ class Projects extends Component {
   render() {
     return (
       <>
-        <Container fluid>
-          <Row className="align-items-center page-hero d-none d-lg-block ">
-            <Col>
-              <h3 className="page-herotitle align-items-center">Projects</h3>
-            </Col>
-          </Row>
-        </Container>
-        <Container>
+        <Container style={{ paddingTop: '1%', paddingBottom: '5%' }}>
           <Row>
             <Col>
               <h2 className="projects-header">Bootcamp Work</h2>

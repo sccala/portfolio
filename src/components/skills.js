@@ -7,36 +7,43 @@ class Skills extends Component {
   render() {
     return (
       <>
-        <Container fluid>
-          <Row className="page-hero d-none d-lg-block">
-            <Col className="page-herotitle">Skills and certificates</Col>
-          </Row>
+        <Container style={{ paddingTop: '5%', paddingBottom: '5%' }}>
+          <h2 className="projects-header">Coding Bootcamp</h2>
           <Row>
             <Col>
-              <h2 className="projects-header">Coding Bootcamp</h2>
-              
+              <img className="col-md-3" src="assets/images/Fullstack_grad.jpg" alt="fullstack grad" rounded />
+              <img className="col-xs-6 col-md-3" src="assets/images/bootstrap_cert.jpg" alt="Bootstap cert" rounded />
+              <img className="col-xs-6 col-md-3" src="assets/images/react_cert.jpg" alt="React cert" rounded />
+              <img className="col-xs-6 col-md-3" src="assets/images/reactnative_cert.jpg" alt="React cert" rounded />
+              <img className="col-xs-6 col-md-3" src="assets/images/Backend_cert.jpg" alt="Backend cert" rounded />
             </Col>
           </Row>
-          <Row>
-            <Col>
-              
-            </Col>
-          </Row>
+          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
           <Row>
             <Col>
               <h2 className="projects-header">MERN stack</h2>
+              <img className="col-sm-2" src="assets/images/MongoDB-Logo-500x313.png" alt="mongo" />
+              <img className="col-sm-2" src="assets/images/node_logo.png" alt="node" />
+              <img className="col-sm-2" src="assets/images/ExpressJS.png" alt="express" />
+              <img className="col-sm-2" src="assets/images/react_logo.png" alt="react" />
             </Col>
           </Row>
+
+          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
+          <Row>
+            <Col>
+              <h2 className="projects-header">Programming Languages</h2>
+              <img className="col-sm-4" src="assets/images/htmlslogo.png" alt="htmls logos" />
+            </Col>
+          </Row>
+          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
           <Row>
             <Col>
               <h2 className="projects-header">Adobe CC</h2>
+              <img className="col-sm-4" src="assets/images/adobe_logos.png" alt="adobe logos" />
             </Col>
           </Row>
-          <Row>
-            <Col>
-              <h2 className="projects-header">Certificates</h2>
-            </Col>
-          </Row>
+          
         </Container>
       </>
     )

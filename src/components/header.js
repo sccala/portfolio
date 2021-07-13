@@ -29,7 +29,7 @@ class Header extends Component {
           style={{
             backgroundColor: 'rgb(255,255,255.0.7)',
             backdropFilter: 'blur(1.5rem)',
-            
+            borderBottom: 'solid 0.1px rgb(230, 230, 230)',
           }}
         >
           <NavbarBrand href="/" className="navtitle mr-auto">
