@@ -45,7 +45,7 @@ export const MYPROJECTS = [
   {
     id: 4,
     name: 'Nucamp Server',
-    image: '/assets/images/todolist4.jpg',
+    image: '/assets/images/server.png',
     featured: true,
     type: 'bootcamp',
     focus: 'Node, Express, MongoDB',
