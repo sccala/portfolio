@@ -85,7 +85,7 @@ h3 {
   font-weight: 600;
   font-size: 1rem;
   letter-spacing: -0.015em;
-  color: rgb(177, 0, 153);
+  color: rgb(119, 0, 101);
 }
 .cardtext {
   font-family: 'Montserrat', sans-serif;
@@ -101,19 +101,19 @@ h3 {
   font-size: 1rem;
   font-style: italic;
   line-height: 1.3rem;
-  color: rgb(177, 0, 153);
+  color: rgb(119, 0, 101);
 }
 /*Button*/
 .dlbutton {
   font-size: 0.9rem;
-  background-color: rgb(177, 0, 153);
+  background-color: rgb(119, 0, 101);
   border: none;
   border-radius: 10px;
   margin: 0 auto;
  
 }
 .dlbutton:hover {
-  background-color: rgb(129, 3, 112);
+  background-color: rgb(119, 0, 101);
 }
 
 /*resume page*/
@@ -148,7 +148,7 @@ h3 {
   font-weight: 600;
   line-height: 2.1em;
   font-size: 1rem;
-  color: rgb(177, 0, 153);
+  color: rgb(119, 0, 101);
   text-rendering: optimizeLegibility;
 
 }
@@ -190,12 +190,19 @@ h3 {
   text-rendering: optimizeLegibility;
   display: flex;
   align-items: center;
-  text-shadow: 1px 1px 5px white
+  
 }
 @media only screen and (max-width: 800px) {
   .introductionbody { 
     line-height: 1.7em;
      color: #000000;   
+     text-shadow: 1px 1px 8px rgb(223, 223, 223);
+  }
+  .introductiontitle{
+    padding-top:40%;
+    line-height: 1.3em;
+    font-size: 1.2rem;
+    color: #575757;
   }
   .homepic{
   max-height: 100vh;

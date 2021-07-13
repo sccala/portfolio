@@ -12,21 +12,15 @@ function Contact(props) {
             </ListGroup.Item>
 
             <ListGroup.Item className="contactbody">
-              <a href="https://www.linkedin.com/in/david-henry-653454203" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/ca1756/" target="_blank" rel="noreferrer">
                 {' '}
                 LinkedIn.com
               </a>
             </ListGroup.Item>
             <ListGroup.Item className="contactbody">
-              <a href="https://github.com/dah06a" target="_blank" rel="noreferrer">
+              <a href="https://github.com/chiyomi1104" target="_blank" rel="noreferrer">
                 {' '}
                 Github.com
-              </a>
-            </ListGroup.Item>
-            <ListGroup.Item className="contactbody">
-              <a href="https://www.facebook.com/david.henry.7399786" target="_blank" rel="noreferrer">
-                {' '}
-                Facebook.com
               </a>
             </ListGroup.Item>
           </ListGroup>

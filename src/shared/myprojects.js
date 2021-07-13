@@ -6,7 +6,7 @@ export const MYPROJECTS = [
     featured: false,
     type: 'bootcamp',
     focus: 'bootstrap, javascript, jsx, React and Redux',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor ultricies dolor, id volutpat arcu. I',
+    description: 'Full-featured website with login modal, saving favorites, and commenting features. This demonstrates my React and Redux learning throughout the course. It is currently configured to load some content from a local database.',
     link: 'https://github.com/chiyomi1104/React_Nucampsite',
   },
   {
@@ -15,9 +15,9 @@ export const MYPROJECTS = [
     image: '/assets/images/sakesite1.jpg',
     featured: true,
     type: 'bootcamp',
-    focus: 'bootstrap, javascript, jsx, React and Redux',
+    focus: 'bootstrap, javascript, jsx',
     description:
-      'ipsum primis in faucibus. Vivamus maximus augue ut risus dictum, in tristique tellus convallis. Curabitur tristique ligula quam, vitae viverra nisl suscipit ut. Interdum et malesuada fames ac ',
+      'Bootstrap website for sake subscription business.',
     link: 'https://github.com/chiyomi1104/Sake-Website',
   },
   {
@@ -28,7 +28,7 @@ export const MYPROJECTS = [
     type: 'bootcamp',
     focus: 'bootstrap, javascript, jsx, React Native',
     description:
-      'nas eget nulla ut sem convallis lacinia nec et metus. Nullam bibendum maximus dictum. Suspendisse potenti. Duis nec finibus lorem. Phasellus tincidunt lorem est, vel egestas sapien convallis sed. .',
+      'Remade the site with React Native. Same structure with Nucamp desktop website but featured with mobile-friendly behavior.',
     link: 'https://github.com/chiyomi1104/react-native',
   },
   {
@@ -39,7 +39,7 @@ export const MYPROJECTS = [
     type: 'personal',
     focus: 'bootstrap, javascript, jsx, React Native',
     description:
-      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+      'React quick app to demonstrate my knowledge for React Native',
     link: 'https://github.com/chiyomi1104/simpleTodoList',
   },
   {
@@ -50,7 +50,7 @@ export const MYPROJECTS = [
     type: 'bootcamp',
     focus: 'Node, Express, MongoDB',
     description:
-      'In finibus nulla vitae ipsum cursus, quis lacinia lectus tincidunt. Curabitur ultricies vel nisl sit amet lacinia. Mauris in porttitor nisl, ut consectetur nunc..',
+      'This Node.js Express Server uses MongoDB and Mongoose to provide resources for the NuCamp website mentioned earlier. The local server project was tested throughout development using PostMan.',
     link: 'https://github.com/chiyomi1104/NucampsiteServer_Node',
   },
   {
@@ -78,7 +78,7 @@ export const MYPROJECTS = [
   {
     id: 7,
     name: 'Portfolio site',
-    image: '/assets/images/todolist4.jpg',
+    image: '/assets/images/portfolio.jpg',
     featured: true,
     type: 'personal',
     focus: 'javascript, bootstrap, react',
@@ -87,7 +87,7 @@ export const MYPROJECTS = [
   {
     id: 8,
     name: 'Movie exchanging social media',
-    image: '/assets/images/todolist4.jpg',
+    image: '/assets/images/wip.jpg',
     featured: true,
     type: 'personal',
     focus: 'javascript, react, bootstrap',
