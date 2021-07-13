@@ -14,7 +14,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
-  color: black;
+  color: #5a5159;
   letter-spacing: -0.015em;
 }
 
@@ -22,7 +22,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
-  color: black;
+  color: #5a5159;
   letter-spacing: -0.015em;
 }
 
@@ -37,7 +37,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  color: rgb(27, 27, 27);
+  color: 5a5159;
   justify-content: flex-end;
   letter-spacing: -0.015em;
 }
@@ -46,7 +46,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  color: rgb(122, 122, 122);
+  color: 5a5159;
   letter-spacing: -0.015em;
 }
 
@@ -69,13 +69,12 @@ h3 {
   color: rgb(156, 156, 156);
 }
 
-/* .projects-images {
-  height: 30vh;
-} */
+
 .projects-header {
   text-align: left;
   padding: 4% 0% 3% 1%;
   letter-spacing: -0.015em;
+  color: #575757;
 }
 /*Card*/
 .cardstyle {
@@ -170,7 +169,7 @@ h3 {
   font-weight: 400;
   line-height: 2.1em;
   font-size: 0.9rem;
-  color: #575757;
+  color: #5a5159;
   text-rendering: optimizeLegibility;
 
 }
@@ -185,7 +184,7 @@ h3 {
   text-rendering: optimizeLegibility;
   display: flex;
   align-items: center;
-  text-shadow: 2px 2px 5px white
+  text-shadow: 1px 1px 5px white
 
 }
 @media only screen and (max-width: 800px) {
@@ -203,6 +202,7 @@ h3 {
 
 .site-footer {
   height: 100px;
-  background: rgb(252, 252, 252);
+  background: rgb(179, 164, 177);
   text-align: center;
+  color: white;
 }

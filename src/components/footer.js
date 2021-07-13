@@ -19,7 +19,7 @@ class Footer extends Component {
               </a>
             </Col>
             <Col xs="12" md="4">
-              <a role="button" className="btn btn-link" href="mailto:sccala18@gmail.com">
+              <a style={{color:'white', fontWeight:'300'}}role="button" className="btn btn-link" href="mailto:sccala18@gmail.com">
                 sccala18@gmail.com
               </a>
             </Col>
