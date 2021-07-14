@@ -130,7 +130,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 2.1em;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #a0a0a0;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.1em;
@@ -139,7 +139,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 2.1em;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #a0a0a0;
   text-rendering: optimizeLegibility;
 }
@@ -147,7 +147,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   line-height: 2.1em;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #313131;
   text-rendering: optimizeLegibility;
 }
@@ -155,7 +155,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   line-height: 2.1em;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: rgb(119, 0, 101);
   text-rendering: optimizeLegibility;
 }
@@ -163,7 +163,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 2.1em;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #5a5159;
   text-rendering: optimizeLegibility;
 }
@@ -199,16 +199,18 @@ h3 {
     line-height: 1.9em;
     color: #000000;
     text-shadow: 1px 1px 8px rgb(223, 223, 223);
+    font-size: 0.9rem;
   }
   .introductiontitle {
-    padding-top: 30%;
+    padding-top: 20%;
     line-height: 1.4em;
     font-size: 1.4rem;
-    color: #616161;
+    color: #000000;
   }
   .homepic {
     max-height: 120vh;
     max-width: 120vw;
+    filter: opacity(70%);
   }
 }
 
