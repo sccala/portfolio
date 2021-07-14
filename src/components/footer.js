@@ -6,20 +6,12 @@ class Footer extends Component {
     return (
       <footer>
         <Container fluid>
-          <Row className="site-footer align-items-center">
-            <Col xs="12" md="4">
+          <Row className=" site-footer align-items-center ">
+            <Col className xs="12" md="6">
               Sunsoo Chung
             </Col>
-            <Col xs="12" md="4">
-              <a className="btn btn-social-icon btn-github" href="#">
-                <i class="fa fa-github"></i>
-              </a>
-              <a className="btn btn-social-icon btn-twitter" href="#">
-                <i className="fa fa-twitter" />
-              </a>
-            </Col>
-            <Col xs="12" md="4">
-              <a style={{color:'white', fontWeight:'300'}}role="button" className="btn btn-link" href="mailto:sccala18@gmail.com">
+            <Col  xs="12" md="6">
+              <a style={{ color: 'white', fontWeight: '300' }} role="button" className="btn btn-link" href="mailto:sccala18@gmail.com">
                 sccala18@gmail.com
               </a>
             </Col>

@@ -10,7 +10,7 @@ class Home extends Component {
             <Col xs="4" md="6">
               <img className="homepic" src="assets/images/homepic3.jpg" alt="Profile image" />
             </Col>
-            <Col style={{ paddingTop: '5%'}} xs="8" md="6">
+            <Col style={{ paddingTop: '10%'}} xs="8" md="6">
               <p className="introductiontitle">Hello! My name is Sunsoo Chung and I am a web developer.</p>
               <p className="introductionbody">
                 Mostly, I like to deconstruct things, figure out how they work, and make cool stuff from scratch.
@@ -18,6 +18,16 @@ class Home extends Component {
                 such as React and React Native. I've grown to love React and React Native for their reusable components, and I can find my way around
                 a Redux store for state management. I also have experience building a REST API with Express and MongoDB.
               </p>
+              <Button className="dlbutton">
+                <a href="/contact" style={{ color: 'white' }}>
+                  Contact Me
+                </a>
+              </Button>
+              <Button className="dlbuttonbordered" style={{marginLeft:'3%'}}>
+                <a href="/contact" style={{ color: 'rgb(119, 0, 101)' }}>
+                  LinkedIn
+                </a>
+              </Button>
             </Col>
           </Row>
         </Container>
