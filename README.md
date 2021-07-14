@@ -16,7 +16,7 @@ This website showcases my projects, skills, and career. This is made for job sea
 
 If you find any errors or bugs, please let me know.
 
-```
+
 
 ## Acknowledgments
 
@@ -24,4 +24,4 @@ Most of all beatiful pictures are coming from this site.
 * [Unsplash](https://unsplash.com/)
 
 
-```
+
