@@ -10,6 +10,7 @@ body {
   background-color: rgb(233, 231, 232);
 }
 
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -125,6 +126,8 @@ h3 {
   border: solid 0.1px rgb(194, 4, 165);
 }
 
+/*Skills page*/
+
 /*resume page*/
 .resumecategory {
   font-family: 'Montserrat', sans-serif;
@@ -195,23 +198,31 @@ h3 {
   align-items: center;
 }
 @media only screen and (max-width: 800px) {
-  .introductionbody {
-    line-height: 1.9em;
-    color: #000000;
-    text-shadow: 1px 1px 8px rgb(223, 223, 223);
-    font-size: 0.9rem;
-  }
   .introductiontitle {
-    padding-top: 20%;
-    line-height: 1.4em;
-    font-size: 1.4rem;
-    color: #000000;
+    margin-top: 10%;
+    line-height: 1.2em;
+    font-size: 1.3rem;
+    color: #464646;
+    padding: 7%;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(1rem);
+    z-index: 1;
+  }.introductionbody {
+    line-height: 1.9em;
+    color: #3d3c3c;
+    margin-top: -10%;
+    font-size: 0.9rem;
+    padding: 7%;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(1rem);
+    z-index: 1;
   }
+  
   .homepic {
     max-height: 120vh;
     max-width: 120vw;
-    filter: opacity(70%);
   }
+  
 }
 
 /*Contact*/

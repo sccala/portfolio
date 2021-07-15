@@ -119,6 +119,6 @@ export const MYPROJECTS = [
     featured: true,
     type: 'CMS',
     focus: 'Bigcommerce',
-    description: 'Wordpress shopping site for Japanese A5 wagyu.',
+    description: 'Bigcommerce shopping site for Japanese A5 wagyu.',
   },
 ]

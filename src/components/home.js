@@ -11,6 +11,7 @@ class Home extends Component {
               <img className="homepic" src="assets/images/homepic3.jpg" alt="Profile image" />
             </Col>
             <Col style={{ paddingTop: '5%' }} xs="8" md="6">
+              <span className='introductionsquare' />
               <p className="introductiontitle">Hello! My name is Sunsoo Chung and I am a web developer.</p>
               <p className="introductionbody">
                 Mostly, I like to deconstruct things, figure out how they work, and make cool stuff from scratch.
