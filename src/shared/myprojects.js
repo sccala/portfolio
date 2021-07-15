@@ -39,7 +39,7 @@ export const MYPROJECTS = [
     type: 'personal',
     focus: 'bootstrap, javascript, jsx, React Native',
     description:
-      'React quick app to demonstrate my knowledge for React Native',
+      'This is the first app for myself to go over all the react Native system. ',
     link: 'https://github.com/chiyomi1104/simpleTodoList',
   },
   {

@@ -10,7 +10,6 @@ body {
   background-color: rgb(233, 231, 232);
 }
 
-
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -207,7 +206,8 @@ h3 {
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(1rem);
     z-index: 1;
-  }.introductionbody {
+  }
+  .introductionbody {
     line-height: 1.9em;
     color: #3d3c3c;
     margin-top: -10%;
@@ -217,12 +217,19 @@ h3 {
     backdrop-filter: blur(1rem);
     z-index: 1;
   }
-  
+
   .homepic {
     max-height: 120vh;
     max-width: 120vw;
   }
-  
+  .enlargecert {
+    transition: transform 0.2s ease;
+  }
+  .enlargecert:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 1;
+  }
 }
 
 /*Contact*/
@@ -254,18 +261,26 @@ h3 {
 /* display
  */
 
- .magnifier:hover::after{
-   content: url(icons/magnifier.png); 
-    display: block;
-     position: relative;
-     height: 20px;
-     width: 20px;
- }
+.magnifier:hover::after {
+  content: url(icons/magnifier.png);
+  display: block;
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
 
 .magnifier:hover::after {
-    content: url(icons/magnifier.png); 
-    display: block;
-    position: absolute;
-    left: 50px; 
-    top: 50px; 
-} 
+  content: url(icons/magnifier.png);
+  display: block;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.enlargecert {
+  transition: transform 0.4s ease;
+}
+.enlargecert:hover {
+  transform: scale(2);
+  z-index: 1;
+}

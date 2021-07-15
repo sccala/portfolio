@@ -3,15 +3,6 @@ import { Row, Col, Container } from 'reactstrap'
 
 import '../App.css'
 
-function enlargeImg(img){
-  const myImg = document.getElementById('cert')
-  const currWidth = myImg.clientWidth
-  if (currWidth < 500) {
-    myImg.style.width = currWidth + 200 + 'px'
-  } else {
-    return;
-  }
-}
 
 class Skills extends Component {
   render() {
@@ -21,11 +12,23 @@ class Skills extends Component {
           <h2 className="projects-header">Coding Bootcamp</h2>
           <Row>
             <Col>
-              <img className="col-6 col-md-4 col-lg-2" src="assets/images/Fullstack_grad.jpg" alt="fullstack grad" onClick={enlargeImg()} id='cert'/>
-              <img className="col-6 col-md-4 col-lg-2" src="assets/images/bootstrap_cert.jpg" alt="Bootstap cert" />
-              <img className="col-6 col-md-4 col-lg-2" src="assets/images/react_cert.jpg" alt="React cert" />
-              <img className="col-6 col-md-4 col-lg-2" src="assets/images/reactnative_cert.jpg" alt="React cert" />
-              <img className="col-6 col-md-4 col-lg-2" src="assets/images/Backend_cert.jpg" alt="Backend cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/Fullstack_grad.jpg" alt="fullstack grad" id="cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/bootstrap_cert.jpg" alt="Bootstap cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/react_cert.jpg" alt="React cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/reactnative_cert.jpg" alt="React cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/Backend_cert.jpg" alt="Backend cert" />
+            </Col>
+          </Row>
+          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
+          <h2 className="projects-header">Certificates</h2>
+          <Row>
+            <Col>
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/ibm.jpg" alt="fullstack grad" id="cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/googleITsupport.jpg" alt="Bootstap cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/udemyjs.jpg" alt="React cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/udemyreact.jpg" alt="React cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/udemydocker.jpg" alt="Backend cert" />
+              <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/udemyfullstack.jpg" alt="Backend cert" />
             </Col>
           </Row>
           <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
