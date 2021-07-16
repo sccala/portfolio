@@ -8,7 +8,7 @@ function RenderCard(props) {
     <>
       <a href={props.link} target="_blank" rel="noreferrer" className="projects-link">
         <Card className="cardstyle" style={{ marginBottom: '5%' }}>
-          <CardImg style={{ borderTopRightRadius: '20px', borderTopLeftRadius: '20px' }} src={props.image} alt={props.title}></CardImg>
+          <CardImg className="cardbackgound" src={props.image} alt={props.title}></CardImg>
           <CardBody>
             <CardTitle className="cardtitle">{props.name}</CardTitle>
             <CardText className="cardtext"> {props.caption}</CardText>

@@ -6,7 +6,8 @@ export const MYPROJECTS = [
     featured: false,
     type: 'bootcamp',
     focus: 'bootstrap, javascript, jsx, React and Redux',
-    description: 'Full-featured website with login modal, saving favorites, and commenting features. This demonstrates my React and Redux learning throughout the course. It is currently configured to load some content from a local database.',
+    description:
+      'Full-featured website with login modal, saving favorites, and commenting features. This demonstrates my React and Redux learning throughout the course. It is currently configured to load some content from a local database.',
     link: 'https://github.com/chiyomi1104/React_Nucampsite',
   },
   {
@@ -16,8 +17,7 @@ export const MYPROJECTS = [
     featured: true,
     type: 'bootcamp',
     focus: 'bootstrap, javascript, jsx',
-    description:
-      'Bootstrap website for sake subscription business.',
+    description: 'Bootstrap website for sake subscription business.',
     link: 'https://github.com/chiyomi1104/Sake-Website',
   },
   {
@@ -27,8 +27,7 @@ export const MYPROJECTS = [
     featured: true,
     type: 'bootcamp',
     focus: 'bootstrap, javascript, jsx, React Native',
-    description:
-      'Remade the site with React Native. Same structure with Nucamp desktop website but featured with mobile-friendly behavior.',
+    description: 'Remade the site with React Native. Same structure with Nucamp desktop website but featured with mobile-friendly behavior.',
     link: 'https://github.com/chiyomi1104/react-native',
   },
   {
@@ -38,8 +37,7 @@ export const MYPROJECTS = [
     featured: true,
     type: 'personal',
     focus: 'bootstrap, javascript, jsx, React Native',
-    description:
-      'This is the first app for myself to go over all the react Native system. ',
+    description: 'This is the first app for myself to go over all the react Native system. ',
     link: 'https://github.com/chiyomi1104/simpleTodoList',
   },
   {
@@ -102,6 +100,7 @@ export const MYPROJECTS = [
     focus: 'wordpress, woocommerce',
     description:
       'Wordpress shopping site for high-end massage chair. Multisited for Hawaii and other regions and implemented several delivery options by zip code depends on the branchs ability.',
+    link: 'daiwamassage.com',
   },
   {
     id: 10,
@@ -111,14 +110,16 @@ export const MYPROJECTS = [
     type: 'CMS',
     focus: 'wordpress, woocommerce',
     description: 'Wordpress shopping site for New Zealand organic soaps and cosmetics. ',
+    link: 'honeybunchnaturals.us',
   },
   {
-    id: 10,
+    id: 11,
     name: 'Maxim Farm Wagyu Site',
     image: '/assets/images/maximfarm.jpg',
     featured: true,
     type: 'CMS',
     focus: 'Bigcommerce',
     description: 'Bigcommerce shopping site for Japanese A5 wagyu.',
+    link: 'https://maximfarm.com/',
   },
 ]

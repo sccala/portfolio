@@ -10,7 +10,7 @@ class Home extends Component {
             <Col xs="4" md="6">
               <img className="homepic" src="assets/images/homepic3.jpg" alt="Profile image" />
             </Col>
-            <Col style={{ paddingTop: '5%' }} xs="8" md="6">
+            <Col style={{ paddingTop: '5%', paddingLeft: '5%' }} xs="8" md="6">
               <span className='introductionsquare' />
               <p className="introductiontitle">Hello! My name is Sunsoo Chung and I am a web developer.</p>
               <p className="introductionbody">
