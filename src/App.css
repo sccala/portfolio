@@ -1,57 +1,83 @@
 /* Header */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&family=Noto+Sans+JP:wght@100;300;400;500&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: -0.015em;
+
   background-color: rgb(233, 231, 232);
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
   color: #5a5159;
-  letter-spacing: -0.015em;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
   color: #5a5159;
-  letter-spacing: -0.015em;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
-  letter-spacing: -0.015em;
 }
 
+/*Header*/
 .navmenu {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  color: 5a5159;
-  justify-content: flex-end;
-  letter-spacing: -0.015em;
+  color: #5a5159;
+
+}
+.navbar{
+  background-color: rgb(255, 255, 255.7);
+  backdrop-filter: blur(1.5rem);
+  border-bottom: solid 0.1px rgb(230, 230, 230);
 }
 
 .navtitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  color: 5a5159;
-  letter-spacing: -0.015em;
+  color: #5a5159;
 }
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+/*Home*/
+.homepic {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.introductiontitle {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  font-size: 1.8rem;
+  color: #c5c5c5;
+  display: flex;
+  align-items: center;
+}
+.introductionbody {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  line-height: 2.1em;
+  font-size: 0.9rem;
+  color: #575757;
+  text-rendering: optimizeLegibility;
+  display: flex;
+  align-items: center;
 }
 
 /*Pages*/
@@ -59,7 +85,7 @@ h3 {
 .projects-header {
   text-align: left;
   padding: 4% 0% 3% 1%;
-  letter-spacing: -0.015em;
+
   color: #575757;
 }
 /*Card*/
@@ -79,14 +105,14 @@ h3 {
   color: black !important;
 }
 .cardtitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 600;
   font-size: 1rem;
-  letter-spacing: -0.015em;
+
   color: rgb(119, 0, 101);
 }
 .cardtext {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   line-height: 2.1em;
   font-size: 0.9rem;
@@ -94,7 +120,7 @@ h3 {
   text-rendering: optimizeLegibility;
 }
 .cardtext-focus {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   font-style: italic;
@@ -102,12 +128,12 @@ h3 {
   color: rgb(119, 0, 101);
 }
 
-.cardbackgound{
+.cardbackgound {
   background-color: #5a5159;
   min-height: 100px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  min-height:'200px';
+  min-height: '200px';
 }
 /*Button*/
 .dlbutton {
@@ -135,9 +161,9 @@ h3 {
 
 /*Skills page*/
 
-/*resume page*/
+/*Resume page*/
 .resumecategory {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   line-height: 2.1em;
   font-size: 0.8rem;
@@ -146,7 +172,7 @@ h3 {
   letter-spacing: 0.1em;
 }
 .resumedate {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   line-height: 2.1em;
   font-size: 0.9rem;
@@ -154,7 +180,7 @@ h3 {
   text-rendering: optimizeLegibility;
 }
 .resumecompany {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 500;
   line-height: 2.1em;
   font-size: 1.1rem;
@@ -162,7 +188,7 @@ h3 {
   text-rendering: optimizeLegibility;
 }
 .resumetitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 600;
   line-height: 2.1em;
   font-size: 1.1rem;
@@ -170,7 +196,7 @@ h3 {
   text-rendering: optimizeLegibility;
 }
 .resumebody {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   line-height: 2.1em;
   font-size: 1rem;
@@ -178,33 +204,7 @@ h3 {
   text-rendering: optimizeLegibility;
 }
 
-/*Home*/
 
-.homepic {
-  max-height: 100%;
-  max-width: 100%;
-  
-}
-
-.introductiontitle {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  line-height: 1.3em;
-  font-size: 1.8rem;
-  color: #c5c5c5;
-  display: flex;
-  align-items: center;
-}
-.introductionbody {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  line-height: 2.1em;
-  font-size: 0.9rem;
-  color: #575757;
-  text-rendering: optimizeLegibility;
-  display: flex;
-  align-items: center;
-}
 @media only screen and (max-width: 800px) {
   .introductiontitle {
     margin-top: 10%;
@@ -247,7 +247,7 @@ h3 {
 }
 
 .contactbody {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   line-height: 2.1em;
   font-size: 0.9rem;
@@ -267,8 +267,7 @@ h3 {
   text-align: center;
   color: white;
 }
-/* display
- */
+/* display*/
 
 .enlargecert {
   transition: transform 0.4s ease;

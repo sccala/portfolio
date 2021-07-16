@@ -12,7 +12,7 @@ class Home extends Component {
             </Col>
             <Col style={{ paddingTop: '5%', paddingLeft: '5%' }} xs="8" md="6">
               <span className='introductionsquare' />
-              <p className="introductiontitle">Hello! My name is Sunsoo Chung and I am a web developer.</p>
+              <p className="introductiontitle">Hello, my name is Sunsoo Chung and I am a web developer.</p>
               <p className="introductionbody">
                 Mostly, I like to deconstruct things, figure out how they work, and make cool stuff from scratch.
                 <br />I create responsive and efficient websites with HTML, CSS, Bootstrap, and JavaScript. I am also comfortable using frameworks
