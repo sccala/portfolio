@@ -35,11 +35,18 @@ h3 {
   font-family: 'Archivo', sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #5a5159;
-
+  color: #94808e;
+  text-decoration: none;
+}
+.navmenu:hover {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #201c1f;
+  text-decoration: none;
 }
 .navbar{
-  background-color: rgb(255, 255, 255.7);
+  background-color: rgba(255, 255, 255, 0);
   backdrop-filter: blur(1.5rem);
   border-bottom: solid 0.1px rgb(230, 230, 230);
 }
@@ -48,7 +55,7 @@ h3 {
   font-family: 'Archivo', sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  color: #5a5159;
+  color: rgb(150, 126, 146);
 }
 
 .navbar .navbar-collapse {

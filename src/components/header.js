@@ -22,16 +22,7 @@ class Header extends Component {
   render() {
     return (
       <>
-        <Navbar
-          light
-          sticky="top"
-          expand="md"
-          style={{
-            backgroundColor: 'rgb(255,255,255.0.7)',
-            backdropFilter: 'blur(1.5rem)',
-            borderBottom: 'solid 0.1px rgb(230, 230, 230)',
-          }}
-        >
+        <Navbar sticky="top" expand="md" className="navbar">
           <NavbarBrand href="/" className="navtitle mr-auto">
             SUNSOO CHUNG
           </NavbarBrand>
@@ -39,27 +30,27 @@ class Header extends Component {
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav className="navmenu navbar-expand-md ml-auto" navbar>
               <NavItem>
-                <NavLink className="nav-link" to="/home">
+                <NavLink activeStyle={{ color: '#63565f' }} style={{ color: '#94808e' }} className="nav-link" to="/home">
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/skills">
+                <NavLink activeStyle={{ color: '#63565f' }} style={{ color: '#94808e' }} className="nav-link" to="/skills">
                   Skills
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/projects">
+                <NavLink activeStyle={{ color: '#63565f' }} style={{ color: '#94808e' }} className="nav-link" to="/projects">
                   Projects
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/resume">
+                <NavLink activeStyle={{ color: '#63565f' }} style={{ color: '#94808e' }} className="nav-link" to="/resume">
                   Resume
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/contact">
+                <NavLink activeStyle={{ color: '#63565f' }} style={{ color: '#94808e' }} className="nav-link" to="/contact">
                   Contact
                 </NavLink>
               </NavItem>
