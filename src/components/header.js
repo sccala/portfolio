@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Nav, Navbar, NavItem, NavbarBrand, NavbarToggler, Collapse } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
-import styles from '../appStyles.module.css'
+
 import '../App.css'
 
 class Header extends Component {

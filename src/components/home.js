@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Card, Button, CardImg, CardBody, CardHeader } from 'reactstrap'
+import { Container, Row, Col, Button } from 'reactstrap'
+import {ButtonSB} from './Button/button'
+
 
 class Home extends Component {
   render() {
@@ -8,10 +10,10 @@ class Home extends Component {
         <Container>
           <Row style={{ paddingTop: '5%', paddingBottom: '5%' }}>
             <Col xs="4" md="6">
-              <img className="homepic" src="assets/images/homepic3.jpg" alt="Profile image" />
+              <img className="homepic" src="assets/images/homepic3.jpg" alt="Profile" />
             </Col>
             <Col style={{ paddingTop: '5%', paddingLeft: '5%' }} xs="8" md="6">
-              <span className='introductionsquare' />
+              <span className="introductionsquare" />
               <p className="introductiontitle">Hello, my name is Sunsoo Chung and I am a web developer.</p>
               <p className="introductionbody">
                 Mostly, I like to deconstruct things, figure out how they work, and make cool stuff from scratch.
@@ -29,6 +31,7 @@ class Home extends Component {
                   LinkedIn
                 </a>
               </Button>
+              <ButtonSB>Click me</ButtonSB>
             </Col>
           </Row>
         </Container>

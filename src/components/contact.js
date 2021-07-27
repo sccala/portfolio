@@ -5,7 +5,7 @@ function Contact(props) {
   return (
     <Container>
       <Row style={{ paddingTop: '5%', paddingBottom: '5%' }}>
-        <Col className="contact" xs="12" md="8" lg="6" className="m-auto">
+        <Col className="contact m-auto" xs="12" md="8" lg="6" >
           <ListGroup className="text-left">
             <ListGroup.Item className="contactbody">
               <a href="mailto: sccala18@gmail.com"> sccala18@gmail.com</a>
