@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
-import {ButtonSB} from './Button/button'
-
 
 class Home extends Component {
   render() {
@@ -31,7 +29,7 @@ class Home extends Component {
                   LinkedIn
                 </a>
               </Button>
-              <ButtonSB>Click me</ButtonSB>
+             
             </Col>
           </Row>
         </Container>

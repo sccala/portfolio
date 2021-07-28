@@ -47,7 +47,7 @@ h3 {
 }
 .navbar{
   background-color: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(1.5rem);
+  backdrop-filter: blur(0.5rem);
   border-bottom: solid 0.1px rgb(230, 230, 230);
 }
 
@@ -249,9 +249,7 @@ h3 {
 }
 
 /*Contact*/
-.contact {
-  background-color: #a0a0a0;
-}
+
 
 .contactbody {
   font-family: 'Archivo', sans-serif;
