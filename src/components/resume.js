@@ -28,7 +28,7 @@ class Resume extends Component {
             <Col sm="8">- Developed 4 responsive projects/applications start to finish</Col>
           </Row>
 
-          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
+          <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
           <Row>
             <Col className="resumecategory" lg="12">
               CERTIFICATES

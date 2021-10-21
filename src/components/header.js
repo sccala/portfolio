@@ -24,7 +24,7 @@ class Header extends Component {
       <>
         <Navbar sticky="top" expand="md" className="navbar">
           <NavbarBrand href="/" className="navtitle mr-auto">
-            SUNSOO CHUNG
+            CHASE CHUNG
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNav} />
           <Collapse isOpen={this.state.isNavOpen} navbar>
