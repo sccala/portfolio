@@ -1,17 +1,31 @@
 import React, { Component } from 'react'
-import Main from './components/main'
-import { BrowserRouter } from 'react-router-dom'
 
 import './App.css'
+import { Construction } from './components/Construction'
+// import Home from './components/Home'
+// import Skills from './components/Skills'
+// import Projects from './components/Projects'
+// import Resume from './components/Resume'
+// import Contact from './components/Contact'
+// import { Navbar } from 'reactstrap'
+// import Footer from './components/Footer'
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div className="App">
-          <Main />
-        </div>
-      </BrowserRouter>
+      <>
+      <div className='min-h-screen min-w-screen align-bottom content-center'>
+
+        <Construction />
+      </div>
+        {/* <Navbar />
+        <Home />
+        <Skills />
+        <Projects />
+        <Resume />
+        <Contact />
+        <Footer /> */}
+      </>
     )
   }
 }

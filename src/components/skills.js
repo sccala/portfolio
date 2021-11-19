@@ -3,7 +3,6 @@ import { Row, Col, Container } from 'reactstrap'
 
 import '../App.css'
 
-
 class Skills extends Component {
   render() {
     return (
@@ -19,7 +18,7 @@ class Skills extends Component {
               <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/Backend_cert.jpg" alt="Backend cert" />
             </Col>
           </Row>
-          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
+          <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
           <h2 className="projects-header">Certificates</h2>
           <Row>
             <Col>
@@ -31,7 +30,7 @@ class Skills extends Component {
               <img className="enlargecert col-6 col-md-4 col-lg-2" src="assets/images/udemyfullstack.jpg" alt="Backend cert" />
             </Col>
           </Row>
-          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
+          <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
           <Row>
             <Col>
               <h2 className="projects-header">Frameworks </h2>
@@ -40,14 +39,14 @@ class Skills extends Component {
             </Col>
           </Row>
 
-          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
+          <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
           <Row>
             <Col>
               <h2 className="projects-header">Programming Languages</h2>
               <img className="col-md-6" src="assets/images/htmlslogo.png" alt="htmls logos" />
             </Col>
           </Row>
-          <hr tyle={{ marginTop: '3%', marginBottom: '3%' }} />
+          <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
           <Row>
             <Col>
               <h2 className="projects-header">Adobe CC</h2>
