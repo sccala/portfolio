@@ -9,14 +9,15 @@ import { Construction } from './components/Construction'
 // import Contact from './components/Contact'
 // import { Navbar } from 'reactstrap'
 // import Footer from './components/Footer'
+import './App.css'
 
 class App extends Component {
   render() {
     return (
       <>
-      <div className='min-h-screen min-w-screen content-center'>
+      
         <Construction />
-      </div>
+      
         {/* <Navbar />
         <Home />
         <Skills />
