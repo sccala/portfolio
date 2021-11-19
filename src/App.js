@@ -14,8 +14,7 @@ class App extends Component {
   render() {
     return (
       <>
-      <div className='min-h-screen min-w-screen align-bottom content-center'>
-
+      <div className='min-h-screen min-w-screen content-center'>
         <Construction />
       </div>
         {/* <Navbar />
