@@ -5,6 +5,9 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './src/components/*.{js,jsx}', './public/index.html'],
   darkMode: 'class',
   theme: {
+    fontFamily: {
+      body: ['"Open Sans"', 'sans-serif'],
+    },
     letterSpacing: {
       tightest: '-.075em',
       tighter: '-.05em',
@@ -45,15 +48,21 @@ module.exports = {
         primary: 'var(--color-bg-primary)',
         secondary: 'var(--color-bg-secondary)',
         tertiary: 'var(--color-bg-tertiary)',
+        accent: 'var(--color-bg-accent)',
       },
-      backgroundImage: {
-       
-      },
+      backgroundImage: {},
       textColor: {
         primary: 'var(--color-text-primary)',
         secondary: 'var(--color-text-secondary)',
         tertiary: 'var(--color-bg-tertiary)',
         accent: 'var(--color-bg-accent)',
+      },
+      fontFamily: {
+        sans: ['ui-sans-serif', 'system-ui'],
+        serif: ['ui-serif', 'Georgia'],
+        mono: ['ui-monospace', 'SFMono-Regular'],
+        display: ['Oswald'],
+        body: ['"Open Sans"'],
       },
 
       container: {
@@ -70,7 +79,7 @@ module.exports = {
     extend: {
       backgroundColor: ['active', 'hover', 'focus'],
       textColor: ['active', 'hover', 'focus'],
-      button: ['active' ,'hover',],
+      button: ['active', 'hover'],
     },
   },
   plugins: [],

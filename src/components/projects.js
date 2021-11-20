@@ -1,5 +1,5 @@
+// @ts-nocheck
 import React, { Component } from 'react'
-import { Card, CardImg, CardText, CardBody, CardTitle, Row, Col, Container } from 'reactstrap'
 import { MYPROJECTS } from '../shared/myprojects'
 import '../App.css'
 
@@ -7,16 +7,16 @@ function RenderCard(props) {
   return (
     <>
       <a href={props.link} target="_blank" rel="noreferrer" className="projects-link">
-        <Card className="cardstyle" style={{ marginBottom: '5%' }}>
-          <CardImg className="cardbackgound" src={props.image} alt={props.title}></CardImg>
-          <CardBody>
-            <CardTitle className="cardtitle">{props.name}</CardTitle>
-            <CardText className="cardtext"> {props.caption}</CardText>
-            <CardText className="cardtext-focus">
+        <div className="cardstyle" style={{ marginBottom: '5%' }}>
+          <div className="cardbackgound" alt={props.title}></div>
+          <div>
+            <div className="cardtitle">{props.name}</div>
+            <div className="cardtext"> {props.caption}</div>
+            <div className="cardtext-focus">
               Focus: <strong>{props.focus}</strong>
-            </CardText>
-          </CardBody>
-        </Card>
+            </div>
+          </div>
+        </div>
       </a>
     </>
   )
@@ -39,15 +39,15 @@ class Projects extends Component {
   render() {
     return (
       <>
-        <Container style={{ paddingTop: '1%', paddingBottom: '5%' }}>
-          <Row>
-            <Col>
-              <h2 className="projects-header">Bootcamp Work</h2>
-            </Col>
-          </Row>
-          <Row>
-            {MYPROJECTS.filter((project) => project.type === 'bootcamp').map((project) => (
-              <Col md="6" lg="4">
+        <div style={{ paddingTop: '1%', paddingBottom: '5%' }}>
+          <div>
+            <div>
+              <h2 className='projects-header'>Bootcamp Work</h2>
+            </div>
+          </div>
+          <div>
+            {MYPROJECTS.filter(project => project.type === 'bootcamp').map(project => (
+              <div>
                 <RenderCard
                   image={project.image}
                   name={project.name}
@@ -57,17 +57,17 @@ class Projects extends Component {
                   featured={project.featured}
                   link={project.link}
                 />
-              </Col>
+              </div>
             ))}
-          </Row>
-          <Row>
-            <Col>
-              <h2 className="projects-header">Personal Projects</h2>
-            </Col>
-          </Row>
-          <Row>
-            {MYPROJECTS.filter((project) => project.type === 'personal').map((project) => (
-              <Col md="6" lg="4">
+          </div>
+          <div>
+            <div>
+              <h2 className='projects-header'>Personal Projects</h2>
+            </div>
+          </div>
+          <div>
+            {MYPROJECTS.filter(project => project.type === 'personal').map(project => (
+              <div>
                 <RenderCard
                   image={project.image}
                   name={project.name}
@@ -77,17 +77,17 @@ class Projects extends Component {
                   featured={project.featured}
                   link={project.link}
                 />
-              </Col>
+              </div>
             ))}
-          </Row>
-          <Row>
-            <Col>
-              <h2 className="projects-header">Tutorials</h2>
-            </Col>
-          </Row>
-          <Row>
-            {MYPROJECTS.filter((project) => project.type === 'tutorials').map((project) => (
-              <Col md="6" lg="4">
+          </div>
+          <div>
+            <div>
+              <h2 className='projects-header'>Tutorials</h2>
+            </div>
+          </div>
+          <div>
+            {MYPROJECTS.filter(project => project.type === 'tutorials').map(project => (
+              <div>
                 <RenderCard
                   image={project.image}
                   name={project.name}
@@ -97,17 +97,17 @@ class Projects extends Component {
                   featured={project.featured}
                   link={project.link}
                 />
-              </Col>
+              </div>
             ))}
-          </Row>
-          <Row>
-            <Col>
-              <h2 className="projects-header">CMS Sites</h2>
-            </Col>
-          </Row>
-          <Row>
-            {MYPROJECTS.filter((project) => project.type === 'CMS').map((project) => (
-              <Col md="6" lg="4">
+          </div>
+          <div>
+            <div>
+              <h2 className='projects-header'>CMS Sites</h2>
+            </div>
+          </div>
+          <div>
+            {MYPROJECTS.filter(project => project.type === 'CMS').map(project => (
+              <div>
                 <RenderCard
                   image={project.image}
                   name={project.name}
@@ -117,17 +117,17 @@ class Projects extends Component {
                   featured={project.featured}
                   link={project.link}
                 />
-              </Col>
+              </div>
             ))}
-          </Row>
-          <Row>
-            <Col>
-              <h2 className="projects-header">Codepen Challenges</h2>
-            </Col>
-          </Row>
-          <Row>
-            {MYPROJECTS.filter((project) => project.type === 'codepen').map((project) => (
-              <Col md="6" lg="4">
+          </div>
+          <div>
+            <div>
+              <h2 className='projects-header'>Codepen Challenges</h2>
+            </div>
+          </div>
+          <div>
+            {MYPROJECTS.filter(project => project.type === 'codepen').map(project => (
+              <div>
                 <RenderCard
                   image={project.image}
                   name={project.name}
@@ -137,10 +137,10 @@ class Projects extends Component {
                   featured={project.featured}
                   link={project.link}
                 />
-              </Col>
+              </div>
             ))}
-          </Row>
-        </Container>
+          </div>
+        </div>
       </>
     )
   }

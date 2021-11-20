@@ -1,52 +1,61 @@
-import { useCallback, useState } from "react"
-import { useHistory } from "react-router-dom"
+import { useState } from 'react'
+import { useDarkMode } from '../hooks/useDarkMode'
 
-export const Navbar=()=> {
-  const history = useHistory()
-  const onClickHome = useCallback(() => history.push('/home'), [history])
-  const onClickChat = useCallback(() => history.push('/home/feed'), [history])
-  const onClickUserManagement = useCallback(() => history.push('/home/user_management'), [history])
-  const onClickSetting = useCallback(() => history.push('/home/setting'), [history])
-  const onClickAbout = useCallback(() => history.push('/home/about'), [history])
-
+export const Navbar = () => {
+  const [isDark, setIsDark] = useDarkMode()
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
-    <header className='text-gray-600 body-font bg-gray-100 dark:bg-indigo-900 dark:border-gray-100'>
-      <div className='container mx-auto p-4 flex-col md:flex-row hidden md:flex items-center sticky'>
+    <header className='text-primary body-font bg-secondary border-0 border-b dark:border-gray-100'>
+      <div className='container mx-auto py-4 flex-col md:flex-row hidden md:flex items-center sticky'>
         <div
           className='flex font-medium items-center text-primary  md:sm-0 cursor-pointer'
-          onClick={onClickChat}
+          onClick={() => {}}
         >
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            className='w-10 h-10 text-white p-2 bg-indigo-500 rounded-full'
-            fill='none'
-            viewBox='0 0 24 24'
-            stroke='currentColor'
-          >
-            <path
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              strokeWidth='2'
-              d='M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z'
-            />
-          </svg>
+          {isDark ? (
+            <svg
+              width='20px'
+              height='20px'
+              viewBox='0 0 15 15'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path
+                d='M10 5.5L9.93198 5.43198C9.33524 4.83524 8.52589 4.5 7.68198 4.5H7.5C5.84315 4.5 4.5 5.84315 4.5 7.5C4.5 9.15685 5.84315 10.5 7.5 10.5H7.68198C8.52589 10.5 9.33524 10.1648 9.93198 9.56802L10 9.5M1.5 10.5V4.5L7.5 1L13.5 4.5V10.5L7.5 14L1.5 10.5Z'
+                stroke='white'
+              />
+            </svg>
+          ) : (
+            <svg
+              width='20px'
+              height='20px'
+              viewBox='0 0 15 15'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path
+                fill-rule='evenodd'
+                clip-rule='evenodd'
+                d='M7.5 0.421143L14 4.21281V10.7872L7.5 14.5788L1 10.7872V4.21281L7.5 0.421143ZM7.5 4C5.567 4 4 5.567 4 7.5C4 9.433 5.567 11 7.5 11H7.68198C8.6585 11 9.59503 10.6121 10.2855 9.92157L10.3536 9.85355L9.64645 9.14645L9.57843 9.21447C9.07546 9.71744 8.39329 10 7.68198 10H7.5C6.11929 10 5 8.88071 5 7.5C5 6.11929 6.11929 5 7.5 5H7.68198C8.39329 5 9.07546 5.28257 9.57843 5.78553L9.64645 5.85355L10.3536 5.14645L10.2855 5.07843C9.59503 4.38792 8.6585 4 7.68198 4H7.5Z'
+                fill='black'
+              />
+            </svg>
+          )}
 
-          <span className='ml-3 text-xl text-primary cursor-pointer' onClick={onClickChat}>
-            Shadow Chat
+          <span className='ml-3 text-xl text-primary cursor-pointer' onClick={() => {}}>
+            Chase Chung
           </span>
         </div>
         <nav className='sm:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer'>
-          <div onClick={onClickHome} className='mr-5 text-primary hover:text-secondary'>
+          <div onClick={() => {}} className='mr-5 text-primary hover:text-secondary'>
             Home
           </div>
-          <div onClick={onClickUserManagement} className='mr-5 text-primary hover:text-secondary'>
+          <div onClick={() => {}} className='mr-5 text-primary hover:text-secondary'>
             Users
           </div>
-          <div onClick={onClickSetting} className='mr-5 text-primary hover:text-secondary'>
+          <div onClick={() => {}} className='mr-5 text-primary hover:text-secondary'>
             Setting
           </div>
-          <div onClick={onClickAbout} className='mr-5 text-primary hover:text-secondary'>
+          <div onClick={() => {}} className='mr-5 text-primary hover:text-secondary'>
             About
           </div>
         </nav>
@@ -55,7 +64,8 @@ export const Navbar=()=> {
         </button>
         <button
           className='items-center border-0 py-1 px-1 mx-2 text-primary hover:bg-gray-200 dark:hover:bg-indigo-800 rounded-full text-base mt-4 sm:mt-0'
-          onClick={() => {}}
+          // @ts-ignore
+          onClick={isDark => setIsDark(prevState => !prevState)}
         >
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -89,12 +99,12 @@ export const Navbar=()=> {
                 strokeLinejoin='round'
                 strokeWidth='2'
                 d='M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z'
-                onClick={onClickHome}
+                onClick={() => {}}
               />
             </svg>
             <span
               className='ml-3 font-medium items-center text-primary cursor-pointer'
-              onClick={onClickHome}
+              onClick={() => {}}
             >
               Shadow Chat
             </span>
@@ -119,25 +129,25 @@ export const Navbar=()=> {
         {/* collapsable navbar */}
         <div className={'md:hidden' + (navbarOpen ? ' block' : ' hidden')}>
           <div
-            onClick={onClickHome}
+            onClick={() => {}}
             className='text-center block text-base text-primary hover:text-accent mb-1'
           >
             Home
           </div>
           <div
-            onClick={onClickUserManagement}
+            onClick={() => {}}
             className='text-center block text-base text-primary hover:text-accent mb-1'
           >
             Users
           </div>
           <div
-            onClick={onClickSetting}
+            onClick={() => {}}
             className='text-center block text-base text-primary hover:text-accent mb-1'
           >
             Setting
           </div>
           <div
-            onClick={onClickAbout}
+            onClick={() => {}}
             className='text-center block text-base hover:text-accent text-primary mb-1'
           >
             About

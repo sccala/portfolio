@@ -1,164 +1,162 @@
 import React, { Component } from 'react'
-import { Col, Row, Container, Button } from 'reactstrap'
 
 class Resume extends Component {
   render() {
     return (
       <>
-        <Container className="resumebody" style={{ paddingTop: '5%', paddingBottom: '5%' }}>
-          <Row>
-            <Col className="resumecategory" lg="12">
+        <div className="resumebody" style={{ paddingTop: '5%', paddingBottom: '5%' }}>
+          <div>
+            <div className="resumecategory" >
               EXPERIENCE
-            </Col>
-            <Col className="resumecompany" sm="4">
+            </div>
+            <div className="resumecompany" >
               NuCamp
-            </Col>
-            <Col sm="8">
+            </div>
+            <div >
               <div className="resumetitle"> NuCamp Coding Bootcamp Full Stack Course</div>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="resumedate" sm="4">
+            </div>
+          </div>
+          <div>
+            <div className="resumedate" >
               Jan 2021 - 6 month Graduated
-            </Col>
-            <Col sm="8">- Collaborated on team coding assignment</Col>
-            <Col className="resumedate" sm="4"></Col>
-            <Col sm="8">- Learned frontend and backend development tool</Col>
-            <Col className="resumedate" sm="4"></Col>
-            <Col sm="8">- Developed 4 responsive projects/applications start to finish</Col>
-          </Row>
+            </div>
+            <div >- divlaborated on team coding assignment</div>
+            <div className="resumedate" ></div>
+            <div >- Learned frontend and backend development tool</div>
+            <div className="resumedate" ></div>
+            <div >- Developed 4 responsive projects/applications start to finish</div>
+          </div>
 
           <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
-          <Row>
-            <Col className="resumecategory" lg="12">
+          <div>
+            <div className="resumecategory" >
               CERTIFICATES
-            </Col>
-            <Col className="resumedate" sm="4">
+            </div>
+            <div className="resumedate" >
               2020-2021
-            </Col>
-          </Row>
-          <Row className="resumecompany">
-            <Col sm="12">- IBM Data science specialization course (Python)</Col>
-            <Col sm="12">- Google Technical Support Fundamental</Col>
-            <Col sm="12">- Udemy Fullstack Web Engineer course (Complete Web Developer 2.0 Japanese ver.) Hiroki Inoue</Col>
-            <Col sm="12">- Udemy React for biginners from the basic modern JS, Jake</Col>
-            <Col sm="12">- Udemy Logically explain how to become The Javascript Intermidiate level programmer </Col>
-            <Col sm="12">- Udemy Docker from zero, Kame Reon</Col>
-          </Row>
+            </div>
+          </div>
+          <div className="resumecompany">
+            <div >- IBM Data science specialization course (Python)</div>
+            <div >- Google Technical Support Fundamental</div>
+            <div >- Udemy Fullstack Web Engineer course (Complete Web Developer 2.0 Japanese ver.) Hiroki Inoue</div>
+            <div >- Udemy React for biginners from the basic modern JS, Jake</div>
+            <div >- Udemy Logically explain how to become The Javascript Intermidiate level programmer </div>
+            <div >- Udemy Docker from zero, Kame Reon</div>
+          </div>
           <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
-          <Row>
-            <Col className="resumecategory" lg="12">
+          <div>
+            <div className="resumecategory">
               WORK
-            </Col>
-          </Row>
-          <Row>
-            <Col className="resumecompany" sm="4">
+            </div>
+          </div>
+          <div>
+            <div className="resumecompany" >
               U.S. JACLEAN
-            </Col>
-            <Col className="resumetitle" sm="8">
+            </div>
+            <div className="resumetitle" >
               Assistant Design Manager / Marketing Lead
-            </Col>
-            <Col className="resumedate" sm="4">
+            </div>
+            <div className="resumedate" >
               2020-2021
-            </Col>
-            <Col sm="8">
+            </div>
+            <div >
               Managed design department team of 4 to design packaging, brochures and flyers. Developed 5 e-commerce websites with CMS largest site
               generating 500 unique daily views and $25k sales monthly.
-            </Col>
-            <Col sm="4" />
-            <Col sm="8"></Col>
-          </Row>
-          <Row style={{ paddingTop: '2%' }}>
-            <Col className="resumecompany" sm="4">
+            </div>
+       
+          </div>
+          <div style={{ paddingTop: '2%' }}>
+            <div className="resumecompany" >
               Nissin International Transport
-            </Col>
-            <Col className="resumetitle" sm="8">
+            </div>
+            <div className="resumetitle" >
               Business Planning and Complicance Coordinator
-            </Col>
-            <Col className="resumedate" sm="4">
+            </div>
+            <div className="resumedate">
               2020-2021
-            </Col>
-            <Col sm="8">Prepared and presented reports to executive management outlining key project insights to inform strategic decisions</Col>
-          </Row>
-          <Row style={{ paddingTop: '2%' }}>
-            <Col className="resumecompany" sm="4">
+            </div>
+            <div >Prepared and presented reports to executive management outlining key project insights to inform strategic decisions</div>
+          </div>
+          <div style={{ paddingTop: '2%' }}>
+            <div className="resumecompany" >
               Parachute Inc
-            </Col>
-            <Col className="resumetitle" sm="8">
+            </div>
+            <div className="resumetitle" >
               Account Executive
-            </Col>
-            <Col className="resumedate" sm="4">
+            </div>
+            <div className="resumedate">
               2020-2021
-            </Col>
-            <Col sm="8">
+            </div>
+            <div >
               Coordinated multicultural marketing campaigns for US and international companies targeting Vietnamese, Korean, and Japanese communities
               in the US
-            </Col>
-          </Row>
+            </div>
+          </div>
 
-          <Row style={{ paddingTop: '2%' }}>
-            <Col className="resumecompany" sm="4">
+          <div style={{ paddingTop: '2%' }}>
+            <div className="resumecompany" >
               Willforce Inc
-            </Col>
-            <Col className="resumetitle" sm="8">
+            </div>
+            <div className="resumetitle" >
               Creative Director
-            </Col>
-            <Col className="resumedate" sm="4">
+            </div>
+            <div className="resumedate" >
               2020-2021
-            </Col>
-            <Col sm="8">
+            </div>
+            <div >
               Directed and supervise a team of 10 – 15 to oversee global marketing for Japanese global companies included Panasonic global, Kyocera,
               and Sony
-            </Col>
-          </Row>
+            </div>
+          </div>
           <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
-          <Row>
-            <Col className="resumecategory" lg="12">
+          <div>
+            <div className="resumecategory" >
               EDUCATION
-            </Col>
-          </Row>
-          <Row>
-            <Col className="resumecompany" sm="4">
+            </div>
+          </div>
+          <div>
+            <div className="resumecompany" >
               University of Shiga, Japan
-            </Col>
-            <Col sm="8" className="resumetitle">
+            </div>
+            <div  className="resumetitle">
               Bachelor of Living Design
-            </Col>
-            <Col className="resumedate" sm="4">
+            </div>
+            <div className="resumedate" >
               2007-2011
-            </Col>
-          </Row>
+            </div>
+          </div>
           <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
-          <Row>
-            <Col className="resumecategory">SKILLS</Col>
-          </Row>
-          <Row>
-            <Col sm="12" className="resumecompany">
+          <div>
+            <div className="resumecategory">SKILLS</div>
+          </div>
+          <div>
+            <div  className="resumecompany">
               Programming Languages
-            </Col>
-            <Col>HTML, JSX, CSS, Bootstrap, Javascript, React, Redux, Node, Express, MongoDB</Col>
-            <Col sm="12" className="resumecompany" style={{ paddingTop: '2%' }}>
+            </div>
+            <div>HTML, JSX, CSS, Bootstrap, Javascript, React, Redux, Node, Express, MongoDB</div>
+            <div  className="resumecompany" style={{ paddingTop: '2%' }}>
               Other
-            </Col>
-            <Col>- Adobe Illustrator, Photoshop, InDesign</Col>
-          </Row>
+            </div>
+            <div>- Adobe Illustrator, Photoshop, InDesign</div>
+          </div>
 
           <hr style={{ marginTop: '3%', marginBottom: '3%' }} />
-          <Row>
-            <Col className="resumecategory">LAUNGUAGE</Col>
-          </Row>
-          <Row>
-            <Col xs="6">English(Professional)</Col>
-            <Col xs="6">Japanese(native)</Col>
-          </Row>
+          <div>
+            <div className="resumecategory">LAUNGUAGE</div>
+          </div>
+          <div>
+            <div >English(Professional)</div>
+            <div >Japanese(native)</div>
+          </div>
 
-          <Row className="mx-auto" style={{ paddingTop: '5%' }}></Row>
-          <Button className="dlbutton">
-            <a href="/images/sunsoo_chung_resume.pdf" download style={{ color: 'white' }}>
+          <div className="mx-auto" style={{ paddingTop: '5%' }}></div>
+          <div className="">
+            <a href="/images/sunsoo_chung_resume.pdf" download >
               Download PDF
             </a>
-          </Button>
-        </Container>
+          </div>
+        </div>
       </>
     )
   }
