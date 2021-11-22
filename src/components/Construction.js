@@ -15,12 +15,12 @@ export const Construction = () => {
 
       <div className='flex flex-col h-screen bg-center bg-cover bg-no-repeat bg-primary text-primary'>
         <div className='grid place-items-center w-4/5 mx-auto p-10 my-20 sm:my-auto  bg-opacity-70 rounded-xl shadow-2xl space-y-5 text-center cursor-pointer'>
-        
           <h1 className='text-base font-bold uppercase text-primary　transition duration-500'>
             Coming Soon
           </h1>
           <h2 className='text-base text-primary transition duration-500'>
-            Chase Chung's portfolio site is in construction ⛏ Will be back in couple days.<br />
+            Chase Chung's portfolio site is in construction ⛏ Will be back in couple days.
+            <br />
             Meanwhile, let's connect the other channel, or shoot an email{' '}
             <a className='text-accent hover:text-yellow-900' href='sccala18@gmail.com'>
               sccala18@gmail.com
@@ -30,26 +30,26 @@ export const Construction = () => {
           <div className='grid grid-cols-3 md:grid-cols-4 gap-4'>
             <a
               href='https://www.linkedin.com/in/ca1756/'
-              className='md:w-32 tracking-wide font-bold rounded border-2 border-gray-400 hover:text-white hover:border-blue-600 hover:bg-blue-600 shadow-md py-2 px-6 inline-flex items-center transition duration-500'
+              className='md:w-32 tracking-wide font-bold rounded border-2 border-gray-400  hover:bg-secondary  shadow-md py-2 px-6 inline-flex items-center transition duration-500'
             >
               <span className='mx-auto'>LinkedIn</span>
             </a>
             <a
               href='https://twitter.com/@Chi93542998'
-              className='md:w-32 tracking-wide font-bold rounded border-2 border-indigo-500 hover:text-white hover:border-blue-500 hover:bg-blue-500 shadow-md py-2 px-6 inline-flex items-center transition duration-500'
+              className='md:w-32 tracking-wide font-bold rounded border-2 border-gray-400  hover:bg-secondary  shadow-md py-2 px-6 inline-flex items-center transition duration-500'
             >
               <span className='mx-auto'>Twitter</span>
             </a>
 
             <a
               href='https://github.com/sccala'
-              className='md:w-32 tracking-wide font-bold rounded border-2 border-indigo-500 hover:text-white hover:border-red-600 hover:bg-red-600 shadow-md py-2 px-6 inline-flex items-center transition duration-500'
+              className='md:w-32 tracking-wide font-bold rounded border-2 border-gray-400  hover:bg-secondary  shadow-md py-2 px-6 inline-flex items-center transition duration-500'
             >
               <span className='mx-auto'>Github</span>
             </a>
             <a
               href='sccala18@gmail.com'
-              className='md:w-32 tracking-wide font-bold rounded border-2 border-indigo-500 hover:text-white hover:border-pink-600 hover:bg-pink-600 shadow-md py-2 px-6 inline-flex items-center transition duration-500'
+              className='md:w-32 tracking-wide font-bold rounded border-2 border-gray-400  hover:bg-secondary  shadow-md py-2 px-6 inline-flex items-center transition duration-500'
             >
               <span className='mx-auto'>Email</span>
             </a>
