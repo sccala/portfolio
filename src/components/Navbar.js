@@ -5,8 +5,8 @@ export const Navbar = () => {
   const [isDark, setIsDark] = useDarkMode()
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
-    <header className='text-primary body-font bg-secondary border-0 border-b dark:border-gray-100'>
-      <div className='container mx-auto py-4 flex-col md:flex-row hidden md:flex items-center sticky'>
+    <header className='text-primary body-font bg-primary border-b-0'>
+      <div className='container mx-auto py-4 flex-col sm:flex-row hidden sm:flex items-center sticky'>
         <div
           className='flex font-medium items-center text-primary  md:sm-0 cursor-pointer'
           onClick={() => {}}
@@ -41,7 +41,7 @@ export const Navbar = () => {
             </svg>
           )}
 
-          <span className='ml-3 text-xl text-primary cursor-pointer' onClick={() => {}}>
+          <span className='ml-3 text-primary cursor-pointer' onClick={() => {}}>
             Chase Chung
           </span>
         </div>
@@ -50,20 +50,20 @@ export const Navbar = () => {
             Home
           </div>
           <div onClick={() => {}} className='mr-5 text-primary hover:text-secondary'>
-            Users
+            Projects
           </div>
           <div onClick={() => {}} className='mr-5 text-primary hover:text-secondary'>
-            Setting
+            Skills
           </div>
           <div onClick={() => {}} className='mr-5 text-primary hover:text-secondary'>
-            About
+            Resume
           </div>
         </nav>
-        <button className='items-center bg-gray-200 dark:bg-indigo-800 dark:hover:bg-indigo-700 dark:text-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 sm:mt-0'>
-          Logout
+        <button className='items-center bg-primary text-secondary dark:text-gray-200 border-0 border-color-text-primary py-1 px-3  hover:bg-secondary rounded text-base mt-4 sm:mt-0'>
+         Contact
         </button>
         <button
-          className='items-center border-0 py-1 px-1 mx-2 text-primary hover:bg-gray-200 dark:hover:bg-indigo-800 rounded-full text-base mt-4 sm:mt-0'
+          className='items-center border-0 border-color-secondary py-1 px-1 mx-2 text-primary rounded-full text-base mt-4 sm:mt-0'
           // @ts-ignore
           onClick={isDark => setIsDark(prevState => !prevState)}
         >
@@ -85,11 +85,11 @@ export const Navbar = () => {
       </div>
       {/* mobile navbar */}
       <div className='cursor-pointer'>
-        <div className='text-primary flex justify-between md:hidden px-8 py-4'>
+        <div className='text-primary flex justify-between sm:hidden px-8 py-4'>
           <div className='flex items-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='w-8 h-8 text-white py-2 bg-indigo-500 rounded-full'
+              className='w-8 h-8 text-white py-2 bg-accent rounded-full'
               fill='none'
               viewBox='0 0 24 24'
               stroke='currentColor'
@@ -154,8 +154,8 @@ export const Navbar = () => {
           </div>
           <div className='flex flex-row relative'>
             <button
-              className='border-0 py-1 text-primary hover:text-accent rounded text-base mt-4 mx-auto sm:mt-0 justify-self-center mb-4'
-              onClick={() => {}}
+              className='py-1 text-primary hover:text-accent text-base mt-4 mx-auto sm:mt-0 justify-self-center mb-4'
+              onClick={isDark => setIsDark(prevState => !prevState)}
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'

@@ -3,8 +3,7 @@ import React from 'react'
 
 function Contact(props) {
   return (
-    <div style={{ height: '80vh' }}>
-      <div style={{ paddingTop: '5%', paddingBottom: '5%' }}>
+ 
         <div className='contact mx-auto'>
           <div className='mt-8 text-left'>
             <div className='contactbody'>
@@ -22,8 +21,7 @@ function Contact(props) {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+     
   )
 }
 

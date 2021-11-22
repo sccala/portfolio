@@ -1,24 +1,28 @@
 /* Header */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500&family=Josefin+Sans:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500&family=Josefin+Sans:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&family=Roboto+Slab:wght@500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .dark {
   --color-bg-primary: #212121;
-  --color-bg-secondary: #1C1C1C;
-  --color-bg-tertiary: #020E03;
-  --color-bg-accent: #584732;
-  --color-text-primary: #E4DBD4;
+  --color-bg-secondary: #423c38;
+  --color-bg-accent: #723f15;
+  --color-bg-accentsub: #083f25;
+  --color-text-primary: #c4bbb5;
   --color-text-secondary: #CDC5BB;
   --color-text-accent: #57360d;
 }
 
 .light {
-  --color-bg-primary: #E4DBD4;
+  --color-bg-primary: #d8d5d3;
   --color-bg-secondary: #CDC5BB;
-  --color-bg-accent: #987B57;
-  --color-text-primary: #212121;
+  --color-bg-accent: #96531d;
+  --color-bg-accentsub: #64776d;
+  --color-text-primary: #423c38;
   --color-text-secondary: #1C1C1C;
   --color-text-accent: #7a4606;
 }

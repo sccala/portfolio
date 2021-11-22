@@ -6,9 +6,58 @@ module.exports = {
   darkMode: 'class',
   theme: {
     fontFamily: {
-      body: ['"Open Sans"', 'sans-serif'],
+      sans: ['Inter', 'sans-serif'],
     },
+    fontSize: {
+      sub: [
+        '0.775rem',
+        {
+          letterSpacing: '-0.01em',
+          lineHeight: '0.775rem',
+        },
+      ],
+      sm: [
+        '0.875rem',
+        {
+          letterSpacing: '-0.01em',
+          lineHeight: '0.975rem',
+        },
+      ],
+      base: [
+        '1rem',
+        {
+          letterSpacing: '-0.02em',
+          lineHeight: '1.5rem',
+        },
+      ],
+      title: [
+        '1.175rem',
+        {
+          letterSpacing: '-0.02em',
+          lineHeight: '1.5rem',
+        },
+      ],
+      lg: [
+        '2.225rem',
+        {
+          letterSpacing: '-0.01em',
+          lineHeight: '2.175rem',
+        },
+      ],
+      xl: [
+        '3rem',
+        {
+          letterSpacing: '-0.01em',
+          lineHeight: '2.875rem',
+        },
+      ],
+    },
+    fontWeight: {
+      bold: 500,
+    },
+
     letterSpacing: {
+      DEFAULT: '-3%',
       tightest: '-.075em',
       tighter: '-.05em',
       normal: '0',
@@ -24,11 +73,7 @@ module.exports = {
       6: '6px',
       8: '8px',
     },
-    screens: {
-      sm: '375px',
-      md: '720px',
-      lg: '1440px',
-    },
+
     colors: {
       brightblue: 'hsl(220, 98%, 61%)',
       verydarkgrayblue: 'hsl(235, 19%, 35%)',
@@ -37,6 +82,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       gray: colors.coolGray,
+      yellow: colors.amber,
       blue: colors.sky,
       red: colors.rose,
       pink: colors.fuchsia,
@@ -44,11 +90,17 @@ module.exports = {
       white: colors.white,
     },
     extend: {
+      fontFamily: {
+        body: ['Inter', 'sans-serif'],
+        heading: ['"DM Sans"', 'sans-serif'],
+        slab: ['"Roboto Slab"', 'sans-serif'],
+      },
       backgroundColor: {
         primary: 'var(--color-bg-primary)',
         secondary: 'var(--color-bg-secondary)',
         tertiary: 'var(--color-bg-tertiary)',
         accent: 'var(--color-bg-accent)',
+        accentsub: 'var(--color-bg-accentsub)',
       },
       backgroundImage: {},
       textColor: {
@@ -57,20 +109,14 @@ module.exports = {
         tertiary: 'var(--color-bg-tertiary)',
         accent: 'var(--color-bg-accent)',
       },
-      fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui'],
-        serif: ['ui-serif', 'Georgia'],
-        mono: ['ui-monospace', 'SFMono-Regular'],
-        display: ['Oswald'],
-        body: ['"Open Sans"'],
-      },
 
       container: {
         padding: {
-          default: '0.5rem',
-          sm: '1rem',
+          default: '2rem',
+          sm: '1.4rem',
+          md: '2.475rem',
           lg: '4rem',
-          xl: '5rem',
+          xl: '6rem',
         },
       },
     },

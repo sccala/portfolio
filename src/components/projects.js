@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import { MYPROJECTS } from '../shared/myprojects'
 import '../App.css'
+import { ProjectSection } from './ProjectSection'
 
 function RenderCard(props) {
   return (
@@ -39,6 +40,7 @@ class Projects extends Component {
   render() {
     return (
       <>
+        <ProjectSection />
         <div style={{ paddingTop: '1%', paddingBottom: '5%' }}>
           <div>
             <div>
