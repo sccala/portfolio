@@ -5,6 +5,11 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './src/components/*.{js,jsx}', './public/index.html'],
   darkMode: 'class',
   theme: {
+    borderColor: theme => ({
+      ...theme('colors'),
+      DEFAULT: theme('colors.gray.300', 'currentColor'),
+      primaryborder: 'var(--color-primaryborder)',
+    }),
     fontFamily: {
       sans: ['Inter', 'sans-serif'],
     },
@@ -75,10 +80,6 @@ module.exports = {
     },
 
     colors: {
-      brightblue: 'hsl(220, 98%, 61%)',
-      verydarkgrayblue: 'hsl(235, 19%, 35%)',
-      verydarkgrayblue2: 'hsl(234, 11%, 52%)',
-      verydarkgrayblue3: 'hsl(233, 14%, 35%)',
       transparent: 'transparent',
       current: 'currentColor',
       gray: colors.coolGray,
@@ -86,6 +87,7 @@ module.exports = {
       blue: colors.sky,
       red: colors.rose,
       pink: colors.fuchsia,
+      green: colors.green,
       indigo: colors.indigo,
       white: colors.white,
     },

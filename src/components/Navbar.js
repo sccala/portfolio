@@ -5,7 +5,7 @@ export const Navbar = () => {
   const [isDark, setIsDark] = useDarkMode()
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
-    <header className='text-primary body-font bg-primary border-b-0'>
+    <header className='text-primary body-font bg-primary border-b-0 sticky top-0 z-40'>
       <div className='container mx-auto py-4 flex-col sm:flex-row hidden sm:flex items-center sticky'>
         <div
           className='flex font-medium items-center text-primary  md:sm-0 cursor-pointer'
@@ -59,8 +59,8 @@ export const Navbar = () => {
             Resume
           </div>
         </nav>
-        <button className='items-center bg-primary text-secondary dark:text-gray-200 border-0 border-color-text-primary py-1 px-3  hover:bg-secondary rounded text-base mt-4 sm:mt-0'>
-         Contact
+        <button className='items-center bg-primary text-primary border-0 border-primaryborder py-1 px-2  hover:bg-secondary rounded text-sm mt-4 sm:mt-0'>
+          Contact
         </button>
         <button
           className='items-center border-0 border-color-secondary py-1 px-1 mx-2 text-primary rounded-full text-base mt-4 sm:mt-0'

@@ -8,11 +8,10 @@ export const About = () => {
           Hello, I'm Chase Chung
         </h1>
         <p className='pt-8 text-body text-primary'>
-          Self-taught web developer fueled by 🍣 . <br />I proficiently develop websites and mobile
-          with React Typescript, Tailwind, sometimes Node, Mongo, Express.
+          Self-taught web developer fueled by 🍣 . <br />I proficiently develop websites and mobile apps using React Typescript, Tailwind, sometimes Node, Mongo, Express.
         </p>
 
-        <div className='pt-20'>
+        <div className='pt-20 z-0'>
           <a href='#about'>
             <svg
               xmlns='http://www.w3.org/2000/svg'

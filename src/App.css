@@ -15,6 +15,7 @@
   --color-text-primary: #c4bbb5;
   --color-text-secondary: #CDC5BB;
   --color-text-accent: #57360d;
+  --color-primaryborder: #d8d5d3;
 }
 
 .light {
@@ -24,6 +25,6 @@
   --color-bg-accentsub: #64776d;
   --color-text-primary: #423c38;
   --color-text-secondary: #1C1C1C;
-  --color-text-accent: #7a4606;
+  --color-primaryborder: #423c38;
 }
 

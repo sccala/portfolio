@@ -1,27 +1,38 @@
 import React from 'react'
 
-
 function Contact(props) {
   return (
- 
-        <div className='contact mx-auto'>
-          <div className='mt-8 text-left'>
-            <div className='contactbody'>
-              <a href='mailto: sccala18@gmail.com'> sccala18@gmail.com</a>
-            </div>
-            <div className='contactbody'>
-              <a href='https://www.linkedin.com/in/ca1756/' target='_blank' rel='noreferrer'>
-                LinkedIn.com
-              </a>
-            </div>
-            <div className='contactbody'>
-              <a href='https://github.com/chiyomi1104' target='_blank' rel='noreferrer'>
-                Github.com
-              </a>
-            </div>
-          </div>
-        </div>
-     
+    <>
+      <div className='text-lg text-primary py-20'>contact</div>
+
+      <div className='mt-8 text-center'>
+        <a
+          className='border rounded-lg border-primaryborder px-4 py-2 mx-8 text-primary text-base inline-block'
+          href='mailto: sccala18@gmail.com'
+        >
+          {' '}
+          sccala18@gmail.com
+        </a>
+
+        <a
+          className='border rounded-lg border-primaryborder px-4 py-2 mx-8 text-primary text-base inline-block'
+          href='https://www.linkedin.com/in/ca1756/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          LinkedIn.com
+        </a>
+
+        <a
+          className='border rounded-lg border-primaryborder px-4 py-2 mx-8 text-primary text-base inline-block'
+          href='https://github.com/chiyomi1104'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Github
+        </a>
+      </div>
+    </>
   )
 }
 
