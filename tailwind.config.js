@@ -114,11 +114,11 @@ module.exports = {
 
       container: {
         padding: {
-          default: '2rem',
-          sm: '1.4rem',
-          md: '2.475rem',
+          DEFAULT: '1rem',
+          sm: '2rem',
           lg: '4rem',
-          xl: '6rem',
+          xl: '5rem',
+          '2xl': '6rem',
         },
       },
     },
@@ -128,7 +128,8 @@ module.exports = {
       backgroundColor: ['active', 'hover', 'focus'],
       textColor: ['active', 'hover', 'focus'],
       button: ['active', 'hover'],
+      lineCramp:['hover']
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 }

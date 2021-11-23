@@ -10,8 +10,9 @@
 .dark {
   --color-bg-primary: #212121;
   --color-bg-secondary: #423c38;
+  --color-bg-tertiary: #2c3530;
   --color-bg-accent: #723f15;
-  --color-bg-accentsub: #083f25;
+  --color-bg-accentsub: #183126;
   --color-text-primary: #c4bbb5;
   --color-text-secondary: #CDC5BB;
   --color-text-accent: #57360d;
@@ -21,10 +22,14 @@
 .light {
   --color-bg-primary: #d8d5d3;
   --color-bg-secondary: #CDC5BB;
+  --color-bg-tertiary: #aab1ad;
   --color-bg-accent: #96531d;
   --color-bg-accentsub: #64776d;
   --color-text-primary: #423c38;
   --color-text-secondary: #1C1C1C;
   --color-primaryborder: #423c38;
 }
-
+*
+{
+     scroll-behavior: smooth;
+} 
