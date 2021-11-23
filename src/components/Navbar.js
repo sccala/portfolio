@@ -184,6 +184,12 @@ export const Navbar = () => {
             >
               Resume
             </a>
+            <a
+              href='#contact'
+              className='text-center block text-base hover:text-accent text-primary mb-1'
+            >
+              Contact
+            </a>
             <div className='flex flex-row relative'>
               <button
                 className='py-1 text-primary hover:text-accent text-base mt-4 mx-auto sm:mt-0 justify-self-center mb-4'

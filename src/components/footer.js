@@ -1,4 +1,3 @@
-import React, { Component } from 'react'
 
 export const Footer =()=>  {
 
@@ -23,10 +22,12 @@ export const Footer =()=>  {
             </a>
             <a href='mailto:sccala18@gmail.com'>
               <svg
-                fill='none'
                 className='h-5 w-5 text-primary text-base mr-4'
+                width='24'
+                height='24'
                 viewBox='0 0 24 24'
                 stroke='currentColor'
+                fill='none'
               >
                 <path
                   stroke-linecap='round'

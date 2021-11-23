@@ -5,7 +5,7 @@ export const MYPROJECTS = [
     image: '/assets/images/nucampsite.jpg',
     featured: false,
     type: 'Front end',
-    focus: ['bootstrap', 'React', 'Redux', 'Node', 'Express', 'MongoDB'],
+    focus: ['Bootstrap', 'React', 'Redux', 'Node', 'Express', 'MongoDB'],
     description:
       'Full-featured website with login modal, saving favorites, and commenting features. This demonstrates my React and Redux learning throughout the course. It is currently configured to load some content from a local database. This Node.js Express Server uses MongoDB and Mongoose to provide resources for the NuCamp website mentioned earlier. The local server project was tested throughout development using PostMan.',
     github: 'https://github.com/chiyomi1104/React_Nucampsite',
@@ -14,12 +14,12 @@ export const MYPROJECTS = [
   {
     id: 1,
     name: 'Sake subscription website ',
-    image: '/assets/images/sakesite1.jpg',
+    image: '/assets/images/sakit.png',
     featured: true,
     type: 'Front end',
-    focus: ['bootstrap', 'React'],
+    focus: ['Bootstrap', 'React'],
     description:
-      'This is a sake subscription website made with react and bootstrap as one of the front-end development assignment from Nucamp.',
+      'This is a sake subscription website made with react and Bootstrap as one of the front-end development assignment from Nucamp.',
     github: 'https://github.com/chiyomi1104/Sake-Website',
     demo: 'https://sakit.netlify.app',
   },
@@ -29,7 +29,7 @@ export const MYPROJECTS = [
     image: '/assets/images/nucampsite-RN.jpg',
     featured: true,
     type: 'Mobile App',
-    focus: ['bootstrap', 'React Native'],
+    focus: ['Bootstrap', 'React Native'],
     description:
       'Remade the site with React Native. Same structure with Nucamp desktop website but featured with mobile-friendly behavior.',
     github: 'https://github.com/chiyomi1104/react-native',
@@ -40,11 +40,11 @@ export const MYPROJECTS = [
     image: '/assets/images/todolist4.jpg',
     featured: true,
     type: 'Mobile App',
-    focus: ['bootstrap', 'React Native'],
+    focus: ['Bootstrap', 'React Native'],
     description: 'This is the first app for myself to go over all the react Native system. ',
     github: 'https://github.com/chiyomi1104/simpleTodoList',
   },
- 
+
   {
     id: 4,
     name: 'Covid Tracker',
@@ -71,7 +71,7 @@ export const MYPROJECTS = [
   {
     id: 6,
     name: 'Portfolio site',
-    image: '/assets/images/portfolio.jpg',
+    image: '/assets/images/portfolio.png',
     featured: true,
     type: 'Front end',
     focus: ['React', 'Tailwind'],
@@ -82,7 +82,7 @@ export const MYPROJECTS = [
   {
     id: 7,
     name: 'Anime memories social media',
-    image: '/assets/images/wip.jpg',
+    image: '/assets/images/animemories.png',
     featured: true,
     type: 'Full stack',
     focus: ['Material UI', 'React', 'Redux', 'Express', 'Node', 'MongoDB Cloud Atlas'],
@@ -125,7 +125,7 @@ export const MYPROJECTS = [
   {
     id: 11,
     name: 'Shadow Social Chat App',
-    image: '/assets/images/wip.jpg',
+    image: '/assets/images/shadowsocial.png',
     featured: true,
     type: 'Full stack',
     focus: ['Tailwind', 'React', 'Typescript', 'Redux', 'Express', 'Node', 'MongoDB Cloud Atlas'],
@@ -137,7 +137,7 @@ export const MYPROJECTS = [
   {
     id: 12,
     name: 'Todo app - Frontend Mentor',
-    image: '/assets/images/wip.jpg',
+    image: '/assets/images/fronendmentortodo.png',
     featured: true,
     type: 'Front end',
     focus: ['Tailwind', 'React', 'Typescript', 'Redux'],
@@ -148,7 +148,7 @@ export const MYPROJECTS = [
   {
     id: 14,
     name: 'Black Jack',
-    image: '/assets/images/wip.jpg',
+    image: '/assets/images/blackjack.png',
     featured: true,
     type: 'Front end',
     focus: ['Tailwind', 'React', 'Typescript', 'Redux'],

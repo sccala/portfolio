@@ -4,14 +4,21 @@ import { MYPROJECTS } from '../shared/myprojects'
 export const ProjectSection = () => {
   return (
     <>
+{/*     
+      {MYPROJECTS.map(item =>
+        item.focus.map(item => (
+          <span className='rounded-full text-sm text-secondary bg-secondary mr-2 md:mr-2 mb-2 px-2 md:px-4 py-1 inline-block '>
+             {item}
+          </span>
+        ))
+      )} */}
+
       {MYPROJECTS.map(item => (
         <section id='projects'>
           <div className='flex md:flex-row flex-col my-20'>
             <div className='w-full lg:w-1/2 pr-8'>
               <h2 className='text-title text-heading text-primary'>{item.name}</h2>
-              <p className='py-8 text-base text-primary'>
-                {item.description}
-              </p>
+              <p className='py-8 text-base text-primary'>{item.description}</p>
 
               {item.focus.map(focus => (
                 <span className='rounded-full text-sm text-secondary bg-secondary mr-2 md:mr-2 mb-2 px-2 md:px-4 py-1 inline-block '>
@@ -37,7 +44,8 @@ export const ProjectSection = () => {
               <img className='w-full rounded-md' src={item.image} alt={item.name} />
             </div>
           </div>
-          <hr className='border-gray-100 dark:border-primaryborder' />
+
+          <hr className='border-gray-100 dark:border-primaryborder mt-20' />
         </section>
       ))}
     </>

@@ -4,7 +4,7 @@ class Resume extends Component {
   render() {
     return (
       <>
-        <section id='section'>
+        <section id='resume'>
           <div className='text-lg text-primary py-20'>résumé</div>
           <section className='flex'>
             <div className='text-title text-primary w-2/5'>Experience</div>
@@ -34,21 +34,25 @@ class Resume extends Component {
             </div>
           </section>
 
-          <div className='text-base text-primary text-center py-16'>
-            <a
-              className='rounded-lg text-sm text-gray-200 hover:bg-yellow-800 bg-accent mr-1 md:mr-2 mb-2 px-8 md:px-8 py-2 cursor-pointer duration-100 items-end'
-              href='assets/images/sunsoo_chung_resume.pdf'
-              download
-            >
-              Download Full Resume PDF
-            </a>
-            <a
-              className='rounded-lg text-sm text-gray-200 hover:bg-green-900 bg-accentsub mr-1 md:mr-2 mb-2 px-8 md:px-8 py-2 cursor-pointer duration-100 items-end'
-              href='assets/images/sunsoo_chung_resume.pdf'
-              download
-            >
-              See in Full with Linkedin
-            </a>
+          <div className='md:flex text-base text-primary text-center py-16'>
+            <div>
+              <a
+                className='rounded-lg text-sm text-gray-200 hover:bg-yellow-800 bg-accent mr-1 md:mr-2 mb-2 px-8 md:px-8 py-2 inline-block cursor-pointer duration-100 items-end'
+                href='assets/images/sunsoo_chung_resume.pdf'
+                download
+              >
+                Download Full Resume PDF
+              </a>
+            </div>
+            <div>
+              <a
+                className='rounded-lg text-sm text-gray-200 hover:bg-green-900 bg-accentsub mr-1 md:mr-2 mb-2 px-11 md:px-8 py-2  cursor-pointer duration-100 items-end inline-block'
+                href='assets/images/sunsoo_chung_resume.pdf'
+                download
+              >
+                See in Full with Linkedin
+              </a>
+            </div>
           </div>
         </section>
       </>
