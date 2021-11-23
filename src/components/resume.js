@@ -34,7 +34,7 @@ class Resume extends Component {
             </div>
           </section>
 
-          <div className='md:flex text-base text-primary text-center py-16'>
+          <div className='md:flex text-base text-primary text-center py-16 '>
             <div>
               <a
                 className='rounded-lg text-sm text-gray-200 hover:bg-yellow-800 bg-accent mr-1 md:mr-2 mb-2 px-8 md:px-8 py-2 inline-block cursor-pointer duration-100 items-end'

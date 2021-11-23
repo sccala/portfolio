@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     borderColor: theme => ({
       ...theme('colors'),
-      DEFAULT: theme('colors.gray.300', 'currentColor'),
+      DEFAULT: theme('colors.gray.300', 'colors.gray.300'),
       primaryborder: 'var(--color-primaryborder)',
     }),
     fontFamily: {
@@ -128,7 +128,7 @@ module.exports = {
       backgroundColor: ['active', 'hover', 'focus'],
       textColor: ['active', 'hover', 'focus'],
       button: ['active', 'hover'],
-      lineCramp:['hover']
+      lineCramp: ['hover'],
     },
   },
   plugins: [require('@tailwindcss/line-clamp')],
