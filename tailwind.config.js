@@ -7,8 +7,11 @@ module.exports = {
   theme: {
     borderColor: theme => ({
       ...theme('colors'),
-      DEFAULT: theme('colors.gray.300', 'colors.gray.300'),
       primaryborder: 'var(--color-primaryborder)',
+    }),
+    divideColor: theme => ({
+      ...theme('colors'),
+      primarydivider: 'var(--color-primarydivider)',
     }),
     fontFamily: {
       sans: ['Inter', 'sans-serif'],
@@ -70,8 +73,8 @@ module.exports = {
       widest: '.25em',
     },
     borderWidth: {
-      DEFAULT: '1px',
-      0: '0.5px',
+      DEFAULT: '0.5px',
+      0: '0.2px',
       2: '2px',
       3: '3px',
       4: '4px',
