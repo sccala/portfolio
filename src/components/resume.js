@@ -13,9 +13,8 @@ class Resume extends Component {
               <div className='text-base text-primary pb-4'>Freelance Web Developer</div>
               <p className='text-sub text-primary pb-2'>2017 dec - 2021 jan</p>
               <div className='text-base text-primary pb-4'>
-                Parachute Graphic - Account Executive
+                U.S. JACLEAN - Assistant Design Manager / Marketing Lead.
               </div>
-
               <p className='text-sub text-primary pb-2'>2011 may - 2014 aug</p>
               <div className='text-base text-primary pb-4'>WillForce.Inc - Creative Director </div>
             </div>
