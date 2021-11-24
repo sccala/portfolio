@@ -7,7 +7,7 @@ export const MYPROJECTS = [
     type: 'Front end',
     focus: ['Bootstrap', 'React', 'Redux', 'Node', 'Express', 'MongoDB'],
     description:
-      'Full-featured website with login modal, saving favorites, and commenting features. This demonstrates my React and Redux learning throughout the course. It is currently configured to load some content from a local database. This Node.js Express Server uses MongoDB and Mongoose to provide resources for the NuCamp website mentioned earlier. The local server project was tested throughout development using PostMan.',
+      'Full-featured website with login modal, saving favorites, and commenting features. This demonstrates my React and Redux learning throughout the full-stack web development course of Nucamp Coding Bootcamp. It is currently configured to load some content from a local database. It also has Node.js Express Server which uses MongoDB and Mongoose to provide resources for the client side. The local server project was tested throughout development using PostMan.',
     github: 'https://github.com/chiyomi1104/React_Nucampsite',
     demo: 'https://nucampwebsite.netlify.app',
   },
@@ -53,7 +53,7 @@ export const MYPROJECTS = [
     type: 'Front end',
     focus: ['React', 'Material UI'],
     description:
-      'Covid tracker allows you to check how many people tested positive, recovered or died which real life data are scraped by API. It can be sorted by country.',
+      'Covid tracker allows you to check how many people tested positive, recovered or died from Covid-19. The real life data are scraped by API, and illustrated by Chart.js. It can be sorted by country or worldwide.',
     github: 'https://github.com/chiyomi1104/covidtracker',
     demo: 'https://covid19trackworld.netlify.app',
   },
@@ -78,7 +78,7 @@ export const MYPROJECTS = [
     type: 'Front end',
     focus: ['React', 'Tailwind'],
     description:
-      'The website currently you see 😊. Full responsive and dark mode theme available. More projects are to be added, and more features will be deployed shortly.',
+      'The website currently you see 😊. Fully responsive and dark mode available. More projects are to be added, and more features will be deployed shortly.',
     github: 'https://github.com/sccala/portfolio',
     demo: 'https://chaseschung.netlify.app',
   },
@@ -102,7 +102,7 @@ export const MYPROJECTS = [
     type: 'CMS',
     focus: ['WordPress', 'Woocommerce', 'Photoshop', 'Illustrator'],
     description:
-      'Wordpress shopping website for high-end massage chair. This is multisited for Hawaii and other regions and implemented several delivery options by zip code depends on the branchs ability. I ownershipped this website including maintenance, products update, contents creation, SEO, loading speed, and even holiday marketing plans. It generated 500 unique daily views and $25k sales monthly.',
+      'Wordpress shopping website for high-end massage chair. This is multisited for Hawaii and other regions. Each regions are equipped with several delivery options by zip code depends on the branchs ability. I ownershipped this website including maintenance, security, products update, contents creation, SEO, loading speed, and seasonal marketing plans. It generated 500 unique daily views and $25k sales monthly.',
     demo: 'https://daiwamassage.com',
   },
   {
@@ -113,7 +113,7 @@ export const MYPROJECTS = [
     type: 'CMS',
     focus: ['WordPress', 'Woocommerce', 'Photoshop', 'Illustrator'],
     description:
-      'Wordpress shopping site for New Zealand organic soaps and cosmetics. This was a rapid project an I made this site successfully in 3days. I ownershipped this site ',
+      'Wordpress shopping site for New Zealand organic soaps and cosmetics. This was a rapid project and I made this commerce site successfully in 3days. I ownershipped this site including maintenance, security, products update, and loading speed.',
     demo: 'https://honeybunchnaturals.us',
   },
   {
@@ -135,7 +135,7 @@ export const MYPROJECTS = [
     type: 'Full stack',
     focus: ['Tailwind', 'React', 'Typescript', 'Redux', 'Express', 'Node', 'MongoDB Cloud Atlas'],
     description:
-      'This is a social chat web app for people who wants to whisper. Comments will be disappeared automatically after certain given time. People can register their own account using Google Auth or email and password. Once they log in, they can create, read, update, delete their own posts.',
+      'This is a social web app for people who wants to whisper. Comments will be disappeared automatically after certain given time. People can register their own account using Google Auth or email and password. Once they log in, they can create, read, update, delete their own posts. Currently work in the progress, and hope will be fully working soon 😊',
     github: 'https://github.com/sccala/shadow_social',
     demo: 'https://socialchatapp.netlify.app',
   },
@@ -159,7 +159,7 @@ export const MYPROJECTS = [
     type: 'Front end',
     focus: ['Tailwind', 'React', 'Redux'],
     description:
-      'This is a web app to play black jack with a virtual dealer. I made this app for one of the Mintbean Hackathon which is given 7days time-frame, and succsessfully got the certificate which is for top 16% of developers.',
+      'This is a web app to play black jack with a virtual dealer. I made this app for one of the Mintbean Hackathon which is given 7days time-frame, and succsessfully completed and got the certificate "top 16% of developers" batch as a completion token.',
     github: 'https://github.com/sccala/black_jack',
     demo: 'https://simplebj.netlify.app',
   },
