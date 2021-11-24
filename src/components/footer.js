@@ -3,7 +3,7 @@ export const Footer =()=>  {
 
     return (
       <footer className='py-6 mt-32 '>
-        <div className='container flex items-center justify-between my-4'>
+        <div className='container mx-auto flex items-center justify-between my-4'>
           <p className='text-primary  text-sm'>All rights reserved</p>
           <p className='items-center inline-flex text-primary text-sm px-2'>Built by Chase Chung</p>
           <div className='flex items-center'>

@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
     <section className='bg-primary border-b-0 '>
-      <header className='container text-primary text-base sticky top-0 z-40'>
+      <header className='container mx-auto text-primary text-base sticky top-0 z-40 '>
         <div className='mx-auto py-4 flex-col sm:flex-row hidden sm:flex items-center sticky'>
           <div
             className='flex font-medium items-center text-primary md:sm-0 cursor-pointer'
