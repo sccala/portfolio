@@ -16,7 +16,8 @@
   --color-text-primary: #c4bbb5;
   --color-text-secondary: #CDC5BB;
   --color-text-accent: #57360d;
-  --color-primaryborder: #d8d5d3;
+  --color-primaryborder: #8d8b8a;
+  --color-primarydivider:#8d8b8a;
 }
 
 .light {
@@ -27,8 +28,10 @@
   --color-bg-accentsub: #64776d;
   --color-text-primary: #423c38;
   --color-text-secondary: #1C1C1C;
-  --color-primaryborder: #423c38;
+  --color-primaryborder: #797776;
+   --color-primarydivider: #797776;
 }
+
 *
 {
      scroll-behavior: smooth;

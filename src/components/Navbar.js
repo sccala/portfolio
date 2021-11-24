@@ -5,9 +5,9 @@ export const Navbar = () => {
   const [isDark, setIsDark] = useDarkMode()
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
-    <section className='bg-primary border-b-0 '>
-      <header className='container mx-auto text-primary text-base sticky top-0 z-40 '>
-        <div className='mx-auto py-4 flex-col sm:flex-row hidden sm:flex items-center sticky'>
+    <section className='bg-primary border-b-0 border-primaryborder '>
+      <header className='text-primary text-base top-0 z-40 container mx-auto sticky'>
+        <div className='mx-auto py-4 flex-col sm:flex-row hidden sm:flex items-center'>
           <div
             className='flex font-medium items-center text-primary md:sm-0 cursor-pointer'
             onClick={() => {}}
@@ -65,7 +65,6 @@ export const Navbar = () => {
           </button>
           <button
             className='items-center border-0 border-color-secondary py-1 px-1 mx-2 text-primary rounded-full text-base mt-4 sm:mt-0'
-            // @ts-ignore
             onClick={isDark => setIsDark(prevState => !prevState)}
           >
             {isDark ? (
@@ -86,7 +85,7 @@ export const Navbar = () => {
             ) : (
               <svg
                 xmlns='http://www.w3.org/2000/svg'
-                className='w-6 h-6 '
+                className='w-6 h-6 pl-1'
                 fill='none'
                 viewBox='0 0 24 24'
                 stroke='currentColor'

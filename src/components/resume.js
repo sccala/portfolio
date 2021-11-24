@@ -5,8 +5,8 @@ class Resume extends Component {
     return (
       <>
         <section id='resume'>
-          <div className='text-lg container mx-auto text-primary py-20'>résumé</div>
-          <div className='flex container mx-auto'>
+          <div className='text-lg text-primary py-20 font-heading font-bold '>résumé</div>
+          <div className='flex'>
             <div className='text-title text-primary w-2/5'>Experience</div>
             <div className='w-3/5'>
               <p className='text-sub text-primary pb-2'>2021 feb - present</p>
@@ -21,7 +21,7 @@ class Resume extends Component {
             </div>
           </div>
 
-          <div className='flex pt-8 container mx-auto'>
+          <div className='flex pt-8 '>
             <div className='text-title text-primary w-2/5'> Education</div>
             <div className='w-3/5'>
               <div className='text-base text-primary pb-4'>
@@ -34,7 +34,7 @@ class Resume extends Component {
             </div>
           </div>
 
-          <div className='md:flex container mx-auto text-base text-primary text-center py-16 '>
+          <div className='md:flex  text-base text-primary text-center py-16 '>
             <div>
               <a
                 className='rounded-lg text-sm text-gray-200 hover:bg-yellow-800 bg-accent mr-1 md:mr-2 mb-2 px-8 md:px-8 py-2 inline-block cursor-pointer duration-100 items-end'

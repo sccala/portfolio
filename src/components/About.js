@@ -4,11 +4,11 @@ export const About = () => {
   return (
     <>
       <section id='home'>
-        <div className='text-center container pt-24 py-16 mx-auto'>
-          <h1 className='text-primary text-center text-lg sm:text-xl font-heading w-full '>
+        <div className='text-center pt-24 py-16 '>
+          <h1 className='text-primary text-center text-lg sm:text-xl font-heading font-bold w-full '>
             Hello, I'm Chase Chung
           </h1>
-          <p className='pt-8 text-body text-primary'>
+          <p className='pt-8 font-body text-primary'>
             Self-taught web developer fueled by 🍣 . <br />I proficiently develop websites and
             mobile apps using React Typescript, Tailwind, sometimes Node, Mongo, Express.
           </p>

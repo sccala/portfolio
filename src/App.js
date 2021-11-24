@@ -16,13 +16,11 @@ class App extends Component {
   render() {
     return (
       <div className='bg-primary '>
-        {/* <Construction />  */}
         <Navbar />
-          <About />
-        <div className=''>
-          
+        <div className='container mx-auto'>
+        {/* <Construction />  */}
+        <About />
           <ProjectSection />
-
           <Skills />
           <Resume />
           <Contact />
