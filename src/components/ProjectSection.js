@@ -18,10 +18,10 @@ export const ProjectSection = () => {
           {MYPROJECTS.map(item => (
             <>
               <div className='mx-auto py-20'>
-                <h2 className='text-title font-heading text-primary font-bold'>{item.name}</h2>
+                <h2 className='text-title font-heading text-primary pb-8 font-bold'>{item.name}</h2>
                 <div className=' flex md:flex-row flex-col '>
                   <div className='w-full lg:w-1/2 pr-8'>
-                    <p className='py-8 text-base text-primary'>{item.description}</p>
+                    <p className='pb-8 text-base text-primary'>{item.description}</p>
                     {item.focus.map(focus => (
                       <span className='rounded-full text-sm text-secondary bg-secondary mr-2 md:mr-2 mb-2 px-2 md:px-4 py-1 inline-block '>
                         {focus}
@@ -61,7 +61,7 @@ export const ProjectSection = () => {
                     </div>
                   </div>
                   <div className='w-full lg:w-1/2'>
-                    <img className='w-full rounded-md' src={item.image} alt={item.name} />
+                    <img className='w-full shadow-lg' src={item.image} alt={item.name} />
                   </div>
                 </div>
               </div>
