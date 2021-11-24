@@ -25,7 +25,7 @@ class Resume extends Component {
             <div className='text-title text-primary w-2/5'> Education</div>
             <div className='w-3/5'>
               <div className='text-base text-primary pb-4'>
-                Nucamp - Full stack web and mobile developent course
+                Nucamp - Full stack web and mobile development course
               </div>
 
               <div className='text-base text-primary pb-4'>
@@ -34,25 +34,22 @@ class Resume extends Component {
             </div>
           </div>
 
-          <div className='md:flex  text-base text-primary text-center py-16 '>
-            <div>
-              <a
-                className='rounded-lg text-sm text-gray-200 hover:bg-yellow-800 bg-accent mr-1 md:mr-2 mb-2 px-8 md:px-8 py-2 inline-block cursor-pointer duration-100 items-end'
-                href='assets/images/sunsoo_chung_resume.pdf'
-                download
-              >
-                Download Full Resume PDF
-              </a>
-            </div>
-            <div>
-              <a
-                className='rounded-lg text-sm text-gray-200 hover:bg-green-900 bg-accentsub mr-1 md:mr-2 mb-2 px-11 md:px-8 py-2  cursor-pointer duration-100 items-end inline-block'
-                href='assets/images/sunsoo_chung_resume.pdf'
-                download
-              >
-                See in Full with Linkedin
-              </a>
-            </div>
+          <div className=' text-base text-primary text-center py-16 '>
+            <a
+              className='rounded-lg text-sm text-gray-200 hover:bg-yellow-800 bg-accent mr-1 md:mr-2 mb-2 px-8 md:px-8 py-2 inline-block cursor-pointer duration-100 items-end'
+              href='assets/images/ChaseChung_resume.png'
+              download
+            >
+              Full Resume Png
+            </a>
+
+            <a
+              className='rounded-lg text-sm text-gray-200 hover:bg-green-900 bg-accentsub mr-1 md:mr-2 mb-2 px-11 md:px-8 py-2  cursor-pointer duration-100 items-end inline-block'
+              href='assets/images/ChaseChung_resume-s.pdf'
+              download
+            >
+              Full Resume PDF
+            </a>
           </div>
         </section>
       </>

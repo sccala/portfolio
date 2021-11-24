@@ -48,20 +48,20 @@ export const Navbar = () => {
           </div>
           <nav className='sm:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer'>
             <a href='#home' className='mr-5 text-primary hover:text-secondary duration-300'>
-              Home
+              home
             </a>
             <a href='#projects' className='mr-5 text-primary hover:text-secondary'>
-              Projects
+              projects
             </a>
             <a href='#skills' className='mr-5 text-primary hover:text-secondary'>
-              Skills
+              skills
             </a>
             <a href='#contact' className='mr-5 text-primary hover:text-secondary'>
-              Resume
+              résumé
             </a>
           </nav>
           <button className='items-center bg-primary text-primary border-0 border-primaryborder py-1 px-2 font-bold font-heading hover:bg-secondary rounded text-sm mt-4 sm:mt-0'>
-            Contact
+            contact
           </button>
           <button
             className='items-center py-1 px-1 mx-2 text-primary rounded-full text-base mt-4 sm:mt-0'
