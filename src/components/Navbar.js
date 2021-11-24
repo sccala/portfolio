@@ -56,13 +56,16 @@ export const Navbar = () => {
             <a href='#skills' className='mr-5 text-primary hover:text-secondary'>
               skills
             </a>
-            <a href='#contact' className='mr-5 text-primary hover:text-secondary'>
+            <a href='#resume' className='mr-5 text-primary hover:text-secondary'>
               résumé
             </a>
           </nav>
-          <button className='items-center bg-primary text-primary border-0 border-primaryborder py-1 px-2 font-bold font-heading hover:bg-secondary rounded text-sm mt-4 sm:mt-0'>
+          <a
+            href='#contact'
+            className='items-center bg-primary text-primary border-0 border-primaryborder py-1 px-2 font-bold font-heading hover:bg-secondary rounded text-sm mt-4 sm:mt-0'
+          >
             contact
-          </button>
+          </a>
           <button
             className='items-center py-1 px-1 mx-2 text-primary rounded-full text-base mt-4 sm:mt-0'
             onClick={isDark => setIsDark(prevState => !prevState)}
