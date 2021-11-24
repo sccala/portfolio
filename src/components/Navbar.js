@@ -5,8 +5,8 @@ export const Navbar = () => {
   const [isDark, setIsDark] = useDarkMode()
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
-    <section className='bg-primary border-b-0 border-primaryborder '>
-      <header className='text-primary text-base top-0 z-40 container mx-auto sticky'>
+    <section className='bg-primary border-b-0 border-primaryborder sticky top-0 z-40'>
+      <header className='text-primary text-base font-bold font-heading container mx-auto'>
         <div className='mx-auto py-4 flex-col sm:flex-row hidden sm:flex items-center'>
           <div
             className='flex font-medium items-center text-primary md:sm-0 cursor-pointer'
@@ -60,18 +60,18 @@ export const Navbar = () => {
               Resume
             </a>
           </nav>
-          <button className='items-center bg-primary text-primary border-0 border-primaryborder py-1 px-2  hover:bg-secondary rounded text-sm mt-4 sm:mt-0'>
+          <button className='items-center bg-primary text-primary border-0 border-primaryborder py-1 px-2 font-bold font-heading hover:bg-secondary rounded text-sm mt-4 sm:mt-0'>
             Contact
           </button>
           <button
-            className='items-center border-0 border-color-secondary py-1 px-1 mx-2 text-primary rounded-full text-base mt-4 sm:mt-0'
+            className='items-center py-1 px-1 mx-2 text-primary rounded-full text-base mt-4 sm:mt-0'
             onClick={isDark => setIsDark(prevState => !prevState)}
           >
             {isDark ? (
               <svg
                 xmlns='http://www.w3.org/2000/svg'
-                className='w-6 h-6 items-center'
-                fill='none'
+                className='w-7 h-7 items-center'
+                fill='currentColor'
                 viewBox='0 0 24 24'
                 stroke='currentColor'
               >
@@ -85,10 +85,10 @@ export const Navbar = () => {
             ) : (
               <svg
                 xmlns='http://www.w3.org/2000/svg'
-                className='w-6 h-6 pl-1'
-                fill='none'
+                className='w-7 h-7 '
+                fill='currentColor'
                 viewBox='0 0 24 24'
-                stroke='currentColor'
+                stroke='none'
               >
                 <path
                   strokeLinecap='round'

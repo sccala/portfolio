@@ -9,7 +9,7 @@ export const MYPROJECTS = [
     description:
       'Full-featured website with login modal, saving favorites, and commenting features. This demonstrates my React and Redux learning throughout the course. It is currently configured to load some content from a local database. This Node.js Express Server uses MongoDB and Mongoose to provide resources for the NuCamp website mentioned earlier. The local server project was tested throughout development using PostMan.',
     github: 'https://github.com/chiyomi1104/React_Nucampsite',
-    demo: 'https://nucampwebsite.netlify.app/home',
+    demo: 'https://nucampwebsite.netlify.app',
   },
   {
     id: 1,
