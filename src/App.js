@@ -18,9 +18,9 @@ class App extends Component {
       <div className='bg-primary '>
         {/* <Construction />  */}
         <Navbar />
-        <div className='container'>
           <About />
-          <div className='text-lg text-primary'>projects</div>
+        <div className=''>
+          
           <ProjectSection />
 
           <Skills />

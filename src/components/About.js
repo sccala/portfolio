@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <>
       <section id='home'>
-        <div className='text-center pt-24 py-16'>
+        <div className='text-center container pt-24 py-16 mx-auto'>
           <h1 className='text-primary text-center text-lg sm:text-xl font-heading w-full '>
             Hello, I'm Chase Chung
           </h1>

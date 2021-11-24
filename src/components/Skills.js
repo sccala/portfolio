@@ -4,8 +4,8 @@ export const Skills = () => {
   return (
     <>
       <section id='skills'>
-        <div className='text-lg text-primary py-20'>skills</div>
-        <div className='justify-items-center'>
+        <div className='text-lg container mx-auto text-primary py-20'>skills</div>
+        <div className='justify-items-center container mx-auto'>
           {MYSKILLS.map(item => (
             <>
               <div className='text-left text-title text-primary pt-8'>
