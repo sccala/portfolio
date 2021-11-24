@@ -5,7 +5,7 @@ import './App.css'
 
 import Resume from './components/Resume'
 import Contact from './components/Contact'
-import {Footer} from './components/Footer'
+import { Footer } from './components/Footer'
 import { Navbar } from './components/Navbar'
 import './App.css'
 import { About } from './components/About'
@@ -15,11 +15,11 @@ import { Skills } from './components/Skills'
 class App extends Component {
   render() {
     return (
-      <div className='bg-primary '>
+      <div className='bg-primary'>
         <Navbar />
         <div className='container mx-auto'>
-        {/* <Construction />  */}
-        <About />
+          {/* <Construction />  */}
+          <About />
           <ProjectSection />
           <Skills />
           <Resume />

@@ -18,7 +18,7 @@ export const ProjectSection = () => {
           {MYPROJECTS.map(item => (
             <>
               <div className='mx-auto py-20'>
-                <h2 className='text-title text-heading text-primary font-bold'>{item.name}</h2>
+                <h2 className='text-title font-heading text-primary font-bold'>{item.name}</h2>
                 <div className=' flex md:flex-row flex-col '>
                   <div className='w-full lg:w-1/2 pr-8'>
                     <p className='py-8 text-base text-primary'>{item.description}</p>
