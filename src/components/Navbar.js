@@ -42,21 +42,21 @@ export const Navbar = () => {
               </svg>
             )}
 
-            <span className='ml-3 text-primary cursor-pointer' onClick={() => {}}>
+            <a className='ml-3 text-primary cursor-pointer' href='/'>
               Chase Chung
-            </span>
+            </a>
           </div>
           <nav className='sm:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer'>
-            <a href='#home' className='mr-5 text-primary hover:text-secondary duration-300'>
+            <a href='/' className='mr-5 text-primary hover:text-accent'>
               home
             </a>
-            <a href='#projects' className='mr-5 text-primary hover:text-secondary'>
+            <a href='#projects' className='mr-5 text-primary hover:text-accent'>
               projects
             </a>
-            <a href='#skills' className='mr-5 text-primary hover:text-secondary'>
+            <a href='#skills' className='mr-5 text-primary hover:text-accent'>
               skills
             </a>
-            <a href='#resume' className='mr-5 text-primary hover:text-secondary'>
+            <a href='#resume' className='mr-5 text-primary hover:text-accent'>
               résumé
             </a>
           </nav>

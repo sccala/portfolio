@@ -35,7 +35,7 @@ function Contact(props) {
               Github
             </a>
             <a
-              className='border rounded-lg border-primaryborder px-8 py-1 md:mx-4 text-primary hover:bg-secondary duration-100 text-sm inline-block bg-tertiary'
+              className='border rounded-lg border-primaryborder px-8 py-1 md:mx-1 text-primary hover:bg-secondary duration-100 text-sm inline-block bg-tertiary'
               href='mailto:sccala18@gmail.com'
             >
               Email

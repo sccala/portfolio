@@ -10,13 +10,13 @@ class Resume extends Component {
             <div className='text-title text-primary w-2/5'>Experience</div>
             <div className='w-3/5'>
               <p className='text-sub text-primary pb-2'>2021 feb - present</p>
-              <div className='text-base text-primary pb-4'>Freelance Web Developer</div>
+              <div className='text-base text-primary pb-8'>Freelance Web Developer</div>
               <p className='text-sub text-primary pb-2'>2017 dec - 2021 jan</p>
-              <div className='text-base text-primary pb-4'>
+              <div className='text-base text-primary pb-8'>
                 U.S. JACLEAN - Assistant Design Manager / Marketing Lead.
               </div>
               <p className='text-sub text-primary pb-2'>2011 may - 2014 aug</p>
-              <div className='text-base text-primary pb-4'>WillForce.Inc - Creative Director </div>
+              <div className='text-base text-primary pb-8'>WillForce.Inc - Creative Director </div>
             </div>
           </div>
 
