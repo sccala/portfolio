@@ -2,7 +2,7 @@ export const MYPROJECTS = [
   {
     id: 0,
     name: 'Full-stack Nucamp website',
-    image: '/assets/images/nucampsite.jpg',
+    image: '/assets/gifs/nucampwebsite.gif',
     featured: true,
     type: 'Front end',
     focus: ['Bootstrap', 'React', 'Redux', 'Node', 'Express', 'MongoDB'],
@@ -14,7 +14,7 @@ export const MYPROJECTS = [
   {
     id: 1,
     name: 'Sake subscription website ',
-    image: '/assets/images/sakit.png',
+    image: '/assets/gifs/sakit.gif',
     featured: true,
     type: 'Front end',
     focus: ['Bootstrap', 'React'],
@@ -48,7 +48,7 @@ export const MYPROJECTS = [
   {
     id: 4,
     name: 'Covid tracker',
-    image: '/assets/images/covidtracker3.jpg',
+    image: '/assets/gifs/covidtracker.gif',
     featured: false,
     type: 'Front end',
     focus: ['React', 'Material UI'],
@@ -61,7 +61,7 @@ export const MYPROJECTS = [
   {
     id: 5,
     name: 'Twitter clone',
-    image: '/assets/images/twitterclone.png',
+    image: '/assets/gifs/twitterclone.gif',
     featured: true,
     type: 'Front end',
     description:
@@ -73,7 +73,7 @@ export const MYPROJECTS = [
   {
     id: 6,
     name: 'Portfolio website',
-    image: '/assets/images/portfolio.png',
+    image: '/assets/gifs/portfolio.gif',
     featured: true,
     type: 'Front end',
     focus: ['React', 'Tailwind'],
@@ -97,7 +97,7 @@ export const MYPROJECTS = [
   {
     id: 8,
     name: 'Daiwa Massage Chair website',
-    image: '/assets/images/daiwasite.jpg',
+    image: '/assets/gifs/daiwamassage.gif',
     featured: true,
     type: 'CMS',
     focus: ['WordPress', 'Woocommerce', 'Photoshop', 'Illustrator'],
@@ -108,7 +108,7 @@ export const MYPROJECTS = [
   {
     id: 9,
     name: 'Honey Bunch Naturals website',
-    image: '/assets/images/hbnaturals.jpg',
+    image: '/assets/gifs/honeybunch.gif',
     featured: true,
     type: 'CMS',
     focus: ['WordPress', 'Woocommerce', 'Photoshop', 'Illustrator'],
@@ -119,7 +119,7 @@ export const MYPROJECTS = [
   {
     id: 10,
     name: 'Maxim Farm Wagyu website',
-    image: '/assets/images/maximfarm.jpg',
+    image: '/assets/gifs/maximfarm.gif',
     featured: true,
     type: 'CMS',
     focus: ['Bigcommerce'],
@@ -130,7 +130,7 @@ export const MYPROJECTS = [
   {
     id: 11,
     name: 'Full-stack social chat web app',
-    image: '/assets/images/shadowsocial.png',
+    image: '/assets/gifs/socialapp.gif',
     featured: true,
     type: 'Full stack',
     focus: ['Tailwind', 'React', 'Typescript', 'Redux', 'Express', 'Node', 'MongoDB Cloud Atlas'],
@@ -142,7 +142,7 @@ export const MYPROJECTS = [
   {
     id: 12,
     name: 'Todo app - Frontend Mentor',
-    image: '/assets/images/fronendmentortodo.png',
+    image: '/assets/gifs/todowredux.gif',
     featured: true,
     type: 'Front end',
     focus: ['Tailwind', 'React', 'Typescript', 'Redux'],
@@ -154,7 +154,7 @@ export const MYPROJECTS = [
   {
     id: 14,
     name: 'Black Jack',
-    image: '/assets/images/blackjack.png',
+    image: '/assets/gifs/blackjack.gif',
     featured: true,
     type: 'Front end',
     focus: ['Tailwind', 'React', 'Redux'],
