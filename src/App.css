@@ -11,28 +11,29 @@
   --color-bg-primary: #212121;
   --color-bg-secondary: #423c38;
   --color-bg-tertiary: #2c3530;
-  --color-bg-accent: #723f15;
-  --color-bg-accentsub: #183126;
+  --color-bg-accent: #994500;
+  --color-bg-accentsub: #003a21;
+  --color-bg-subtle: #252525;
   --color-text-primary: #c4bbb5;
-  --color-text-secondary: #CDC5BB;
+  --color-text-secondary: #cdc5bb;
   --color-text-accent: #57360d;
   --color-primaryborder: #8d8b8a;
-  --color-primarydivider:#8d8b8a;
+  --color-primarydivider: #8d8b8a;
 }
 
 .light {
   --color-bg-primary: #d8d5d3;
-  --color-bg-secondary: #CDC5BB;
+  --color-bg-secondary: #cdc5bb;
   --color-bg-tertiary: #aab1ad;
-  --color-bg-accent: #96531d;
-  --color-bg-accentsub: #64776d;
+  --color-bg-accent: #c05600;
+  --color-bg-accentsub: #00411e;
+  --color-bg-subtle: #cfcdcc;
   --color-text-primary: #423c38;
-  --color-text-secondary: #1C1C1C;
+  --color-text-secondary: #1c1c1c;
   --color-primaryborder: #797776;
-   --color-primarydivider: #797776;
+  --color-primarydivider: #797776;
 }
 
-*
-{
-     scroll-behavior: smooth;
-} 
+* {
+  scroll-behavior: smooth;
+}

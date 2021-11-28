@@ -5,9 +5,13 @@ class Resume extends Component {
     return (
       <>
         <section id='resume'>
-          <div className='text-lg text-primary py-20 font-heading font-bold '>résumé</div>
-          <div className='flex'>
-            <div className='text-title text-primary w-2/5'>Experience</div>
+          <div
+            className='text-lg text-primary pt-40 pb-20 font-heading font-bold'
+          >
+            résumé
+          </div>
+          <div className='flex pt-20'>
+            <div className='text-title text-primary w-2/5 font-bold font-heading'>Experience</div>
             <div className='w-3/5'>
               <p className='text-sub text-primary pb-2'>2021 feb - present</p>
               <div className='text-base text-primary pb-8'>Freelance Web Developer</div>
@@ -21,7 +25,7 @@ class Resume extends Component {
           </div>
 
           <div className='flex pt-8 '>
-            <div className='text-title text-primary w-2/5'> Education</div>
+            <div className='text-title text-primary w-2/5 font-bold font-heading'> Education</div>
             <div className='w-3/5'>
               <div className='text-base text-primary pb-4'>
                 Nucamp - Full stack web and mobile development course

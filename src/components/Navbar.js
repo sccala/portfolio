@@ -47,7 +47,10 @@ export const Navbar = () => {
             </a>
           </div>
           <nav className='sm:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer'>
-            <a href='/' className='mr-5 text-primary hover:text-accent'>
+            <a
+              href='/'
+              className='mr-5 text-primary hover:text-accent  focus:underline '
+            >
               home
             </a>
             <a href='#projects' className='mr-5 text-primary hover:text-accent'>

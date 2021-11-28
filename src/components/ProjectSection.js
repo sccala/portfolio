@@ -13,8 +13,8 @@ export const ProjectSection = () => {
         ))
       )} */}
       <section id='projects'>
-        <div className='text-lg text-primary font-heading font-bold'>projects</div>
-        <div className='divide-y divide-primarydivider'>
+        <div className='pt-20 text-lg text-primary font-heading font-bold'>projects</div>
+        <div className='divide-y divide-primarydivider '>
           {MYPROJECTS.map(item => (
             <>
               <div className='mx-auto py-20'>
