@@ -39,7 +39,7 @@ module.exports = {
         },
       ],
       title: [
-        '1.175rem',
+        '1.375rem',
         {
           letterSpacing: '-0.02em',
           lineHeight: '1.5rem',
@@ -104,6 +104,7 @@ module.exports = {
         primary: 'var(--color-bg-primary)',
         secondary: 'var(--color-bg-secondary)',
         tertiary: 'var(--color-bg-tertiary)',
+        subtle: 'var(--color-bg-subtle)',
         accent: 'var(--color-bg-accent)',
         accentsub: 'var(--color-bg-accentsub)',
       },
@@ -130,8 +131,9 @@ module.exports = {
     extend: {
       backgroundColor: ['active', 'hover', 'focus'],
       textColor: ['active', 'hover', 'focus'],
-      button: ['active', 'hover'],
+      button: ['active', 'hover', 'focus'],
       lineCramp: ['hover'],
+      textDecoration: ['active', 'hover', 'focus'],
     },
   },
   plugins: [require('@tailwindcss/line-clamp')],

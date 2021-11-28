@@ -4,7 +4,7 @@ function Contact(props) {
   return (
     <>
       <section id='contact'>
-        <div className='text-lg text-primary py-10 font-heading font-bold'>contact</div>
+        <div className='text-lg text-primary py-20 font-heading font-bold'>contact</div>
         <div className='text-center my-8'>
           <div className='text-title font-heading  font-bold text-primary'>
             Got any question? Let's chat (or connect)

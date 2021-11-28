@@ -84,7 +84,7 @@ export const MYPROJECTS = [
   },
   {
     id: 7,
-    name: 'Anime memories social media web app',
+    name: 'Animemories social web app',
     image: '/assets/images/animemories.png',
     featured: true,
     type: 'Full stack',
@@ -96,7 +96,7 @@ export const MYPROJECTS = [
   },
   {
     id: 8,
-    name: 'Daiwa Massage',
+    name: 'Daiwa Massage Chair website',
     image: '/assets/images/daiwasite.jpg',
     featured: true,
     type: 'CMS',
@@ -107,7 +107,7 @@ export const MYPROJECTS = [
   },
   {
     id: 9,
-    name: 'Honey Bunch Naturals',
+    name: 'Honey Bunch Naturals website',
     image: '/assets/images/hbnaturals.jpg',
     featured: true,
     type: 'CMS',
@@ -118,7 +118,7 @@ export const MYPROJECTS = [
   },
   {
     id: 10,
-    name: 'Maxim Farm Wagyu Site',
+    name: 'Maxim Farm Wagyu website',
     image: '/assets/images/maximfarm.jpg',
     featured: true,
     type: 'CMS',

@@ -17,9 +17,9 @@ class App extends Component {
     return (
       <div className='bg-primary'>
         <Navbar />
-        <div className='container mx-auto'>
+        <About />
+        <div className='container mx-auto '>
           {/* <Construction />  */}
-          <About />
           <ProjectSection />
           <Skills />
           <Resume />
