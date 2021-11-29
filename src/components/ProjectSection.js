@@ -60,13 +60,8 @@ export const ProjectSection = () => {
                       )}
                     </div>
                   </div>
-<<<<<<< HEAD
                   <div className='w-full lg:w-1/2 '>
                     <img className='max-h-96  shadow-lg m-auto' src={item.image} alt={item.name} />
-=======
-                  <div className='w-full lg:w-1/2'>
-                    <img className='w-full shadow-lg' src={item.image} alt={item.name} />
->>>>>>> 8607ac828f91f59680ddace9cb073ac7e3e1f056
                   </div>
                 </div>
               </div>
