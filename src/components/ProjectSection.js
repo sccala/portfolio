@@ -60,8 +60,8 @@ export const ProjectSection = () => {
                       )}
                     </div>
                   </div>
-                  <div className='w-full lg:w-1/2'>
-                    <img className='w-full shadow-lg' src={item.image} alt={item.name} />
+                  <div className='w-full lg:w-1/2 '>
+                    <img className='max-h-96  shadow-lg m-auto' src={item.image} alt={item.name} />
                   </div>
                 </div>
               </div>

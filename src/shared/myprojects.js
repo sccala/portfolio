@@ -26,7 +26,7 @@ export const MYPROJECTS = [
   {
     id: 2,
     name: 'Full-featured Nucamp mobile app',
-    image: '/assets/images/nucampsite-RN.jpg',
+    image: '/assets/gifs/nucampmobile.gif',
     featured: true,
     type: 'Mobile App',
     focus: ['Bootstrap', 'React Native', 'Redux'],
