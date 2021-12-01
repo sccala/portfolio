@@ -4,7 +4,7 @@ export const MYPROJECTS = [
     name: 'Full-stack Nucamp website',
     image: '/assets/gifs/nucampwebsite.gif',
     featured: true,
-    type: 'Front end',
+    type: 'Full stack',
     focus: ['Bootstrap', 'React', 'Redux', 'Node', 'Express', 'MongoDB'],
     description:
       'Full-featured website with login modal, saving favorites, and commenting features. This demonstrates my React and Redux learning throughout the full-stack web development course of Nucamp Coding Bootcamp. It is currently configured to load some content from a local database. It also has Node.js Express Server which uses MongoDB and Mongoose to provide resources for the client side. The local server project was tested throughout development using PostMan.',

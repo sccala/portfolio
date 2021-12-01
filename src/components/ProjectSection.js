@@ -14,7 +14,7 @@ export const ProjectSection = () => {
           `${filtered}` === 'All' ? item.featured : item.type === `${filtered}`
         ).map(item => (
           <>
-            <div className='divide-y divide-primarydivider '>
+            <div className='divide-y divide-primarydivider'>
               <div className='mx-auto py-16'>
                 <h2 className='text-title font-heading text-primary pb-8 font-bold'>{item.name}</h2>
                 <div className=' flex md:flex-row flex-col '>
