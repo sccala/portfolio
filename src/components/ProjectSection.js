@@ -1,23 +1,21 @@
 // @ts-nocheck
+import { useState } from 'react'
 import { MYPROJECTS } from '../shared/myprojects'
+import { FilterProject } from './FilterProjects'
 
 export const ProjectSection = () => {
+  const [filtered, setFiltered] = useState('All')
   return (
     <>
-      {/*     
-      {MYPROJECTS.map(item =>
-        item.focus.map(item => (
-          <span className='rounded-full text-sm text-secondary bg-secondary mr-2 md:mr-2 mb-2 px-2 md:px-4 py-1 inline-block '>
-             {item}
-          </span>
-        ))
-      )} */}
       <section id='projects'>
         <div className='pt-20 text-lg text-primary font-heading font-bold'>projects</div>
-        <div className='divide-y divide-primarydivider '>
-          {MYPROJECTS.map(item => (
-            <>
-              <div className='mx-auto py-20'>
+        <FilterProject filtered={filtered} setFiltered={setFiltered} />
+        {MYPROJECTS.filter(item =>
+          `${filtered}` === 'All' ? item.featured : item.type === `${filtered}`
+        ).map(item => (
+          <>
+            <div className='divide-y divide-primarydivider '>
+              <div className='mx-auto py-16'>
                 <h2 className='text-title font-heading text-primary pb-8 font-bold'>{item.name}</h2>
                 <div className=' flex md:flex-row flex-col '>
                   <div className='w-full lg:w-1/2 pr-8'>
@@ -65,9 +63,9 @@ export const ProjectSection = () => {
                   </div>
                 </div>
               </div>
-            </>
-          ))}
-        </div>
+            </div>
+          </>
+        ))}
       </section>
     </>
   )

@@ -49,7 +49,7 @@ export const MYPROJECTS = [
     id: 4,
     name: 'Covid tracker',
     image: '/assets/gifs/covidtracker.gif',
-    featured: false,
+    featured: true,
     type: 'Front end',
     focus: ['React', 'Material UI'],
     description:
