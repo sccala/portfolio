@@ -65,7 +65,7 @@ export const MYPROJECTS = [
     featured: true,
     type: 'Front end',
     description:
-      'This is a Twitter clone web app with Firebase cloud database connected. Successfully mock the user interface using MaterialUI including submitting and pulling posts in real-time using Firebase cloud database.',
+      'Twitter clone web app with Firebase cloud database connected. Successfully mock the user interface using MaterialUI including submitting and pulling posts in real-time using Firebase cloud database.',
     focus: ['React', 'Material UI', 'Firebase'],
     demo: 'https://twitterclonefirebase.netlify.app/',
     github: 'https://github.com/sccala/twitterclone',
@@ -162,5 +162,17 @@ export const MYPROJECTS = [
       'This is a web app to play black jack with a virtual dealer. I made this app for one of the Mintbean Hackathon which is given 7days time-frame, and succsessfully completed and got the certificate "top 16% of developers" batch as a completion token.',
     github: 'https://github.com/sccala/black_jack',
     demo: 'https://simplebj.netlify.app',
+  },
+  {
+    id: 15,
+    name: 'Real time chat app',
+    image: '/assets/images/vuechat.png',
+    featured: true,
+    type: 'Full stack',
+    focus: [ 'Vue', 'Firebase','Tailwind'],
+    description:
+      'This is a real-time chat app with Firebase firestore. I made this app along with a tutorial with a week time frame to first time experience Vue and Firebase framework. Successfully equiped google Auth, account registration, and darkmode. Will be deployed on Netlify soon.',
+    github: 'https://github.com/sccala/vuechat',
+    demo: '',
   },
 ]
