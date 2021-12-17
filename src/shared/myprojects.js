@@ -94,41 +94,9 @@ export const MYPROJECTS = [
     github: 'https://github.com/sccala/memories_app',
     demo: 'https://memoriessocialapp.netlify.app',
   },
+
   {
     id: 8,
-    name: 'Daiwa Massage Chair website',
-    image: '/assets/gifs/daiwamassage.gif',
-    featured: true,
-    type: 'CMS',
-    focus: ['WordPress', 'Woocommerce', 'Photoshop', 'Illustrator'],
-    description:
-      'Wordpress shopping website for high-end massage chair. This is multisited for Hawaii and other regions. Each regions are equipped with several delivery options by zip code depends on the branchs ability. I ownershipped this website including maintenance, security, products update, contents creation, SEO, loading speed, and seasonal marketing plans. It generated 500 unique daily views and $25k sales monthly.',
-    demo: 'https://daiwamassage.com',
-  },
-  {
-    id: 9,
-    name: 'Honey Bunch Naturals website',
-    image: '/assets/gifs/honeybunch.gif',
-    featured: true,
-    type: 'CMS',
-    focus: ['WordPress', 'Woocommerce', 'Photoshop', 'Illustrator'],
-    description:
-      'Wordpress shopping site for New Zealand organic soaps and cosmetics. This was a rapid project and I made this commerce site successfully in 3days. I ownershipped this site including maintenance, security, products update, and loading speed.',
-    demo: 'https://honeybunchnaturals.us',
-  },
-  {
-    id: 10,
-    name: 'Maxim Farm Wagyu website',
-    image: '/assets/gifs/maximfarm.gif',
-    featured: true,
-    type: 'CMS',
-    focus: ['Bigcommerce'],
-    description:
-      'Bigcommerce shopping site for Japanese luxury A5 wagyu. I maintain this website with updating products, optimise accordingly',
-    demo: 'https://maximfarm.com/',
-  },
-  {
-    id: 11,
     name: 'Full-stack social chat web app',
     image: '/assets/gifs/socialapp.gif',
     featured: true,
@@ -140,7 +108,7 @@ export const MYPROJECTS = [
     demo: 'https://socialchatapp.netlify.app',
   },
   {
-    id: 12,
+    id: 9,
     name: 'Todo app - Frontend Mentor',
     image: '/assets/gifs/todowredux.gif',
     featured: true,
@@ -152,7 +120,7 @@ export const MYPROJECTS = [
     demo: 'https://todowredux.netlify.app',
   },
   {
-    id: 14,
+    id: 10,
     name: 'Black Jack',
     image: '/assets/gifs/blackjack.gif',
     featured: true,
@@ -164,15 +132,48 @@ export const MYPROJECTS = [
     demo: 'https://simplebj.netlify.app',
   },
   {
-    id: 15,
+    id: 11,
     name: 'Real time chat app',
     image: '/assets/images/vuechat.png',
     featured: true,
     type: 'Full stack',
-    focus: [ 'Vue', 'Firebase','Tailwind'],
+    focus: ['Vue', 'Firebase', 'Tailwind'],
     description:
       'This is a real-time chat app with Firebase firestore. I made this app along with a tutorial with a week time frame to first time experience Vue and Firebase framework. Successfully equiped google Auth, account registration, and darkmode. Will be deployed on Netlify soon.',
     github: 'https://github.com/sccala/vuechat',
     demo: '',
+  },
+  {
+    id: 12,
+    name: 'Daiwa Massage Chair website',
+    image: '/assets/images/daiwasite.jpg',
+    featured: true,
+    type: 'CMS',
+    focus: ['WordPress', 'Woocommerce', 'Photoshop', 'Illustrator'],
+    description:
+      'Wordpress shopping website for high-end massage chair. This is multisited for Hawaii and other regions. Each regions are equipped with several delivery options by zip code depends on the branchs ability. I ownershipped this website including maintenance, security, products update, contents creation, SEO, loading speed, and seasonal marketing plans. It generated 500 unique daily views and $25k sales monthly.',
+    demo: 'https://daiwamassage.com',
+  },
+  {
+    id: 13,
+    name: 'Honey Bunch Naturals website',
+    image: '/assets/images/hbnaturals.jpg',
+    featured: true,
+    type: 'CMS',
+    focus: ['WordPress', 'Woocommerce', 'Photoshop', 'Illustrator'],
+    description:
+      'Wordpress shopping site for New Zealand organic soaps and cosmetics. This was a rapid project and I made this commerce site successfully in 3days. I ownershipped this site including maintenance, security, products update, and loading speed.',
+    demo: 'https://honeybunchnaturals.us',
+  },
+  {
+    id: 14,
+    name: 'Maxim Farm Wagyu website',
+    image: '/assets/images/maximfarm.jpg',
+    featured: true,
+    type: 'CMS',
+    focus: ['Bigcommerce'],
+    description:
+      'Bigcommerce shopping site for Japanese luxury A5 wagyu. I maintain this website with updating products, optimise accordingly',
+    demo: 'https://maximfarm.com/',
   },
 ]
