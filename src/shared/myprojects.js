@@ -77,8 +77,7 @@ export const MYPROJECTS = [
     featured: true,
     type: 'Front end',
     focus: ['React', 'Tailwind'],
-    description:
-      'The website currently you see 😊. Fully responsive and dark mode available. More projects are to be added, and more features will be deployed shortly.',
+    description: `This website currently you see. Fully responsive and dark mode available. More projects are to be added, and more features will be added shortly.`,
     github: 'https://github.com/sccala/portfolio',
     demo: 'https://chaseschung.netlify.app',
   },
@@ -139,9 +138,9 @@ export const MYPROJECTS = [
     type: 'Full stack',
     focus: ['Vue', 'Firebase', 'Tailwind'],
     description:
-      'This is a real-time chat app with Firebase firestore. I made this app along with a tutorial with a week time frame to first time experience Vue and Firebase framework. Successfully equiped google Auth, account registration, and darkmode. Will be deployed on Netlify soon.',
+      'This is a real-time chat app with Firebase firestore. I made this app along with a tutorial with a week time frame to first time experience Vue and Firebase framework. Successfully equiped with google Auth, account registration, bad word filter, and darkmode features.',
     github: 'https://github.com/sccala/vuechat',
-    demo: '',
+    demo: 'https://vuerealtimechat.netlify.app/',
   },
   {
     id: 12,
