@@ -6,7 +6,7 @@ export const About = () => {
       <section id='home'>
         <div className='text-center h-screen align-middle flex flex-col min-w-full overflow-hidden relative container' >
           <div className='absolute w-60 h-60 rounded-xl bg-subtle -top-5 -left-16  transform rotate-45 block z-0 '></div>
-          <div className='w-40 h-40 absolute bg-subtle rounded-full top-0 right-12 block'></div>
+          <div className='w-40 h-40 absolute bg-subtle rounded-full top-0 -right-8 block'></div>
           <div className='w-20 h-40 absolute bg-subtle rounded-full bottom-20 left-10 transform rotate-45 block z-0 '></div>
           <div className='absolute w-48 h-48 rounded-xl bg-subtle bottom-6 -right-10 transform rotate-12 block z-0 '></div>
         
