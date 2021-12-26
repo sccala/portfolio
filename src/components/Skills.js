@@ -1,26 +1,33 @@
+// @ts-nocheck
 import { MYSKILLS } from '../shared/myskills'
 
 export const Skills = () => {
   return (
     <>
-      <section id='skills'>
+      <section className='text-center md:text-left' id='skills'>
         <div className='text-lg text-primary py-20 font-heading font-bold relative '>skills</div>
-        <div className=''>
-          {MYSKILLS.map(item => (
-            <>
-              <div className='md:text-left text-center text-title text-primary font-bold pt-8 pb-4 font-heading'>
-                {item.name}
-              </div>
-              {item.focus.map(item => (
-               
-                  <span className='justify-center md:mt-4 mt-2 rounded-full text-sm text-secondary bg-tertiary mr-2 md:mr-2 mb-2 px-4 md:px-4 py-2 inline-block'>
-                    {item}
-                  </span>
-          
-              ))}
-            </>
-          ))}
-        </div>
+
+        {MYSKILLS.map(item => (
+          <>
+            <div
+              key={item.id}
+              className='md:text-left text-center text-title text-primary font-bold pt-8 pb-4 font-heading'
+            >
+              {item.name}
+            </div>
+            {item.focus.map(focus => (
+              
+                <span
+                  className='rounded-full text-sm text-secondary bg-tertiary 
+                  md:px-4 md:mr-2 md:mt-4 
+                  mt-2 mr-2 mb-2 px-4 py-2 inline-block'
+                >
+                  {focus}
+                </span>
+             
+            ))}
+          </>
+        ))}
       </section>
     </>
   )

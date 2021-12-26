@@ -14,16 +14,18 @@ export const ProjectSection = () => {
           `${filtered}` === 'All' ? item.featured : item.type === `${filtered}`
         ).map(item => (
           <>
-            <div className='divide-y divide-primarydivider'>
-              <div className='mx-auto py-16'>
+            <div key={item.id} className='divide-y divide-primarydivider'>
+              <div className='mx-auto py-16 text-center md:text-left'>
                 <h2 className='text-title font-heading text-primary pb-8 font-bold'>{item.name}</h2>
                 <div className=' flex md:flex-row flex-col '>
-                  <div className='w-full lg:w-1/2 pr-8'>
+                  <div className='w-full lg:w-1/2 pr-0 md:pr-8'>
                     <p className='pb-8 text-base text-primary hidden md:block'>
                       {item.description}
                     </p>
                     {item.focus.map(focus => (
-                      <span className='rounded-full text-sm text-secondary bg-secondary mr-2 mb-2 px-2 md:px-4 py-1 inline-block '>
+                      <span
+                        className='rounded-full text-sm text-secondarybg-secondary mr-2 mb-2 px-2 md:px-4 py-1 inline-block'
+                      >
                         {focus}
                       </span>
                     ))}

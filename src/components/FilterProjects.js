@@ -7,11 +7,11 @@ export const FilterProject = ({ filtered, setFiltered }) => {
   return (
     <>
       <div className=''>
-        <div className='flex justify-between font-heading text-primary py-16 '>
+        <div className='flex justify-between font-heading text-primary py-16 md:container'>
           <button
             className={`${
               filtered === 'All' && 'focus:text-accent focus:bg-secondary'
-            } font-bold  px-2 md:px-4 border-0 rounded-full md:rounded-lg text-sm md:text-body py-1 `}
+            } font-bold px-2 md:px-8 border-0 rounded-full md:rounded-lg text-sm md:text-body py-1 `}
             onClick={() => handleClick('All')}
           >
             All

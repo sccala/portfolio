@@ -10,9 +10,8 @@ export const About = () => {
           <div className='w-20 h-40 absolute bg-subtle rounded-full bottom-20 left-10 transform rotate-45 block z-0 '></div>
           <div className='absolute w-48 h-48 rounded-xl bg-subtle bottom-6 -right-10 transform rotate-12 block z-0 '></div>
         
-
           <div className='m-auto z-20'>
-            <h1 className=' text-primary text-center text-lg sm:text-xl font-heading font-bold '>
+            <h1 className='md:line-height2 text-primary text-center text-lg sm:text-xl font-heading font-bold '>
               Hello, I'm Chase Chung <br />
               Web developer
             </h1>
@@ -20,8 +19,7 @@ export const About = () => {
               with full stack, e-commerce, and mobile experience{' '}
             </p>
             <p className='pt-8 font-body text-primary'>
-              Self-taught web developer fueled by 🍣 . <br />I proficiently develop websites and
-              mobile apps using React Typescript, Tailwind, sometimes Node, Mongo, Express, and React Native.
+              Self-taught web developer fueled by 🍣 . <br />I proficiently develop websites using React, Typescript, Tailwind, sometimes Node, Mongo, Express, and React Native.
             </p>
 
             <div className='pt-20 z-0'>
