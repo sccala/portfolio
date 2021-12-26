@@ -24,7 +24,8 @@ export const ProjectSection = () => {
                     </p>
                     {item.focus.map(focus => (
                       <span
-                        className='rounded-full text-sm text-secondarybg-secondary mr-2 mb-2 px-2 md:px-4 py-1 inline-block'
+                        key={focus.id}
+                        className='rounded-full text-sm text-secondary bg-secondary mr-2 mb-2 px-2 md:px-4 py-1 inline-block'
                       >
                         {focus}
                       </span>
