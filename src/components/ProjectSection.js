@@ -8,7 +8,9 @@ export const ProjectSection = () => {
   return (
     <>
       <section id='projects'>
-        <div className='pt-20 text-lg text-primary font-heading font-bold'>projects</div>
+        <div className='pt-20 text-lg text-primary font-heading font-bold'>
+          projects
+        </div>
         <FilterProject filtered={filtered} setFiltered={setFiltered} />
         {MYPROJECTS.filter(item =>
           `${filtered}` === 'All' ? item.featured : item.type === `${filtered}`

@@ -8,6 +8,7 @@ module.exports = {
     borderColor: theme => ({
       ...theme('colors'),
       primaryborder: 'var(--color-primaryborder)',
+      accentborder: 'var(--color-accentborder)',
     }),
     divideColor: theme => ({
       ...theme('colors'),
