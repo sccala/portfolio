@@ -9,7 +9,7 @@ function Contact(props) {
           <div className='text-title font-heading  font-bold text-primary'>
             Feel free to contact or connect
           </div>
-          <div className='mt-8'>
+          <div className='mt-8 text-center flex-wrap'>
             <a
               className='border rounded-lg border-primaryborder px-8 py-1 mr-1 md:mx-1 text-primary bg-tertiary hover:bg-secondary duration-100 text-sm inline-block text-center'
               href='https://twitter.com/Chi93542998'
@@ -24,10 +24,9 @@ function Contact(props) {
             >
               LinkedIn
             </a>
-
             <a
               className='border rounded-lg border-primaryborder px-8 py-1 mr-1 md:mx-1 text-primary text-sm hover:bg-secondary duration-100 inline-block bg-tertiary text-center'
-              href='https://github.com/chiyomi1104'
+              href='https://github.com/sccala'
               target='_blank'
               rel='noreferrer'
             >

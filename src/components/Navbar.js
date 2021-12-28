@@ -142,23 +142,101 @@ export const Navbar = () => {
               >
                 Chase Chung
               </span>
+              <div className='hidden sm:block place-items-end'>
+                <button
+                  className='py-1 text-primary hover:text-accent text-base mt-4 mx-auto sm:mt-0 justify-self-center mb-4'
+                  onClick={isDark => setIsDark(prevState => !prevState)}
+                >
+                  {isDark ? (
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      className='w-6 h-6 items-center'
+                      fill='none'
+                      viewBox='0 0 24 24'
+                      stroke='currentColor'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='1.5'
+                        d='M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z'
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      className='w-6 h-6 '
+                      fill='none'
+                      viewBox='0 0 24 24'
+                      stroke='currentColor'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='1.5'
+                        d='M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z'
+                      />
+                    </svg>
+                  )}
+                </button>
+              </div>
             </div>
-            <button onClick={() => setNavbarOpen(!navbarOpen)}>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='h-6 w-6'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
+
+            {/* darkmode button for mobile */}
+            <div>
+              <button
+                className='py-1 text-primary hover:text-accent text-base mr-1 sm:mt-0 justify-self-center'
+                onClick={isDark => setIsDark(prevState => !prevState)}
               >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M4 6h16M4 12h16M4 18h16'
-                />
-              </svg>
-            </button>
+                {isDark ? (
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='w-6 h-6 items-center'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth='1.5'
+                      d='M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z'
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='w-6 h-6 '
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth='1.5'
+                      d='M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z'
+                    />
+                  </svg>
+                )}
+              </button>
+              <button onClick={() => setNavbarOpen(!navbarOpen)}>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  className='h-6 w-6'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth='2'
+                    d='M4 6h16M4 12h16M4 18h16'
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
           {/* collapsable navbar */}
           <div className={'sm:hidden' + (navbarOpen ? ' block' : ' hidden')}>

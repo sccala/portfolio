@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className='container mx-auto flex items-center justify-between my-4 text-center md:text-left'>
         <p className='text-primary text-sm'>All rights reserved</p>
         <p className='items-center text-primary text-sm'>Built by Chase Chung</p>
-        <div className='flex  '>
+        <div className='flex mx-2 '>
           <a href='https://github.com/sccala'>
             <svg
               className='h-4 w-4 md:h-5 md:w-5 text-primary bg-primary text-base mx-1  md:mr-4 justify-center'
