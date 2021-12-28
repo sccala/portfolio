@@ -5,7 +5,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
 
   return (
     <>
-      <div className='pt-16 bg-primary sticky top-0'>
+      <div className='pt-16 bg-primary sticky top-4 bottom-4'>
         <div className='flex border-b border-primaryborder justify-between'>
           <button
             className='flex items-center md:px-4 py-2 text-center text-primary bg-transparent focus:border-b-2  border-accentborder pr-1 focus:text-accent active:text-accent whitespace-nowrap focus:outline-none font-heading  -mb-px -px-1'
@@ -26,7 +26,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
               />
             </svg>
 
-            <span className='mx-1 text-sub md:text-base'> All </span>
+            <span className='mx-1 text-base font-bold font-heading'> All </span>
           </button>
 
           <button
@@ -48,7 +48,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
               />
             </svg>
 
-            <span className='mx-1 text-sub md:text-base'> Full stack </span>
+            <span className='mx-1 text-base font-bold font-heading'> Full stack </span>
           </button>
 
           <button
@@ -69,7 +69,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
                 d='M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9'
               />
             </svg>
-            <span className='mx-1 text-sub md:text-base'> Front end </span>
+            <span className='mx-1 text-base font-bold font-heading'> Front end </span>
           </button>
           <button
             className='flex items-center md:px-4 py-2 text-center text-primary bg-transparent focus:border-b-2  border-accentborder pr-1 whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
@@ -90,7 +90,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
               />
             </svg>
 
-            <span className='mx-1 text-sub md:text-base'> Mobile </span>
+            <span className='mx-1 text-base font-bold font-heading'> Mobile </span>
           </button>
 
           <button
@@ -111,7 +111,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
                 d='M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9'
               />
             </svg>
-            <span className='mx-1 text-sub md:text-base'> CMS </span>
+            <span className='mx-1 text-base font-bold font-heading'> CMS </span>
           </button>
         </div>
       </div>
