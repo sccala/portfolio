@@ -5,7 +5,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
 
   return (
     <>
-      <div className='pt-16 bg-primary sticky top-4 bottom-4'>
+      <div className='pt-16 bg-primary sticky top-4'>
         <div className='flex border-b border-primaryborder justify-between'>
           <button
             className='flex items-center md:px-4 py-2 text-center text-primary bg-transparent focus:border-b-2  border-accentborder pr-1 focus:text-accent active:text-accent whitespace-nowrap focus:outline-none font-heading  -mb-px -px-1'
