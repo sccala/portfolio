@@ -1,9 +1,14 @@
+// @ts-nocheck
 import { useState } from 'react'
 import { useDarkMode } from '../hooks/useDarkMode'
 
 export const Navbar = () => {
   const [isDark, setIsDark] = useDarkMode()
   const [navbarOpen, setNavbarOpen] = useState(false)
+  const onClose = e => {
+    e.preventDefault()
+    console.log('This should be closed')
+  }
   return (
     <section className='bg-primary border-b-0 border-primaryborder sticky top-0 z-40'>
       <header className='text-primary text-base font-bold font-heading container mx-auto'>
@@ -267,6 +272,7 @@ export const Navbar = () => {
             <a
               href='#contact'
               className='text-center block text-base hover:text-accent text-primary mb-1'
+              onClick={onClose}
             >
               Contact
             </a>
