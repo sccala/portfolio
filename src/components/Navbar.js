@@ -5,10 +5,6 @@ import { useDarkMode } from '../hooks/useDarkMode'
 export const Navbar = () => {
   const [isDark, setIsDark] = useDarkMode()
   const [navbarOpen, setNavbarOpen] = useState(false)
-  const onClose = e => {
-    e.preventDefault()
-    console.log('This should be closed')
-  }
   return (
     <section className='bg-primary border-b-0 border-primaryborder sticky top-0 z-40'>
       <header className='text-primary text-base font-bold font-heading container mx-auto'>
@@ -143,7 +139,8 @@ export const Navbar = () => {
               )}
               <span
                 className='ml-1 font-medium items-center text-primary cursor-pointer'
-                onClick={() => {}}
+                href='#home'
+                onClick={() => setNavbarOpen(navbarOpen===false)}
               >
                 Chase Chung
               </span>
@@ -248,31 +245,35 @@ export const Navbar = () => {
             <a
               href='#home'
               className='text-center block text-base text-primary hover:text-accent mb-1'
+              onClick={navbarOpen => setNavbarOpen(false)}
             >
               Home
             </a>
             <a
               href='#projects'
               className='text-center block text-base text-primary hover:text-accent mb-1'
+              onClick={navbarOpen => setNavbarOpen(false)}
             >
               Projects
             </a>
             <a
               href='#skills'
               className='text-center block text-base text-primary hover:text-accent mb-1'
+              onClick={navbarOpen => setNavbarOpen(false)}
             >
               Skills
             </a>
             <a
               href='#resume'
               className='text-center block text-base hover:text-accent text-primary mb-1'
+              onClick={navbarOpen => setNavbarOpen(false)}
             >
               Resume
             </a>
             <a
               href='#contact'
               className='text-center block text-base hover:text-accent text-primary mb-1'
-              onClick={onClose}
+              onClick={navbarOpen => setNavbarOpen(false)}
             >
               Contact
             </a>
