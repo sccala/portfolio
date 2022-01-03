@@ -14,7 +14,7 @@ export const MYPROJECTS = [
   {
     id: 1,
     name: 'Sake subscription website ',
-    image: '/assets/gifs/sakit.gif',
+    image: '/assets/images/sakit.png',
     featured: true,
     type: 'Front end',
     focus: ['Bootstrap', 'React'],
@@ -87,7 +87,7 @@ export const MYPROJECTS = [
     image: '/assets/images/animemories.png',
     featured: true,
     type: 'Full stack',
-    focus: ['Material UI', 'React', 'Redux', 'Express', 'Node', 'MongoDB Cloud Atlas'],
+    focus: ['Material UI', 'React', 'Redux', 'Express', 'Node', 'MongoDB'],
     description:
       'This is a full stack social media where people can share their memories about favorite anime scene. People can register their own account using Google Auth or email and password. Once they log in, they can create, read, update, delete their own posts. Also, users can react to others',
     github: 'https://github.com/sccala/memories_app',
@@ -100,7 +100,7 @@ export const MYPROJECTS = [
     image: '/assets/gifs/socialapp.gif',
     featured: true,
     type: 'Full stack',
-    focus: ['Tailwind', 'React', 'Typescript', 'Redux', 'Express', 'Node', 'MongoDB Cloud Atlas'],
+    focus: ['Tailwind', 'React', 'Typescript', 'Redux', 'Express', 'Node', 'MongoDB'],
     description:
       'This is a social web app for people who wants to whisper. Comments will be disappeared automatically after certain given time. People can register their own account using Google Auth or email and password. Once they log in, they can create, read, update, delete their own posts. Currently work in the progress, and hope will be fully working soon 😊',
     github: 'https://github.com/sccala/shadow_social',

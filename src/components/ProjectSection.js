@@ -8,7 +8,6 @@ export const ProjectSection = () => {
   return (
     <>
       <section id='projects'>
-       
         <FilterProject filtered={filtered} setFiltered={setFiltered} />
         {MYPROJECTS.filter(item =>
           `${filtered}` === 'All' ? item.featured : item.type === `${filtered}`
@@ -64,7 +63,7 @@ export const ProjectSection = () => {
                     </div>
                   </div>
                   <div className='w-full lg:w-1/2 '>
-                    <img className='max-h-96  shadow-lg m-auto' src={item.image} alt={item.name} />
+                    <img className='max-h-96 m-auto' src={item.image} alt={item.name} />
                   </div>
                 </div>
               </div>

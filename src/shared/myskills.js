@@ -14,7 +14,7 @@ export const MYSKILLS = [
       'Vue',
       'Redux',
       'Sass',
-      'MongoDB Cloud Atlas',
+      'MongoDB',
       'Express',
       'Node',
       'Firebase',
