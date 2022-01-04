@@ -121,7 +121,7 @@ export const MYPROJECTS = [
   {
     id: 10,
     name: 'Black Jack',
-    image: '/assets/gifs/blackjack.gif',
+    image: '/assets/images/blackjack.png',
     featured: true,
     type: 'Front end',
     focus: ['Tailwind', 'React', 'Redux'],
