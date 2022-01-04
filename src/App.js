@@ -15,7 +15,7 @@ import { Skills } from './components/Skills'
 class App extends Component {
   render() {
     return (
-      <div className='bg-primary'>
+      <>
         <Navbar />
         <About />
         <div className='container mx-auto '>
@@ -26,7 +26,7 @@ class App extends Component {
           <Contact />
         </div>
         <Footer />
-      </div>
+      </>
     )
   }
 }

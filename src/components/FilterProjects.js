@@ -1,18 +1,18 @@
-
 export const FilterProject = ({ filtered, setFiltered }) => {
   const handleClick = status => {
     setFiltered(status)
   }
-  
 
   return (
     <>
       <div className='bg-primary sticky top-4'>
         <div className='pt-20 pb-8 text-lg text-primary font-heading font-bold'>projects</div>
-        <div className='flex border-b border-primaryborder justify-between'>
+        <div className='flex border-b border-primaryborder justify-around'>
           <button
             className={
-              'flex items-center md:px-4 py-2 text-center text-primary bg-transparent pr-1 whitespace-nowrap focus:outline-none font-heading -mb-px -px-1 active:text-accent focus:text-accent focus:border-b-2 border-accentborder'
+              filtered === 'All'
+                ? 'flex text-accent border-b-2 border-accentborder items-center md:px-4 py-2 text-center  whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+                : 'flex items-center md:px-4 py-2 text-center whitespace-nowrap text-primary font-heading'
             }
             onClick={() => handleClick('All')}
           >
@@ -37,7 +37,11 @@ export const FilterProject = ({ filtered, setFiltered }) => {
           </button>
 
           <button
-            className='flex items-center md:px-4 py-2 text-center text-primary bg-transparent focus:border-b-2 focus:text-accent border-accentborder pr-1 whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+            className={
+              filtered === 'Full stack'
+                ? 'flex text-accent border-b-2 border-accentborder items-center md:px-4 py-2 text-center  whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+                : 'flex items-center md:px-4 py-2 text-center whitespace-nowrap text-primary font-heading'
+            }
             onClick={() => handleClick('Full stack')}
           >
             <svg
@@ -60,7 +64,11 @@ export const FilterProject = ({ filtered, setFiltered }) => {
           </button>
 
           <button
-            className='flex items-center md:px-4 py-2 text-center text-primary bg-transparent focus:border-b-2 focus:text-accent border-accentborder pr-1 whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+            className={
+              filtered === 'Front end'
+                ? 'flex text-accent border-b-2 border-accentborder items-center md:px-4 py-2 text-center  whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+                : 'flex items-center md:px-4 py-2 text-center whitespace-nowrap text-primary font-heading'
+            }
             onClick={() => handleClick('Front end')}
           >
             <svg
@@ -79,7 +87,11 @@ export const FilterProject = ({ filtered, setFiltered }) => {
             <span className='mx-1 text-base font-bold font-heading'> Front end </span>
           </button>
           <button
-            className='flex items-center md:px-4 py-2 text-center text-primary bg-transparent focus:border-b-2 focus:text-accent border-accentborder pr-1 whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+            className={
+              filtered === 'Mobile App'
+                ? 'flex text-accent border-b-2 border-accentborder items-center md:px-4 py-2 text-center  whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+                : 'flex items-center md:px-4 py-2 text-center whitespace-nowrap text-primary font-heading'
+            }
             onClick={() => handleClick('Mobile App')}
           >
             <svg
@@ -102,7 +114,11 @@ export const FilterProject = ({ filtered, setFiltered }) => {
           </button>
 
           <button
-            className='flex items-center md:px-4 py-2 text-center text-primary bg-transparent focus:border-b-2  border-accentborder pr-1 focus:text-accent whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+            className={
+              filtered === 'CMS'
+                ? 'flex text-accent border-b-2 border-accentborder items-center md:px-4 py-2 text-center  whitespace-nowrap focus:outline-none font-heading -mb-px -px-1'
+                : 'flex items-center md:px-4 py-2 text-center whitespace-nowrap text-primary font-heading'
+            }
             onClick={() => handleClick('CMS')}
           >
             <svg
