@@ -7,7 +7,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
     <>
       <div className='bg-primary sticky top-4'>
         <div className='pt-20 pb-8 text-lg text-primary font-heading font-bold'>projects</div>
-        <div className='flex border-b border-primaryborder justify-around'>
+        <div className='flex border-b border-primaryborder justify-between'>
           <button
             className={
               filtered === 'All'
@@ -20,7 +20,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
               xmlns='http://www.w3.org/2000/svg'
               className='hidden md:block mx-1 h-6 w-6'
               viewBox='0 0 24 24'
-              strokeWidth='2'
+              strokeWidth='1.5'
               stroke='currentColor'
               fill='none'
               strokeLinecap='round'
@@ -48,7 +48,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
               xmlns='http://www.w3.org/2000/svg'
               className='hidden md:block mx-1 h-6 w-6'
               viewBox='0 0 24 24'
-              strokeWidth='1.75'
+              strokeWidth='1.5'
               stroke='currentColor'
               fill='none'
               strokeLinecap='round'
@@ -75,7 +75,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
               xmlns='http://www.w3.org/2000/svg'
               className='hidden md:block mx-1 h-5 w-5'
               viewBox='0 0 24 24'
-              strokeWidth='2'
+              strokeWidth='1.5'
               stroke='currentColor'
               fill='none'
               strokeLinecap='round'
@@ -98,7 +98,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
               xmlns='http://www.w3.org/2000/svg'
               className='hidden md:block mx-1 h-6 w-6'
               viewBox='0 0 24 24'
-              strokeWidth='1.75'
+              strokeWidth='1.5'
               stroke='currentColor'
               fill='none'
               strokeLinecap='round'
@@ -125,7 +125,7 @@ export const FilterProject = ({ filtered, setFiltered }) => {
               xmlns='http://www.w3.org/2000/svg'
               className='hidden md:block mx-1 h-6 w-6'
               viewBox='0 0 24 24'
-              strokeWidth='1.75'
+              strokeWidth='1.5'
               stroke='currentColor'
               fill='none'
               strokeLinecap='round'

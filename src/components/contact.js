@@ -10,12 +10,7 @@ function Contact(props) {
             Feel free to contact or connect
           </div>
           <div className='mt-8 text-center flex-wrap'>
-            <a
-              className='border rounded-lg border-primaryborder px-8 py-1 mr-1 md:mx-1 text-primary bg-tertiary hover:bg-secondary duration-100 text-sm inline-block text-center'
-              href='https://twitter.com/Chi93542998'
-            >
-              Twitter
-            </a>
+            
             <a
               className='border rounded-lg border-primaryborder px-8 py-1 mr-1 md:mx-1 text-primary bg-tertiary hover:bg-secondary duration-100 text-sm inline-block text-center'
               href='https://www.linkedin.com/in/ca1756/'
