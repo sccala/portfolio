@@ -39,7 +39,7 @@ class Resume extends Component {
               href='assets/images/ChaseChung_2022JAN_light.pdf'
               download
             >
-              Full Resume for Print
+              Full Resume Light Version
             </a>
 
             <a
@@ -47,7 +47,7 @@ class Resume extends Component {
               href='assets/images/ChaseChung_2022JAN_dark.pdf'
               download
             >
-              Full Resume Dark
+              Full Resume Dark Version
             </a>
           </div>
         </section>

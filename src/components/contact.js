@@ -3,8 +3,8 @@ import React from 'react'
 function Contact(props) {
   return (
     <>
-      <section id='contact'>
-        <div className='text-lg text-primary py-20 font-heading font-bold'>contact</div>
+      <section id='contact' >
+        <div className='text-lg text-primary py-28 font-heading font-bold'>contact</div>
         <div className='text-center my-8'>
           <div className='text-title font-heading  font-bold text-primary'>
             Feel free to contact or connect

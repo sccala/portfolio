@@ -48,7 +48,7 @@ export const MYPROJECTS = [
   {
     id: 4,
     name: 'Covid tracker',
-    image: '/assets/gifs/covidtracker.gif',
+    image: '/assets/images/covidtracker3.jpg',
     featured: true,
     type: 'Front end',
     focus: ['React', 'Material UI'],
