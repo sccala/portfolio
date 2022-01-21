@@ -9,14 +9,16 @@ class Resume extends Component {
           <div className='flex pt-20'>
             <div className='text-title text-primary w-2/5 font-bold font-heading'>Experience</div>
             <div className='w-3/5'>
+              <p className='text-sub text-primary pb-2'>2022 Jan - present</p>
+              <div className='text-base text-primary pb-8'>
+                Mobile Developer - The Noisemaker
+              </div>
               <p className='text-sub text-primary pb-2'>2021 feb - present</p>
-              <div className='text-base text-primary pb-8'>Freelance Web Developer</div>
+              <div className='text-base text-primary pb-8'>Web Developer - Freelance</div>
               <p className='text-sub text-primary pb-2'>2017 dec - 2021 jan</p>
               <div className='text-base text-primary pb-8'>
-                U.S. JACLEAN - Assistant Design Manager / Marketing Lead.
+                Assistant Design Manager - U.S. JACLEAN, INC.
               </div>
-              <p className='text-sub text-primary pb-2'>2011 may - 2014 aug</p>
-              <div className='text-base text-primary pb-8'>WillForce.Inc - Creative Director </div>
             </div>
           </div>
 
