@@ -36,8 +36,8 @@ export const MYPROJECTS = [
   },
   {
     id: 3,
-    name: 'Simple todo list ',
-    image: '/assets/images/todolist4.jpg',
+    name: 'Mobile Todo App',
+    image: '/assets/images/todo.png',
     featured: true,
     type: 'Mobile App',
     focus: ['Bootstrap', 'React Native'],
@@ -83,15 +83,15 @@ export const MYPROJECTS = [
   },
   {
     id: 7,
-    name: 'Animemories social web app',
-    image: '/assets/images/animemories.png',
+    name: 'Bucket List Places',
+    image: '/assets/images/bucketlistplaces.png',
     featured: true,
     type: 'Full stack',
     focus: ['Material UI', 'React', 'Redux', 'Express', 'Node', 'MongoDB'],
     description:
-      'This is a full stack social media where people can share their memories about favorite anime scene. People can register their own account using Google Auth or email and password. Once they log in, they can create, read, update, delete their own posts. Also, users can react to others',
-    github: 'https://github.com/sccala/memories_app',
-    demo: 'https://memoriessocialapp.netlify.app',
+      'This is a full-featured social app where people can share the places they want to visit someday. People can register their account using GoogleAuth or JSON Web Token (email and password). Once they logged in, they can create, read, update, delete their posts. Also, users can react to posts by liking them.',
+    github: 'https://github.com/sccala/bucketlist_places',
+    demo: 'bucketlistplaces.netlify.app/',
   },
 
   {
@@ -121,7 +121,7 @@ export const MYPROJECTS = [
   {
     id: 10,
     name: 'Black Jack',
-    image: '/assets/images/blackjack.png',
+    image: '/assets/images/mintbean.png',
     featured: true,
     type: 'Front end',
     focus: ['Tailwind', 'React', 'Redux'],
