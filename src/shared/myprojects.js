@@ -175,4 +175,16 @@ export const MYPROJECTS = [
       'Bigcommerce shopping site for Japanese luxury A5 wagyu. I maintain this website with updating products, optimise accordingly',
     demo: 'https://maximfarm.com/',
   },
+  {
+    id: 15,
+    name: 'Space Tour Website',
+    image: '/assets/images/spacetour.png',
+    featured: true,
+    type: 'Front end',
+    focus: ['HTML', 'CSS', 'Javascript', 'jQuery'],
+    description:
+      'A 4-page space tour website built with pure CSS, vanilla javascript, and jQuery. I made this site to demonstrate my skills in CSS grid, responsive typography, and vanilla javascript without relying on any frameworks or libraries. The beautiful UI/UX is designed by Frontend Mentor.',
+    demo: 'https://spacetoursite.netlify.app',
+    github: 'https://github.com/sccala/spacetour',
+  },
 ]
