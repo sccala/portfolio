@@ -10,7 +10,7 @@ export const ProjectSection = () => {
       <section id='projects'>
         <FilterProject filtered={filtered} setFiltered={setFiltered} />
         {MYPROJECTS.filter(item =>
-          `${filtered}` === 'All' ? item.featured : item.type === `${filtered}`
+          `${filtered}` === 'All' ? item.featured===true : item.type === `${filtered}`
         ).map(item => (
           <>
             <div key={item.id} className='divide-y divide-primarydivider'>
